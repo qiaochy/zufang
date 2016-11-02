@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-yii sql  insert into biaoming values（all）;
-=======
-yii sql  insert into biaoming values（all）;/不对
-应该是：select * from user where id = $id;
->>>>>>> 7a6c3785974c4561a06d40c514ed67702019b10c
