@@ -1,0 +1,2 @@
+yii sql  insert into biaoming values（all）;/不对
+应该是：select * from user where id = $id;
