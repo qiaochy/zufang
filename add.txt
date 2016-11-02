@@ -1,0 +1,1 @@
+yii sql  insert into biaoming values£¨all£©;
