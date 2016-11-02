@@ -43,4 +43,11 @@ class TestController extends Controller
        		]);
 		
 	}
+	//删除 bobo
+	public function actionDel(){
+		$id = Yii::$app->request->get('id');
+		$db = Yii::$app->db;
+		$res=$db->createCommand()->delete('msg',['id'=>$id])->execute();
+		$this->redirect(['test/show']);
+	}
 }
