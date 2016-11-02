@@ -1125,3 +1125,615 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478080458.69
     'REQUEST_TIME' => 1478080458
 ]
+2016-11-02 18:54:20 [::1][-][-][error][yii\base\ErrorException:64] exception 'yii\base\ErrorException' with message 'Cannot use yii\data\Pagination as Pagination because the name is already in use' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php:11
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-02 18:54:20 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63473'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084060.119
+    'REQUEST_TIME' => 1478084060
+]
+2016-11-02 18:54:54 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-02 18:54:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63490'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084094.839
+    'REQUEST_TIME' => 1478084094
+]
+2016-11-02 18:54:56 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting ']'' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php:35
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-02 18:54:56 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084096.569
+    'REQUEST_TIME' => 1478084096
+]
+2016-11-02 18:55:59 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#9 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(35): yii\db\Query->count()
+#11 [internal function]: frontend\controllers\TestController->actionShow()
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(35): yii\db\Query->count()
+#9 [internal function]: frontend\controllers\TestController->actionShow()
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2016-11-02 18:55:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63534'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084159.746
+    'REQUEST_TIME' => 1478084159
+]
+2016-11-02 18:56:52 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#9 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(34): yii\db\Query->count()
+#11 [internal function]: frontend\controllers\TestController->actionShow()
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(34): yii\db\Query->count()
+#9 [internal function]: frontend\controllers\TestController->actionShow()
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2016-11-02 18:56:52 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63545'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084212.781
+    'REQUEST_TIME' => 1478084212
+]
+2016-11-02 18:56:55 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#9 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(34): yii\db\Query->count()
+#11 [internal function]: frontend\controllers\TestController->actionShow()
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(34): yii\db\Query->count()
+#9 [internal function]: frontend\controllers\TestController->actionShow()
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2016-11-02 18:56:54 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63547'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084214.913
+    'REQUEST_TIME' => 1478084214
+]
+2016-11-02 19:00:18 [::1][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#9 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(35): yii\db\Query->count()
+#11 [internal function]: frontend\controllers\TestController->actionShow()
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#16 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#1 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#2 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare('<span class="ke...')
+#4 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#5 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#6 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#7 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('<span class="st...', '<span class="ke...')
+#8 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\controllers\TestController.php(35): yii\db\Query->count()
+#9 [internal function]: frontend\controllers\TestController->actionShow()
+#10 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#11 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#12 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#13 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#14 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2016-11-02 19:00:18 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63570'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084418.371
+    'REQUEST_TIME' => 1478084418
+]
+2016-11-02 19:02:43 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in F:\XMAPP\htdocs\PDO\house\XMPP\yii2\frontend\views\test\show.php:19
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-02 19:02:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'test/show'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => '0b1o22t2tdsj38ulicj2unppq1'
+    '_csrf' => 'e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"D2twVv9FKmDIA6YnzepkQACZabVxkxQz\";}'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'PHPSESSID=0b1o22t2tdsj38ulicj2unppq1; _csrf=e20c989aee7d447b910df6459aa00be237ca3fa3db82d4167c53820430f7bed5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22D2twVv9FKmDIA6YnzepkQACZabVxkxQz%22%3B%7D'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;%USERPROFILE%\\AppData\\Local\\Microsoft\\WindowsApps;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REMOTE_PORT' => '63588'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=test/show'
+    'REQUEST_URI' => '/PDO/house/XMPP/yii2/frontend/web/?r=test/show'
+    'SCRIPT_NAME' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'PHP_SELF' => '/PDO/house/XMPP/yii2/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478084563.163
+    'REQUEST_TIME' => 1478084563
+]
