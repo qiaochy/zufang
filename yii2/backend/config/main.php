@@ -39,4 +39,5 @@ return [
         */
     ],
     'params' => $params,
+     'defaultRoute' => 'login/index'
 ];
