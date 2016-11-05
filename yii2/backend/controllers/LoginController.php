@@ -35,7 +35,7 @@ class LoginController extends Controller
 		
 		$username = $this->request->post('username');//用户名
 		$pwd = $this->request->post('pwd');//密码
-		$res = $this->db->createCommand("select * from admin where admin_name='$username' and admin_pwd=$pwd")->queryOne();
+		$res = $this->db->createCommand("select * from admin where admin_name='$username' and admin_pwd='$pwd'")->queryOne();
 		
 		if($res)
 		{
@@ -51,7 +51,7 @@ class LoginController extends Controller
 		}else
 		{
 
-			 \Yii::$app->getSession()->setFlash('error', '登录失败，请检查用户名密码！');
+			 Yii::$app->getSession()->setFlash('error', '<script>alert("登录失败，请检查用户名密码！");</script>');
 			return $this->redirect(array('login/index'));
 		}
 		
