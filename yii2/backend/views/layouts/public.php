@@ -377,21 +377,21 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="form-elements.html">
+									<a href="?r=cust/index">
 										<i class="icon-double-angle-right"></i>
 										客户列表
 									</a>
 								</li>
 
 								<li>
-									<a href="form-wizard.html">
+									<a href="?r=cust/add">
 										<i class="icon-double-angle-right"></i>
 										租房信息完善
 									</a>
 								</li>
 
 								<li>
-									<a href="wysiwyg.html">
+									<a href="?r=ycust/index">
 										<i class="icon-double-angle-right"></i>
 										意向客户
 									</a>

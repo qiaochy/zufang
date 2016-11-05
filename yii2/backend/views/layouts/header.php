@@ -377,7 +377,7 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="form-elements.html">
+									<a href="?r=cust/index">
 										<i class="icon-double-angle-right"></i>
 										客户列表
 									</a>

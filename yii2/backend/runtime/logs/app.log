@@ -3134,3 +3134,1648 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478313734.634
     'REQUEST_TIME' => 1478313734
 ]
+2016-11-05 11:05:29 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: house/show in D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/show', Array)
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-05 11:05:29 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'house/show'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478310491'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1MecCoAR4AAAtg4ZoAAAGB'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478310491; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '58738'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/show'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=house/show'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478315129.073
+    'REQUEST_TIME' => 1478315129
+]
+2016-11-05 11:05:35 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: house/show in D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/show', Array)
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-05 11:05:35 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'house/show'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478310491'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1Mf8CoAR4AAAtg4aEAAAGB'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478310491; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '58756'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/show'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=house/show'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478315135.087
+    'REQUEST_TIME' => 1478315135
+]
+2016-11-05 11:06:19 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: house/show in D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show', Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/show', Array)
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-05 11:06:19 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'house/show'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478310491'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1Mq8CoAR4AAAtg4aQAAAGB'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478310491; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '58813'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/show'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=house/show'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478315179.338
+    'REQUEST_TIME' => 1478315179
+]
+2016-11-05 11:40:37 [127.0.0.1][-][-][error][Error] Error: Class 'backend\controllers\Query' not found in D:\qiaochy\yii2\backend\controllers\CustController.php:23
+Stack trace:
+#0 [internal function]: backend\controllers\CustController->actionIndex()
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('cust/index', Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2016-11-05 11:40:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478315891'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1UtcCoAR4AAAtg4jkAAAHp'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478315891; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '60450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478317237.168
+    'REQUEST_TIME' => 1478317237
+]
+2016-11-05 11:40:37 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-11-05 11:40:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478315891'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1UtcCoAR4AAAtg4jkAAAHp'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478315891; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '60450'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478317237.168
+    'REQUEST_TIME' => 1478317237
+]
+2016-11-05 11:41:39 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in D:\qiaochy\yii2\backend\views\cust\index.php:14
+Stack trace:
+#0 D:\qiaochy\yii2\backend\views\cust\index.php(14): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\qiaochy\\yii2...', 14, Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require('D:\\qiaochy\\yii2...')
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\CustController))
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\CustController))
+#5 D:\qiaochy\yii2\backend\controllers\CustController.php(31): yii\base\Controller->render('index', Array)
+#6 [internal function]: backend\controllers\CustController->actionIndex()
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('cust/index', Array)
+#11 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-11-05 11:41:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478315891'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1U88CoAR4AAAtg4jsAAAHp'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478315891; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '60456'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478317299.488
+    'REQUEST_TIME' => 1478317299
+]
+2016-11-05 11:43:05 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in D:\qiaochy\yii2\backend\views\cust\index.php:14
+Stack trace:
+#0 D:\qiaochy\yii2\backend\views\cust\index.php(14): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\qiaochy\\yii2...', 14, Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require('D:\\qiaochy\\yii2...')
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\CustController))
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\CustController))
+#5 D:\qiaochy\yii2\backend\controllers\CustController.php(31): yii\base\Controller->render('index', Array)
+#6 [internal function]: backend\controllers\CustController->actionIndex()
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('cust/index', Array)
+#11 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-11-05 11:43:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478315891'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1VSMCoAR4AAAtg4jwAAAHp'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478315891; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '60467'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478317384.938
+    'REQUEST_TIME' => 1478317384
+]
+2016-11-05 12:08:14 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][error][Error] Error: Class 'Alert' not found in D:\qiaochy\yii2\backend\views\cust\add.php:51
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require()
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\CustController))
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('add', Array, Object(backend\controllers\CustController))
+#4 D:\qiaochy\yii2\backend\controllers\CustController.php(49): yii\base\Controller->render('add')
+#5 [internal function]: backend\controllers\CustController->actionAdd()
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('add', Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('cust/add', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2016-11-05 12:08:14 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478315891'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => 1
+    ]
+    'aid' => '2'
+    'username' => 'admin'
+    'success' => '<script>alert(\"添加成功\");</script>'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1bLsCoAR4AAAtg4pgAAAHr'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478315891; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/add'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/add'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478318894.689
+    'REQUEST_TIME' => 1478318894
+]
+2016-11-05 12:08:14 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-11-05 12:08:14 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478315891'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => 1
+    ]
+    'aid' => '2'
+    'username' => 'admin'
+    'success' => '<script>alert(\"添加成功\");</script>'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1bLsCoAR4AAAtg4pgAAAHr'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478315891; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61136'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/add'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/add'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478318894.689
+    'REQUEST_TIME' => 1478318894
+]
+2016-11-05 14:06:32 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in D:\qiaochy\yii2\backend\views\cust\index.php:14
+Stack trace:
+#0 D:\qiaochy\yii2\backend\views\cust\index.php(14): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\qiaochy\\yii2...', 14, Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require('D:\\qiaochy\\yii2...')
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\CustController))
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\CustController))
+#5 D:\qiaochy\yii2\backend\controllers\CustController.php(63): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\CustController->actionDel()
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('cust/del', Array)
+#11 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-11-05 14:06:32 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'cust/del'
+    'id' => '4'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478321292'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    'aid' => '2'
+    'username' => 'admin'
+    'success' => '<script>alert(\"删除成功\");</script>'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB126MCoAR4AAAtg4sEAAAHr'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=cust/index'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478321292; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '63133'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/del&id=4'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/del&id=4'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478325992.017
+    'REQUEST_TIME' => 1478325992
+]
+2016-11-05 14:08:47 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in D:\qiaochy\yii2\backend\views\cust\index.php:14
+Stack trace:
+#0 D:\qiaochy\yii2\backend\views\cust\index.php(14): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\qiaochy\\yii2...', 14, Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require('D:\\qiaochy\\yii2...')
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\CustController))
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\CustController))
+#5 D:\qiaochy\yii2\backend\controllers\CustController.php(63): yii\base\Controller->render('index')
+#6 [internal function]: backend\controllers\CustController->actionDel()
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('del', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('cust/del', Array)
+#11 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-11-05 14:08:47 [127.0.0.1][-][nvmtnmiebdbobhqij2ao8ltm37][info][application] $_GET = [
+    'r' => 'cust/del'
+    'id' => '5'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478321292'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => -1
+    ]
+    'aid' => '2'
+    'username' => 'admin'
+    'success' => '删除成功'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB13b8CoAR4AAAtg4sQAAAHr'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=cust/index'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478321292; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '63162'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/del&id=5'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=cust/del&id=5'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478326127.6
+    'REQUEST_TIME' => 1478326127
+]
+2016-11-05 14:38:10 [127.0.0.1][-][-][error][yii\base\ErrorException:2] yii\base\ErrorException: Invalid argument supplied for foreach() in D:\qiaochy\yii2\backend\views\ycust\index.php:14
+Stack trace:
+#0 D:\qiaochy\yii2\backend\views\ycust\index.php(14): yii\base\ErrorHandler->handleError(2, 'Invalid argumen...', 'D:\\qiaochy\\yii2...', 14, Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require('D:\\qiaochy\\yii2...')
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\YcustController))
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\YcustController))
+#5 D:\qiaochy\yii2\backend\controllers\YcustController.php(29): yii\base\Controller->render('index', Array)
+#6 [internal function]: backend\controllers\YcustController->actionIndex()
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/index', Array)
+#11 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2016-11-05 14:38:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1@UcCoAR4AAAtg4y0AAAHt'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=cust/add'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '63878'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ycust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478327889.913
+    'REQUEST_TIME' => 1478327889
+]
+2016-11-05 14:43:27 [127.0.0.1][-][-][error][Error] Error: Call to undefined function data() in D:\qiaochy\yii2\backend\views\ycust\index.php:16
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(325): require()
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('D:\\qiaochy\\yii2...', Array)
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('D:\\qiaochy\\yii2...', Array, Object(backend\controllers\YcustController))
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\YcustController))
+#4 D:\qiaochy\yii2\backend\controllers\YcustController.php(29): yii\base\Controller->render('index', Array)
+#5 [internal function]: backend\controllers\YcustController->actionIndex()
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#9 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/index', Array)
+#10 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2016-11-05 14:43:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1-j8CoAR4AAAtg4zAAAAHt'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=cust/add'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '63916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ycust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478328207.796
+    'REQUEST_TIME' => 1478328207
+]
+2016-11-05 14:43:27 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 D:\qiaochy\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2016-11-05 14:43:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/index'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB1-j8CoAR4AAAtg4zAAAAHt'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=cust/add'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '63916'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ycust/index'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/index'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478328207.796
+    'REQUEST_TIME' => 1478328207
+]
+2016-11-05 14:50:42 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'y_id' in 'where clause' in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 D:\qiaochy\yii2\backend\controllers\YcustController.php(55): yii\db\Command->queryOne()
+#3 [internal function]: backend\controllers\YcustController->actionSave()
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'y_id' in 'where clause'
+The SQL being executed was: SELECT * FROM customer WHERE y_id=1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM c...')
+#1 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 D:\qiaochy\yii2\backend\controllers\YcustController.php(55): yii\db\Command->queryOne()
+#3 [internal function]: backend\controllers\YcustController->actionSave()
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#8 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'y_id' in 'where clause'
+)
+
+2016-11-05 14:50:42 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+    'id' => '1'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2BQsCoAR4AAAtg408AAAHv'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=ycust/index'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64012'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ycust/save&id=1'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save&id=1'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478328642.112
+    'REQUEST_TIME' => 1478328642
+]
+2016-11-05 14:52:46 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `ycustomer` SET `y_id`=NULL, `y_name`='乔', `y_phone`='13512847791', `y_status`='1', `y_desc`='哈哈哈', `time`=1478328766 WHERE y_id =  in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `ycustom...')
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-05 14:52:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+]
+
+$_POST = [
+    'y_id' => ''
+    'y_name' => '乔'
+    'y_phone' => '13512847791'
+    'y_status' => '1'
+    'y_desc' => '哈哈哈'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2BvsCoAR4AAAtg41UAAAHv'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=ycust/save&id=1'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------45482848825121'
+    'CONTENT_LENGTH' => '552'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64153'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=ycust/save'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478328766.35
+    'REQUEST_TIME' => 1478328766
+]
+2016-11-05 14:53:04 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'field list' in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'field list'
+The SQL being executed was: UPDATE `ycustomer` SET `y_id`=1, `y_name`='乔', `y_phone`='13512847791', `y_status`='0', `y_desc`='1', `time`=1478328784 WHERE y_id = 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `ycustom...')
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'time' in 'field list'
+)
+
+2016-11-05 14:53:04 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+]
+
+$_POST = [
+    'y_id' => '1'
+    'y_name' => '乔'
+    'y_phone' => '13512847791'
+    'y_status' => '0'
+    'y_desc' => '1'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2B0MCoAR4AAAtg41gAAAHv'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=ycust/save&id=1'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------584767719552'
+    'CONTENT_LENGTH' => '533'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64156'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=ycust/save'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478328784.415
+    'REQUEST_TIME' => 1478328784
+]
+2016-11-05 14:53:16 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'field list' in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next yii\db\Exception: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'time' in 'field list'
+The SQL being executed was: UPDATE `ycustomer` SET `y_id`=1, `y_name`='乔', `y_phone`='13512847791', `y_status`='1', `y_desc`='1', `time`=1478328796 WHERE y_id = 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `ycustom...')
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'time' in 'field list'
+)
+
+2016-11-05 14:53:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+]
+
+$_POST = [
+    'y_id' => '1'
+    'y_name' => '乔'
+    'y_phone' => '13512847791'
+    'y_status' => '1'
+    'y_desc' => '1'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2B3MCoAR4AAAtg41sAAAGC'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=ycust/save&id=1'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------1771473830411'
+    'CONTENT_LENGTH' => '539'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64171'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=ycust/save'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478328796.112
+    'REQUEST_TIME' => 1478328796
+]
+2016-11-05 14:59:40 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1478329180' for column 's_time' at row 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next yii\db\Exception: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1478329180' for column 's_time' at row 1
+The SQL being executed was: UPDATE `ycustomer` SET `y_id`=1, `y_name`='乔', `y_phone`='13512847791', `y_status`='0', `y_desc`='1', `s_time`='1478329180' WHERE y_id = 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `ycustom...')
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 22007
+    [1] => 1292
+    [2] => Incorrect datetime value: '1478329180' for column 's_time' at row 1
+)
+
+2016-11-05 14:59:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+]
+
+$_POST = [
+    'y_id' => '1'
+    'y_name' => '乔'
+    'y_phone' => '13512847791'
+    'y_status' => '0'
+    'y_desc' => '1'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2DXMCoAR4AAAtg42wAAAHv'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=ycust/save&id=1'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------252802942616748'
+    'CONTENT_LENGTH' => '551'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64296'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=ycust/save'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478329180.408
+    'REQUEST_TIME' => 1478329180
+]
+2016-11-05 14:59:57 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1478329197' for column 's_time' at row 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next yii\db\Exception: SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '1478329197' for column 's_time' at row 1
+The SQL being executed was: UPDATE `ycustomer` SET `y_id`=1, `y_name`='乔', `y_phone`='13512847791', `y_status`='1', `y_desc`='12', `s_time`='1478329197' WHERE y_id = 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `ycustom...')
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 22007
+    [1] => 1292
+    [2] => Incorrect datetime value: '1478329197' for column 's_time' at row 1
+)
+
+2016-11-05 14:59:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+]
+
+$_POST = [
+    'y_id' => '1'
+    'y_name' => '乔'
+    'y_phone' => '13512847791'
+    'y_status' => '1'
+    'y_desc' => '12'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2DbcCoAR4AAAtg428AAAHv'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.qiaochy.com/yii2/backend/web/index.php?r=ycust/save&id=1'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------20410480911811'
+    'CONTENT_LENGTH' => '546'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64311'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=ycust/save'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478329197.279
+    'REQUEST_TIME' => 1478329197
+]
+2016-11-05 15:00:44 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next yii\db\Exception: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `ycustomer` SET `s_time`='1478329243' WHERE y_id =  in D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\qiaochy\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `ycustom...')
+#1 D:\qiaochy\yii2\backend\controllers\YcustController.php(62): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\YcustController->actionSave()
+#3 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('save', Array)
+#6 D:\qiaochy\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('ycust/save', Array)
+#7 D:\qiaochy\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\qiaochy\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-05 15:00:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/save'
+]
+
+$_COOKIE = [
+    'pgv_pvi' => '9540120576'
+    'iweb_safecode' => '9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw'
+    'CNZZDATA155540' => 'cnzz_eid=1236485057-1478218675-&ntime=1478326692'
+    'PHPSESSID' => 'nvmtnmiebdbobhqij2ao8ltm37'
+]
+
+$_SERVER = [
+    'UNIQUE_ID' => 'WB2Dm8CoAR4AAAtg43EAAAHv'
+    'SCRIPT_URL' => '/yii2/backend/web/index.php'
+    'SCRIPT_URI' => 'http://www.qiaochy.com/yii2/backend/web/index.php'
+    'Qampp_LOG' => 'begin>IncludeFile>httpd>Directory/>dir_module>Filesmatch>fcgid_module>log_config_module>logio_module>CustomLog>mime_module>ssl_module>mpm_winnt_module>dav_svn_module>authz_svn_module>/Qsvn>/Qsvnweb>'
+    'HTTP_HOST' => 'www.qiaochy.com'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:42.0) Gecko/20100101 Firefox/42.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'pgv_pvi=9540120576; iweb_safecode=9f82cb8fdfMDQ4NjAwNDQxN2xhMTAzMjc2ODYyMGs5N2Y1MDA2ZjhkZjUwMDdgMzk2NDk4NmQ5NzM2Y2U5ZT4zZjM4OGJgOw; CNZZDATA155540=cnzz_eid%3D1236485057-1478218675-%26ntime%3D1478326692; PHPSESSID=nvmtnmiebdbobhqij2ao8ltm37'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\TortoiseSVN\\bin;D:\\qampp\\Data_lib\\perl\\bin;D:\\qampp\\apache\\bin;D:\\qampp\\php;D:\\qampp\\svnserver\\Subversion\\bin;D:\\qampp\\mysql\\bin;C:\\ProgramData\\ComposerSetup\\bin;D:\\Git\\cmd;D:\\tortoisegit\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4 Server at www.qiaochy.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.23 (Win64) mod_fcgid/2.3.9 OpenSSL/1.0.2h PHP/7.0.9 SVN/1.9.4'
+    'SERVER_NAME' => 'www.qiaochy.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/qiaochy'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/qiaochy'
+    'SERVER_ADMIN' => 'www.qiaochy.com'
+    'SCRIPT_FILENAME' => 'D:/qiaochy/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64451'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ycust/save'
+    'REQUEST_URI' => '/yii2/backend/web/index.php?r=ycust/save'
+    'SCRIPT_NAME' => '/yii2/backend/web/index.php'
+    'PHP_SELF' => '/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478329243.95
+    'REQUEST_TIME' => 1478329243
+]
