@@ -1,7 +1,12 @@
 <?php 
 use yii\bootstrap\Alert;
+use yii\widgets\ActiveForm;
 ?>
-<form action="?r=cust/add" method="post" enctype="multipart/form-data">
+
+<?php
+$form = ActiveForm::begin(['action'=>['cust/add'],'method'=>'post','options' => ['enctype' => 'multipart/form-data']]); 
+?>
+
 	<table class="table">
 		<tr>
 			<td>客户姓名：</td>
@@ -24,7 +29,7 @@ use yii\bootstrap\Alert;
 		</tr>
 		<tr>
 			<td>客户身份证照片：</td>
-			<td><input type="file" name="card_img" value=""></td>
+			<td><?= $form->field($model, 'file')->fileInput() ?></td>
 		</tr>
 		<tr>
 			<td>租赁房屋</td>
@@ -50,23 +55,5 @@ use yii\bootstrap\Alert;
 			<td><input type="submit" value="提交"></td>
 		</tr>
 	</table>
-</form>
-		<?php
-			if( Yii::$app->getSession()->hasFlash('success') )
-			{
-				echo Alert::widget([
-					'options' => [
-					'class' => 'alert-success', //这里是提示框的class
-						],
-				'body' => Yii::$app->getSession()->getFlash('success'), //消息体
-			]);
-			}
-			if( Yii::$app->getSession()->hasFlash('error') ) {
-				echo Alert::widget([
-					'options' => [
-					'class' => 'alert-error',
-							],
-					'body' => Yii::$app->getSession()->getFlash('error'),
-			]);
-			}
-		?>
+<?php ActiveForm::end(); ?>
+		
