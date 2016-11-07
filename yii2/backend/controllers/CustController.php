@@ -33,7 +33,7 @@ class CustController extends Controller
 
 	//客户列表完善
 	public function actionAdd(){
-		$request = $request = Yii::$app->request->post();
+		$request = Yii::$app->request->post();
 		if($request){
 			// var_dump($request);
 			$res = Yii::$app->db->createCommand()->insert('customer', $request)->execute();
