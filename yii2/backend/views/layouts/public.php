@@ -45,6 +45,25 @@
 	</head>
 
 	<body>
+		<?php
+	use yii\bootstrap\Alert;
+if( Yii::$app->getSession()->hasFlash('success') ) {
+	echo Alert::widget([
+		'options' => [
+			'class' => 'alert-success', //这里是提示框的class
+		],
+		'body' => Yii::$app->getSession()->getFlash('success'), //消息体
+	]);
+}
+if( Yii::$app->getSession()->hasFlash('error') ) {
+	echo Alert::widget([
+		'options' => [
+			'class' => 'alert-error',
+		],
+		'body' => Yii::$app->getSession()->getFlash('error'),
+	]);
+}
+?>
 		<div class="navbar navbar-default" id="navbar">
 			<script type="text/javascript">
 				try{ace.settings.check('navbar' , 'fixed')}catch(e){}
@@ -447,7 +466,7 @@
 						
 
 						<li>
-							<a href="gallery.html">
+							<a href="?r=my/index">
 								<i class="icon-picture"></i>
 								<span class="menu-text"> 网站详情 </span>
 							</a>
