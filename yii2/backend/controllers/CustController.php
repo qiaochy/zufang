@@ -8,6 +8,8 @@ use yii\filters\AccessControl;
 use common\models\LoginForm;
 use yii\data\Pagination;//自带分页类
 use yii\db\Query;
+use yii\web\UploadedFile;
+use app\models\UploadForm;
 
 /**
  * Index controller
@@ -34,19 +36,31 @@ class CustController extends Controller
 	//客户列表完善
 	public function actionAdd(){
 		$request = Yii::$app->request->post();
-		if($request){
-			// var_dump($request);
-			$res = Yii::$app->db->createCommand()->insert('customer', $request)->execute();
-			if(!$res){
-				 Yii::$app->getSession()->setFlash('error', '<script>alert("添加失败");</script>');
+		$model = new UploadForm();
+		unset($request['UploadForm']);
+        		if (Yii::$app->request->isPost)
+        		{
+            		$model->file = UploadedFile::getInstance($model, 'file');
+
+	            		if ($model->validate())
+	            		{ 
+	            		$imgs = time().rand(1000,9999).$model->file->extension; 	               
+	                	$model->file->saveAs('uploads/' . $imgs);
+	                	$request['card_img'] = 'uploads/'.$imgs;  
+	                	//var_dump($request);die();  
+	                	$res = Yii::$app->db->createCommand()->insert('customer', $request)->execute();//入库
+	                	if(!$res){
+				 Yii::$app->getSession()->setFlash('error', '添加失败');
 								
 			}else{
-				 Yii::$app->getSession()->setFlash('success', '<script>alert("添加成功");</script>');
+				 Yii::$app->getSession()->setFlash('success', '添加成功');
 								
-			}			
-		}
-			// return $this->redirect(array('cust/add'));
-			return $this->render('add');
+			}
+
+	            		}
+        		}
+
+			return $this->render('add',['model' => $model]);
 	}
 
 	//删除
