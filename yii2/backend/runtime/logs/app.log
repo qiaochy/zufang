@@ -4779,3 +4779,219 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478329243.95
     'REQUEST_TIME' => 1478329243
 ]
+2016-11-07 10:59:40 [::1][-][juelcicor65nr2d53nlmf4caq0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: house/catshow' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('catshow', Array)
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/catshow', Array)
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-07 10:59:40 [::1][-][juelcicor65nr2d53nlmf4caq0][info][application] $_GET = [
+    'r' => 'house/catshow'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1252792735-1478310491-http%3A%2F%2Flocalhost%3A8080%2F&ntime=1478483322'
+    'PHPSESSID' => 'juelcicor65nr2d53nlmf4caq0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1252792735-1478310491-http%253A%252F%252Flocalhost%253A8080%252F%26ntime%3D1478483322; PHPSESSID=juelcicor65nr2d53nlmf4caq0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '59856'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/catshow'
+    'REQUEST_URI' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php?r=house/catshow'
+    'SCRIPT_NAME' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478487580.647
+    'REQUEST_TIME' => 1478487580
+]
+2016-11-07 11:01:07 [::1][-][juelcicor65nr2d53nlmf4caq0][error][yii\base\InvalidParamException] exception 'yii\base\InvalidParamException' with message 'The view file does not exist: F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\views\house\index.php' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\View.php:226
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\XMAPP\\htdocs...', Array, Object(backend\controllers\HouseController))
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(backend\controllers\HouseController))
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\controllers\HouseController.php(89): yii\base\Controller->render('index')
+#3 [internal function]: backend\controllers\HouseController->actionIndex()
+#4 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#5 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#6 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#7 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/index', Array)
+#8 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-11-07 11:01:07 [::1][-][juelcicor65nr2d53nlmf4caq0][info][application] $_GET = [
+    'r' => 'house/index'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1252792735-1478310491-http%3A%2F%2Flocalhost%3A8080%2F&ntime=1478483322'
+    'PHPSESSID' => 'juelcicor65nr2d53nlmf4caq0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1252792735-1478310491-http%253A%252F%252Flocalhost%253A8080%252F%26ntime%3D1478483322; PHPSESSID=juelcicor65nr2d53nlmf4caq0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '59860'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/index'
+    'REQUEST_URI' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php?r=house/index'
+    'SCRIPT_NAME' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478487667.379
+    'REQUEST_TIME' => 1478487667
+]
+2016-11-07 11:02:42 [::1][-][juelcicor65nr2d53nlmf4caq0][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: house/catshow' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('catshow', Array)
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/catshow', Array)
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-07 11:02:42 [::1][-][juelcicor65nr2d53nlmf4caq0][info][application] $_GET = [
+    'r' => 'house/catshow'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1252792735-1478310491-http%3A%2F%2Flocalhost%3A8080%2F&ntime=1478483322'
+    'PHPSESSID' => 'juelcicor65nr2d53nlmf4caq0'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1252792735-1478310491-http%253A%252F%252Flocalhost%253A8080%252F%26ntime%3D1478483322; PHPSESSID=juelcicor65nr2d53nlmf4caq0'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '59862'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/catshow'
+    'REQUEST_URI' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php?r=house/catshow'
+    'SCRIPT_NAME' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478487762.769
+    'REQUEST_TIME' => 1478487762
+]
