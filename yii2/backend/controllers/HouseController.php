@@ -5,6 +5,11 @@ use yii\web\Controller;
 use backend\models\CatModel;
 use yii\db\Query;
 use yii\data\Pagination;//自带分页类
+use backend\models\HouseModel;
+use backend\models\FileModel;//自建多文件上传model
+use backend\models\UploadForm;//实例model
+use yii\web\UploadedFile;  
+use yii\db\session;
 class HouseController extends Controller
 {
 	public $layout ='public';
@@ -19,10 +24,11 @@ class HouseController extends Controller
 		$this->session->open();
 		parent::init();
 	}
+	//展示
 	public function actionCatShow(){	
-	    $query = CatModel::find();
-	    $pages = new Pagination(['totalCount' => $query->count(),'pageSize'=>2]);
-	    $models = $query->offset($pages->offset)
+	    $data = CatModel::find();
+	    $pages = new Pagination(['totalCount' => $data->count(),'pageSize'=>2]);
+	    $models = $data->offset($pages->offset)
 	        ->limit($pages->limit)
 	        ->all();
 	    return $this->render('CatShow', [
@@ -79,13 +85,65 @@ class HouseController extends Controller
 			$data=CatModel::find()->where(['cat_id'=>$id])->one();
 			if($data){
 				$model = new CatModel();
-				return $this->render('update',['data'=>$data,'model'=>$model]);
+				return $this->render('CatUpdate',['data'=>$data,'model'=>$model]);
 			}
 		}
 		
 	}
-	//测试用的
-	public function actionIndex(){
-		return $this->render('index');
+	//  完善房间信息 &多文件上传
+	  public function actionUpmore(){  
+	        $model = new UploadForm();  
+	        if (Yii::$app->request->isPost) {  
+	          //先入房屋
+	            $data=Yii::$app->request->post();
+	            if(is_array($data)){
+	            	unset($data['UploadForm']);
+	            	unset($data['submit-button']);
+	            }
+	            $res=yii::$app->db->createCommand()->insert('house',$data)->execute();
+		if($res){
+			$h_id =Yii::$app->db->getLastInsertID();
+			$session = Yii::$app->session;
+			$session['h_id']=$h_id;
+			}
+		$file = UploadedFile::getInstances($model, 'file');  
+	          	// var_dump($file);
+	             if($file && $model->validate()) {  
+	             echo "<pre/>";  
+	             foreach ($file as $fl) {  
+	             $file ='uploads/' .mt_rand(1100,9900) .time() .$fl->baseName. '.' . $fl->extension;
+	             $fl->saveAs('uploads/' .mt_rand(1100,9900) .time() .$fl->baseName. '.' . $fl->extension); 
+	             $res=yii::$app->db->createCommand()->insert('img',['h_id'=>$h_id,'file'=>$file])->execute();
+	            }   
+	        }  
+	        	$this->redirect(['house/continue']);
+	    }
+	        $query = new Query();
+		$cat = $query->select('*')->from('category')->All();
+		//地区
+		$region = $query->select('*')->from('region')->andWhere(['parent_id'=>1])->All();
+		// 支付方式
+		$pattern = yii::$app->db->createCommand('select * from pattern ')->queryAll();
+		// var_dump($pattern);die;
+		//朝向
+		$orientation = yii::$app->db->createCommand('select * from orientation')->queryAll();	
+		return $this->render('upmore',['model'=>$model,'cat'=>$cat,'region'=>$region,'pattern'=>$pattern,'orientation'=>$orientation]);	
 	}
+	// 继续完善房间信息
+	public function actionContinue(){
+		return  $this->render('continue');
+	}
+	//如房间表
+	public function actionDoRoom(){
+		 if(Yii::$app->request->post()){
+		 $data=Yii::$app->request->post();
+		 $session = Yii::$app->session;
+		 $h_id=$session['h_id'];
+		 $filename =array_pop($data);
+		 
+		echo "<pre/>";
+		var_dump($data);
+	}
+}
+
 }

@@ -6,6 +6,15 @@ $config = [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '_gXmA0SUXwko4EbQaMx-Y57V4heO9doT',
         ],
+        //   'assetManager'=>[
+        //     'bundles'=>[
+        //         'yii\web\JqueryAsset'=>[
+        //             'jsOptions'=>[
+        //                 'position'=>\yii\web\View::POS_HEAD,
+        //             ]
+        //         ]
+        //     ]
+        // ],
     ],
 ];
 
