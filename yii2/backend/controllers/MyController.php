@@ -64,10 +64,8 @@ class MyController extends Controller
 	               	My::updateAll($data);//修改
 	               	\Yii::$app->getSession()->setFlash('success', '修改成功');
 	           		}
-
 	           	}
 	           	
-
 	        	}
 	        	$res = My::find()->asArray()->one();
 	       	return $this->render('my', ['model' => $model,'res'=>$res]);
