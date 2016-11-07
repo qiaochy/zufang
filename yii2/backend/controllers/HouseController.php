@@ -140,9 +140,9 @@ class HouseController extends Controller
 		 $session = Yii::$app->session;
 		 $h_id=$session['h_id'];
 		 $filename =array_pop($data);
-		 
-		echo "<pre/>";
-		var_dump($data);
+		 $r_img ='uploads/' .mt_rand(1100,9900) .time() .$filename;
+		echo $r_img;
+		
 	}
 }
 
