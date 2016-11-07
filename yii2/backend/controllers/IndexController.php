@@ -12,7 +12,8 @@ use common\models\LoginForm;
  */
 class IndexController extends Controller
 {
-	public $layout = false;
+	// public $layout = false;
+	public $layout ='public';
 	//首页展示
 	public function actionIndex()
 	{
