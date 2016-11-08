@@ -27,7 +27,7 @@ class HouseController extends Controller
 	//展示
 	public function actionCatShow(){	
 	    $data = CatModel::find();
-	    $pages = new Pagination(['totalCount' => $data->count(),'pageSize'=>2]);
+	    $pages = new Pagination(['totalCount' => $data->count(),'pageSize'=>3]);
 	    $models = $data->offset($pages->offset)
 	        ->limit($pages->limit)
 	        ->all();
@@ -96,6 +96,12 @@ class HouseController extends Controller
 	        if (Yii::$app->request->isPost) {  
 	          //先入房屋
 	            $data=Yii::$app->request->post();
+	            echo "<pre/>";
+	            // var_dump($data);die;
+	            $arr=$data['con_id'];
+	            unset($data['con_id']);
+	            // print_r($arr);
+	            // print_r($data);exit;
 	            if(is_array($data)){
 	            	$cat_id=$data['cat_id'];
 	            	unset($data['UploadModel']);
@@ -106,7 +112,11 @@ class HouseController extends Controller
 			$h_id =Yii::$app->db->getLastInsertID();
 			$session = Yii::$app->session;
 			$session['h_id']=$h_id;
-			}
+			//入公共配置表
+			foreach ($arr as $v) {
+	            	  	$str=yii::$app->db->createCommand()->insert('hc',['h_id'=>$h_id,'con_id'=>$v])->execute();
+	          		 }
+		}
 		$file = UploadedFile::getInstances($model, 'file');  
 	          	// var_dump($file);die;
 	             if($file) {  
@@ -140,7 +150,10 @@ class HouseController extends Controller
 	        	}
 	        
 	    }
-	        $query = new Query();
+	             $query = new Query();
+	             //公共配置
+	             $conf = yii::$app->db->createCommand('select * from conf ')->queryAll();
+	             // 分类
 		$cat = $query->select('*')->from('category')->All();
 		//地区
 		$region = $query->select('*')->from('region')->andWhere(['parent_id'=>1])->All();
@@ -149,12 +162,15 @@ class HouseController extends Controller
 		// var_dump($pattern);die;
 		//朝向
 		$orientation = yii::$app->db->createCommand('select * from orientation')->queryAll();	
-		return $this->render('upmore',['model'=>$model,'cat'=>$cat,'region'=>$region,'pattern'=>$pattern,'orientation'=>$orientation]);	
+		return $this->render('upmore',['model'=>$model,'cat'=>$cat,'region'=>$region,'pattern'=>$pattern,'orientation'=>$orientation,'conf'=>$conf]);	
 	}
 	// 继续完善房间信息
 	public function actionContinue(){
 		 if(Yii::$app->request->post()){
 		 $data=Yii::$app->request->post();
+		 $arr=$data['p_id'];
+	           	 unset($data['p_id']);
+	           	 // var_dump($arr);die;
 		 $session = Yii::$app->session;
 		 $h_id=$session['h_id'];
 		 // echo $h_id;die;
@@ -171,16 +187,25 @@ class HouseController extends Controller
 		 	'complete'=>1,
 		 	],['h_id'=>$h_id,'r_name'=>$data['r_name']])->execute();
 		}
-		$this->redirect(['house/complete']);
+		$room=yii::$app->db->createCommand("select r_id from room where h_id=$h_id and r_name='$data[r_name]'")->queryAll();
+		// var_dump($room);die;
+		//入库房间私有配置表
+			foreach ($arr as $v) {
+	            	  	$str=yii::$app->db->createCommand()->insert('rp',['r_id'=>$room[0]['r_id'],'p_id'=>$v])->execute();
+	          		 }
+	          		 if($res||$str){
+			$this->redirect(['house/complete']);
+		}
 	}
-	//完善房间id房间表
+	//逐一完善各房间
 	public function actionComplete(){
 		 $session = Yii::$app->session;
 		 $h_id=$session['h_id'];
+		$conf = yii::$app->db->createCommand('select * from private_conf ')->queryAll();
 		$room = yii::$app->db->createCommand("select * from room where h_id=$h_id and complete = 0")->queryAll();
 		// print_r($room);die;
 		if(!empty($room)){
-		return $this->render('continue',['room'=>$room]);	
+		return $this->render('continue',['room'=>$room,'conf'=>$conf]);	
 		}else{
 			echo "complete";
 		}
