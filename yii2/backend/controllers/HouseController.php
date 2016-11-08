@@ -97,6 +97,7 @@ class HouseController extends Controller
 	          //先入房屋
 	            $data=Yii::$app->request->post();
 	            if(is_array($data)){
+	            	$cat_id=$data['cat_id'];
 	            	unset($data['UploadModel']);
 	            	unset($data['submit-button']);
 	            }
@@ -107,8 +108,8 @@ class HouseController extends Controller
 			$session['h_id']=$h_id;
 			}
 		$file = UploadedFile::getInstances($model, 'file');  
-	          	// var_dump($file);
-	             if($file && $model->validate()) {  
+	          	// var_dump($file);die;
+	             if($file) {  
 	             echo "<pre/>";  
 	             foreach ($file as $fl) {  
 	             $file ='uploads/' .mt_rand(1100,9900) .time() .$fl->baseName. '.' . $fl->extension;
@@ -116,7 +117,28 @@ class HouseController extends Controller
 	             $res=yii::$app->db->createCommand()->insert('img',['h_id'=>$h_id,'file'=>$file])->execute();
 	            }   
 	        }  
-	        	$this->redirect(['house/continue']);
+	        // 入房间表  默认值都是0
+	        	if($cat_id>1){
+	        		// echo $cat_id;
+	        		$arr=['A室','B室','C室','D室','E室','F室','G室','H室','I室','J室'];
+	        		$room = array_slice($arr,0,$cat_id);
+	        		// var_dump($room);die;
+	        		foreach ($room as  $v) {
+	        		 $res=yii::$app->db->createCommand()->insert('room',[
+		 	'r_name'=>$v,
+		 	'h_id'=>$h_id,
+		 	'r_area'=>0,
+		 	'r_price'=>0,
+		 	'r_status'=>0,
+		 	'r_img'=>0,
+		 	'complete'=>0,
+		 	])->execute();
+        		}
+	        		$this->redirect(['house/complete']);
+	        	}else{
+	        		echo "信息完善成功";
+	        	}
+	        
 	    }
 	        $query = new Query();
 		$cat = $query->select('*')->from('category')->All();
@@ -131,19 +153,38 @@ class HouseController extends Controller
 	}
 	// 继续完善房间信息
 	public function actionContinue(){
-		return  $this->render('continue');
-	}
-	//如房间表
-	public function actionDoRoom(){
 		 if(Yii::$app->request->post()){
 		 $data=Yii::$app->request->post();
 		 $session = Yii::$app->session;
 		 $h_id=$session['h_id'];
+		 // echo $h_id;die;
 		 $filename =array_pop($data);
 		 $r_img ='uploads/' .mt_rand(1100,9900) .time() .$filename;
-		echo $r_img;
-		
+		// echo $r_img;
+		 move_uploaded_file($filename,  $r_img);
+		 $res=yii::$app->db->createCommand()->update('room',[
+		 	'r_title'=>$data['r_title'],
+		 	'r_area'=>$data['r_area'],
+		 	'r_price'=>$data['r_price'],
+		 	'r_status'=>$data['r_status'],
+		 	'r_img'=>$r_img,
+		 	'complete'=>1,
+		 	],['h_id'=>$h_id,'r_name'=>$data['r_name']])->execute();
+		}
+		$this->redirect(['house/complete']);
 	}
+	//完善房间id房间表
+	public function actionComplete(){
+		 $session = Yii::$app->session;
+		 $h_id=$session['h_id'];
+		$room = yii::$app->db->createCommand("select * from room where h_id=$h_id and complete = 0")->queryAll();
+		// print_r($room);die;
+		if(!empty($room)){
+		return $this->render('continue',['room'=>$room]);	
+		}else{
+			echo "complete";
+		}
+		
 }
 
 }

@@ -8,20 +8,26 @@ use yii\helpers\Html;
 <?php
 //简单的表单使用自带的表单
 $form =ActiveForm::begin([
-        'action'=>Url::toRoute(['do-room']),
+        'action'=>Url::toRoute(['continue']),
     'method'=>'post',
    
 ]);
 ?>
 <div class="well">
-	<h2 style="margin-left:200px">继续完善房间信息</h2>
+	<h2 style="margin-left:200px">填写房间信息</h2>
 <table class="table">
 	<tr>
 		<td>房间名称</td>
-		<td><input type="text" name="r_name"></td>
+		<td><select name="r_name">
+				<?php foreach ($room as $v) :?>		
+				<option value="<?= $v['r_name'];?>"><?= $v['r_name'];?></option>
+				<?php endforeach ?>
+			</select></td>
 	</tr>
-
-	
+	<tr>
+		<td>房间标题</td>
+		<td><input type="text" name="r_title"></td>
+	</tr>
 	<tr>
 		<td>是否已出租</td>
 		<td>
