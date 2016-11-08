@@ -7,7 +7,7 @@ use yii\db\Query;
 use yii\data\Pagination;//自带分页类
 use backend\models\HouseModel;
 use backend\models\FileModel;//自建多文件上传model
-use backend\models\UploadForm;//实例model
+use backend\models\UploadModel;//实例model
 use yii\web\UploadedFile;  
 use yii\db\session;
 class HouseController extends Controller
@@ -92,12 +92,12 @@ class HouseController extends Controller
 	}
 	//  完善房间信息 &多文件上传
 	  public function actionUpmore(){  
-	        $model = new UploadForm();  
+	        $model = new UploadModel();  
 	        if (Yii::$app->request->isPost) {  
 	          //先入房屋
 	            $data=Yii::$app->request->post();
 	            if(is_array($data)){
-	            	unset($data['UploadForm']);
+	            	unset($data['UploadModel']);
 	            	unset($data['submit-button']);
 	            }
 	            $res=yii::$app->db->createCommand()->insert('house',$data)->execute();

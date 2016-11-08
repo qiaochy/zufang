@@ -24,7 +24,7 @@
 			</td>
 			<td><?php echo $v["cust_phone"]?></td>
 			<td><?php echo $v["cust_card"]?></td>
-			<td><img src="<?php echo $v["card_img"]?>" alt=""></td>
+			<td><img src="<?php echo $v["card_img"]?>" width="166" height="88" alt=""></td>
 			<td><?php echo $v["h_id"]?></td>
 			<td><?php echo $v["start_time"]?></td>
 			<td><?php echo $v["end_time"]?></td>
