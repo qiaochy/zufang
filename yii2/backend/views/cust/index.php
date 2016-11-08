@@ -1,4 +1,12 @@
 <?php use yii\widgets\LinkPager; ?>
+<div class="well">
+	<form action="?r=cust/index" method="post">
+		<div class="help-block">
+			<input type="text"  name="like">&nbsp&nbsp&nbsp<input type="submit" class="btn btn-sm btn-success" value="搜索名称">
+		</div>
+		
+	</form>
+	
 <table class="table">
 	<th>编号</th>
 	<th>客户姓名</th>
@@ -30,8 +38,8 @@
 			<td><?php echo $v["end_time"]?></td>
 			<td><?php echo $v["cust_desc"]?></td>
 			<td>
-				<a href='?r=cust/del&id=<?php echo $v["cust_id"]?>'>删除</a>|
-				<a href='?r=cust/save&id=<?php echo $v["cust_id"]?>'>编辑</a>
+				<a class="badge badge-pink" href='?r=cust/del&id=<?php echo $v["cust_id"]?>'>删除</a>|
+				<a class="badge badge-purple" href='?r=cust/save&id=<?php echo $v["cust_id"]?>'>编辑</a>
 			</td>
 		</tr>
 	<?php }?>
@@ -45,3 +53,4 @@
             'nextPageLabel' => '下一页',
         ]);
         ?> 
+        </div>
