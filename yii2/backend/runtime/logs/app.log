@@ -14707,3 +14707,75 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478570873.721
     'REQUEST_TIME' => 1478570873
 ]
+2016-11-08 14:16:34 [127.0.0.1][-][-][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'app\models\UploadForm' not found' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\backend\controllers\CustController.php:39
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-08 14:16:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1649951263-1478256480-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1478580533'
+    'iweb_safecode' => 'c4c7f642b5NzU4MDU5MDAwMDRiNGo6NWMyOTduNzE1YWA5NDQyZGYwNmUwNWBhMTVgODwxNDQzMjMyOjZkYDU5NTI7YjhlMg'
+    'iweb_shoppingcart' => '89ec9722d6Mzc3NTc1OTIwN2IzZTQxNWY2OGFjYDMxMjpkMjU8M2F7JmdvZ2FzJj9bXycicHJtYnVncCc+X1p9'
+    'iweb_captcha' => '38093cae38MjA2MjY5MDkwNDc1ZWI9NDM5Njg2ZjE8NTZlOzhmPzRpd3ZoZQ'
+    'iweb_admin_role_name' => '4ea6319e91NDAwMTAwMDAwMDAyYmU3ZTBiYzFpMjZmOG0zZjBlM2Lqv4Hnu6fnrqjhkYflk5E'
+    'iweb_admin_id' => '4ad4a883e3MDA2MjA5MDcwMDY3ZjEzMjcxMWplMTQ2YGY2NjA5MzUx'
+    'iweb_admin_name' => '0e2123d3f6MzA4MjAwMDAwMDVhZjE1YjQxMmNkMDgyPDVkNWI0YTdoZW1pbw'
+    'iweb_admin_pwd' => 'cdddc74eaeMDYwMDA2ODEwMGQ5MDA2NDNlMTYyMTdmOjo+ZzdkbzEwZmthMjFnPTs6MWZiMzo0MTYxPDVjOmFoMDZhZjdhMA'
+    'iweb_user_id' => '4b39137663MDAwNjkwMDAwMWJhPTk2MztnO2ZhM2RiNT85YmU1PmM'
+    'iweb_username' => '4a7800652dNDAwMDAwMDAyN2JmOD8/NjhhPW5gN2RkNTkxY2U3OGU'
+    'iweb_head_ico' => '2d06ab00dfMTcwNTAwNjUxMWpmMDk3MzxkPmZhMGVhNT8xbWU3OmM'
+    'iweb_user_pwd' => '414f6e1ab1MDg1MjMwMDAwMGJmPDk3NjhnP2ZgNW1lPDg9ZGU/PWo'
+    'iweb_iweb_safecode' => '54e7f977cbMjAwMDAwMzAwMGNmPDkzMDhiOGZkMmFsMDk4bGU3OWU'
+    'iweb_visit' => '8b31c1d1f2MDI0MDAwMzAwMDE4NjNmPD80MGQyaGQ3MWIwOzZnODgnMCMhNichNSMrNCY'
+    'bdshare_firstime' => '1478569025359'
+    'PHPSESSID' => 'p8hn1dk6ae117diss5j9iu7dh7'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=cust/index'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1649951263-1478256480-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1478580533; iweb_safecode=c4c7f642b5NzU4MDU5MDAwMDRiNGo6NWMyOTduNzE1YWA5NDQyZGYwNmUwNWBhMTVgODwxNDQzMjMyOjZkYDU5NTI7YjhlMg; iweb_shoppingcart=89ec9722d6Mzc3NTc1OTIwN2IzZTQxNWY2OGFjYDMxMjpkMjU8M2F7JmdvZ2FzJj9bXycicHJtYnVncCc%2BX1p9; iweb_captcha=38093cae38MjA2MjY5MDkwNDc1ZWI9NDM5Njg2ZjE8NTZlOzhmPzRpd3ZoZQ; iweb_admin_role_name=4ea6319e91NDAwMTAwMDAwMDAyYmU3ZTBiYzFpMjZmOG0zZjBlM2Lqv4Hnu6fnrqjhkYflk5E; iweb_admin_id=4ad4a883e3MDA2MjA5MDcwMDY3ZjEzMjcxMWplMTQ2YGY2NjA5MzUx; iweb_admin_name=0e2123d3f6MzA4MjAwMDAwMDVhZjE1YjQxMmNkMDgyPDVkNWI0YTdoZW1pbw; iweb_admin_pwd=cdddc74eaeMDYwMDA2ODEwMGQ5MDA2NDNlMTYyMTdmOjo%2BZzdkbzEwZmthMjFnPTs6MWZiMzo0MTYxPDVjOmFoMDZhZjdhMA; iweb_user_id=4b39137663MDAwNjkwMDAwMWJhPTk2MztnO2ZhM2RiNT85YmU1PmM; iweb_username=4a7800652dNDAwMDAwMDAyN2JmOD8%2FNjhhPW5gN2RkNTkxY2U3OGU; iweb_head_ico=2d06ab00dfMTcwNTAwNjUxMWpmMDk3MzxkPmZhMGVhNT8xbWU3OmM; iweb_user_pwd=414f6e1ab1MDg1MjMwMDAwMGJmPDk3NjhnP2ZgNW1lPDg9ZGU%2FPWo; iweb_iweb_safecode=54e7f977cbMjAwMDAwMzAwMGNmPDkzMDhiOGZkMmFsMDk4bGU3OWU; iweb_visit=8b31c1d1f2MDI0MDAwMzAwMDE4NjNmPD80MGQyaGQ3MWIwOzZnODgnMCMhNichNSMrNCY; bdshare_firstime=1478569025359; PHPSESSID=p8hn1dk6ae117diss5j9iu7dh7'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64059'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/add'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust/add'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478585794.03
+    'REQUEST_TIME' => 1478585794
+]
