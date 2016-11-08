@@ -35,6 +35,15 @@ $form =ActiveForm::begin([
 			<input type="radio" name="r_status" value='1'>已出租
 		</td>
 	</tr>
+	<tr >
+		<td >房间私有配置</td>
+		<td style="width:1000px">
+			<?php foreach ($conf as  $v) {?>
+			<?= $v['p_name'];?><input type="checkbox" name="p_id[]" value="<?= $v['p_id'];?>">
+			<?php }?>
+			
+		</td>
+	</tr>
 	
 	<tr>
 		<td>房屋面积</td>
