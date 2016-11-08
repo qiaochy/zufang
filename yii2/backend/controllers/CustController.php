@@ -22,15 +22,17 @@ class CustController extends Controller
 	public $session;
 	//展示客户列表
 	public function actionIndex(){
-		// $customer = Yii::$app->db->createCommand('SELECT * FROM customer')->queryAll();  
-		// return $this->render('index',["customer"=>$customer]);
-		$query=new Query();
-	    $arr=$query->select('*')->from('customer')->all();
-	    $count=count($arr);
-	    $pagination = new Pagination(['totalCount' => $count]);
-	    $pagination->setPageSize(10);
-	    $customer = $query->offset($pagination->offset)->limit($pagination->limit)->all();
-	    return $this->render('index', ['customer' => $customer, 'pagination' => $pagination,]); 
+		    $request = Yii::$app->request;
+		    $like = $request->post('like') ? $request->post('like') : '' ;
+		    $query=new Query();
+		    $arr=$query->from('customer')
+		    ->where(['like','cust_name',$like])
+		    ->all();
+		    $count=count($arr);
+		    $pagination = new Pagination(['totalCount' => $count]);
+		    $pagination->setPageSize(5);
+		    $customer = $query->where(['like','cust_name',$like])->offset($pagination->offset)->limit($pagination->limit)->all();
+		    return $this->render('index', ['customer' => $customer, 'pagination' => $pagination,]); 
 	}
 
 	//客户列表完善

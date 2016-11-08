@@ -1,11 +1,12 @@
 <html>
 <div class="well">
-	<h2>关于公司</h2>
+	<center><h2>关于公司</h2></center>
+	
 
 
-	<div class="well">
+	
 		
-	<a href="?r=my/upload">编辑公司信息</a>
+	<a href="?r=my/upload"><span class="label label-success arrowed">编辑公司信息</span></a>
 	<br>
 	<br>
 
@@ -32,7 +33,7 @@
 			</tr>
 			
 		</table>
-	</div>
+	
 
 	</div>
 </html>
