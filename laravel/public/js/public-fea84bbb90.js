@@ -1,0 +1,1 @@
+$(function(){$(".sharethis").hover(function(){$(".b_sharebox").toggleClass("dis_block")}),$(".smooth-scroll").click(function(){$("html,body").animate({scrollTop:0},500)}),$("#fangdongjiameng").click(function(){if($("body").find("#yezhu1").length>0){var o=$("#yezhu1").offset();$("body").animate({scrollTop:o.top-25},500)}else window.location.href="/#yezhu"})});
