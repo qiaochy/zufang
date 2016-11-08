@@ -28,8 +28,8 @@
 				<?php } ?>
 			</td>
 			<td>
-				<a href='?r=ycust/del&id=<?php echo $v["y_id"]?>'>删除</a>|
-				<a href='?r=ycust/save&id=<?php echo $v["y_id"]?>'>编辑</a>
+				<a class="badge badge-pink" href='?r=ycust/del&id=<?php echo $v["y_id"]?>'>删除</a>|
+				<a  class="badge badge-purple" href='?r=ycust/save&id=<?php echo $v["y_id"]?>'>编辑</a>
 			</td>
 		</tr>
 	<?php }?>

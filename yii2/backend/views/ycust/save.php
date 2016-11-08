@@ -22,7 +22,7 @@
 		</tr>
 		<tr>
 			<td></td>
-			<td><input type="submit" value="修改"></td>
+			<td><input type="submit"  class="btn btn-sm btn-success" value="修改"></td>
 		</tr>
 	</table>
 </form>
