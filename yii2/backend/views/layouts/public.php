@@ -418,30 +418,20 @@
 
 							<ul class="submenu">
 								<li>
-									<a href="tables.html">
+									<a href="?r=house/upmore">
 										<i class="icon-double-angle-right"></i>
 										房屋录入
 									</a>
 								</li>
 
 								<li>
-									<a href="jqgrid.html">
+									<a href="?r=house/cat-show">
 										<i class="icon-double-angle-right"></i>
 										房屋类型
 									</a>
 								</li>
-								<li>
-									<a href="jqgrid.html">
-										<i class="icon-double-angle-right"></i>
-										区域管理
-									</a>
-								</li>
-								<li>
-									<a href="jqgrid.html">
-										<i class="icon-double-angle-right"></i>
-										房屋配置
-									</a>
-								</li>
+								
+								
 							</ul>
 						</li>
 

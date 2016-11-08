@@ -6,14 +6,15 @@ use yii\widgets\ActiveForm;
 $form = ActiveForm::begin(['action' => ['my/upload'],'method'=>'post','options' => ['enctype' => 'multipart/form-data']]);
 ?>
 <div class="well">
-	<h4>公司信息添加</h4>
-<div class="well">
-	<a href="?r=my/index">返回信息列表</a>
+	<center><h4 >公司信息</h4></center>
+	
+
+	<a  href="?r=my/index"><span class="label label-success arrowed">返回信息列表</span></a>
 
 <body>
 	<table class="table">
 		<tr>
-			<td>标题</td>
+			<td>标题&nbsp&nbsp&nbsp</td>
 			<td><input type="text" name="title" value="<?php echo $res['title']?>"></td>
 		</tr>
 		<tr>
@@ -42,7 +43,7 @@ $form = ActiveForm::begin(['action' => ['my/upload'],'method'=>'post','options' 
 			</td>
 		</tr>
 		<tr>
-			<td><button>修改</button></td>
+			<td><button class="btn btn-lg btn-success"><i class="icon-ok"></i>修改</button></td>
 		</tr>
 	</table>
    
@@ -61,13 +62,13 @@ $form = ActiveForm::begin(['action' => ['my/upload'],'method'=>'post','options' 
         iframeCssUrl: 'edit/Content/ueditor/themes/iframe.css',//样式路径
         initialContent: '欢迎使用ueditor',//初始化编辑器内容
         autoHeightEnabled: true,//高度自动增长
-        minFrameHeight: 600,//最小高度
-        initialFrameWidth:500
+        minFrameHeight: 580,//最小高度
+        initialFrameWidth:460
     });
     editor.render('Content');
 </script>
 <?php ActiveForm::end(); ?>
 </body>
-</div>
+
 </div>
 </html>

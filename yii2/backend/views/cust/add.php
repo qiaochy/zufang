@@ -15,8 +15,8 @@ $form = ActiveForm::begin(['action'=>['cust/add'],'method'=>'post','options' => 
 		<tr>
 			<td>客户性别：</td>
 			<td>
-				<input type="radio" name="cust_sex" value="1" checked="checked">男
-				<input type="radio" name="cust_sex" value="2">女
+				<input type="radio" class="ace" name="cust_sex" value="1" checked="checked"><span class="lbl"> 男</span>
+				<input type="radio" class="ace" name="cust_sex" value="2"><span class="lbl"> 女</span>
 			</td>
 		</tr>
 		<tr>
@@ -33,14 +33,14 @@ $form = ActiveForm::begin(['action'=>['cust/add'],'method'=>'post','options' => 
 		</tr>
 		<tr>
 			<td>租赁房屋</td>
-			<td><select name="h_id" id="">
+			<td><select  name="h_id" id="" class="form-control">
 				<option value="1">1</option>
 				<option value="2">2</option>
 			</select></td>
 		</tr>
 		<tr>
 			<td>起租时间：</td>
-			<td><input type="text" name="start_time" value=""></td>
+			<td><input type="text"  name="start_time" value=""></td>
 		</tr>
 		<tr>
 			<td>到期时间：</td>
@@ -52,7 +52,7 @@ $form = ActiveForm::begin(['action'=>['cust/add'],'method'=>'post','options' => 
 		</tr>
 		<tr>
 			<td></td>
-			<td><input type="submit" value="提交"></td>
+			<td><input type="submit" class="btn btn-sm btn-success" value="提交"></td>
 		</tr>
 	</table>
 <?php ActiveForm::end(); ?>

@@ -22,8 +22,8 @@ use yii\widgets\ActiveForm;
 ]);  
 ?>  
 <div class="well">
-	<h2 style="margin-left:200px">完善房屋信息</h2>
-<table class="table">
+	<h2 style="margin-left:180px">完善房屋信息</h2>
+<table class="table" style="margin-left:166px;">
 	<tr>
 		<td>房屋名称</td>
 		<td><input type="text" name="h_name"></td>
@@ -40,7 +40,7 @@ use yii\widgets\ActiveForm;
 	</tr>
 	<tr>
 		<td>房屋所在地区</td>
-		<td>海淀区
+		<td>
 			<select name="region_id">
 				<?php foreach ($region as $v) :?>		
 				<option value="<?= $v['region_id'];?>"><?= $v['region_name'];?></option>
@@ -51,14 +51,23 @@ use yii\widgets\ActiveForm;
 	<tr>
 		<td>是否已出租</td>
 		<td>
-			<input type="radio" name="status" value='0' checked="checked">可以出租
-			<input type="radio" name="status" value='1'>已出租
+			<input type="radio" name="status" class="ace" value='0' checked="checked"><span class="lbl"> 待出租</span>
+			<input type="radio" name="status" class="ace" value='1'><span class="lbl"> 已出租</span>
+		</td>
+	</tr>
+	<tr >
+		<td >房屋公共配置</td>
+		<td style="width:1000px">
+			<?php foreach ($conf as  $v) {?>
+			<span class="lbl"><?= $v['con_name'];?></span><input type="checkbox" class="ace" name="con_id[]" value="<?= $v['con_id'];?>">
+			<?php }?>&nbsp&nbsp
+			
 		</td>
 	</tr>
 	<tr>
 		<td>房屋评价</td>
 		<td>
-			<textarea name="survey"  cols="15" rows="4"></textarea>
+			<textarea name="survey"   cols="15" rows="4"></textarea>
 		</td>
 	</tr>
 	<tr>
@@ -88,10 +97,11 @@ use yii\widgets\ActiveForm;
 	
 </table>
 </div>
+<div style="margin-left:200px;">
 <?= $form->field($model, 'file[]')->fileInput(['multiple' => true]);?>  
 <?=  Html::submitButton('提交', ['class'=>'btn btn-primary','name' =>'submit-button']) ?>  
 <?php ActiveForm::end(); ?>  
-  
+</div>
 </body>  
 </html>  
 

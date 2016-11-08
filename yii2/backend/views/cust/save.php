@@ -9,11 +9,11 @@
 			<td>客户性别：</td>
 			<td>
 			<?php if($one['cust_sex']=="1"){?>
-				<input type="radio" name="cust_sex" value="1" checked="checked">男
-				<input type="radio" name="cust_sex" value="2">女
+				<input type="radio" class="ace" name="cust_sex" value="1" checked="checked"><span class="lbl"> 男</span>
+				<input type="radio" class="ace" name="cust_sex" value="2"><span class="lbl"> 女</span>
 			<?php }else{?>
-				<input type="radio" name="cust_sex" value="1">男
-				<input type="radio" name="cust_sex" value="2" checked="checked">女			
+				<input type="radio" class="ace" name="cust_sex" value="1"><span class="lbl"> 男</span>
+				<input type="radio" class="ace" name="cust_sex" value="2" checked="checked"><span class="lbl"> 女</span>		
 			<?php }?>					
 			</td>
 		</tr>
@@ -50,7 +50,7 @@
 		</tr>
 		<tr>
 			<td></td>
-			<td><input type="submit" value="修改"></td>
+			<td><input type="submit"  class="btn btn-sm btn-success" value="修改"></td>
 		</tr>
 	</table>
 </form>
