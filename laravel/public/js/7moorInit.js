@@ -8,9 +8,13 @@ String.prototype.trim = function () {
 };
 
 var hostUrl = "//webchat.7moor.com/";
+
+//兼容本地测试
+//console.log(window.location.href.substr(0,4));
 if(window.location.href.substr(0,4)!="http"){
     hostUrl = "http://webchat.7moor.com/"
 }
+
 (function () {
     var ie = !!(window.attachEvent && !window.opera);
     var wk = /webkit\/(\d+)/i.test(navigator.userAgent) && (RegExp.$1 < 525);
@@ -59,6 +63,7 @@ var config =
     version: '1.0',
     chatPage: hostUrl +"view/moor_chat.html",
     companyConfigUrl: hostUrl + "online",
+    urlTitle:document.title,
     fromUrl: encodeURIComponent(window.location.href),
     clientId: clientId,
     location: window.location.host,

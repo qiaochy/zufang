@@ -23,6 +23,7 @@
 
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
+Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');
 Route::get('index','IndexController@index');

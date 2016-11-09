@@ -14,4 +14,8 @@ class RoomController extends Controller{
     public function room(){
         return view('room.room');
     }
+    //房屋详情页面
+    public function roomcon(){
+    	return view('room.roomcon');
+    }
 }

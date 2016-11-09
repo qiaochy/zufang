@@ -474,6 +474,20 @@ pre{
     line-height: 130px;
 }
 
+.chat-isAcceptOther {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+
+
 .sys-msg {
     background-color: rgba(0, 0, 0, .4);
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);
@@ -897,6 +911,51 @@ li.active{
     line-height: 30px;
 }
 .judegCancelBtn{
+    text-align: center;
+    margin: 0 5%;
+    border-radius: 3px;
+    color: #444;
+    background-color: #fff;
+    width: 35%;
+    height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    border: #ddd solid 1px;
+    line-height: 30px;
+}
+
+.vipAssignFail{
+    position: absolute;
+    z-index: 1000;
+    bottom: 45%;
+    right: 10%;
+    left: 10%;
+    height: 140px;
+    border-color: #19CAA6;
+    border-style: solid;
+    border-width: 3px 1px 1px 1px;
+    box-shadow: 0 1px 9pt #C7C9CA;
+    background-color: #fff;
+}
+.vipAssignFail p{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 12px;
+    line-height: 30px;
+}
+.acceptOtherAgent{
+    text-align: center;
+    margin: 0 8%;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #19CAA6;
+    width: 35%;
+    height: 30px;
+    font-size: 14px;
+    display: inline-block;
+    line-height: 30px;
+}
+.refusedOtherAgent{
     text-align: center;
     margin: 0 5%;
     border-radius: 3px;

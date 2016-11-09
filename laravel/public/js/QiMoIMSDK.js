@@ -277,7 +277,7 @@ function QiMoIMSDK() {
         chatdiv.innerHTML = this.chatboxstyle.html;
         document.body.appendChild(chatdiv);
         if (utils.getBroswer() != utils.broswer.IE6 && utils.getBroswer() != utils.broswer.IE7) {
-            document.getElementById("qimo_chatpup").getElementsByTagName("iframe")[0].src = config.chatPage + "?v=" + config.version +"&clientId=" + config.clientId + "&fromUrl="+config.fromUrl+"&serviceStates="+data.serviceStates+"&accessId=" + data.accessId+"&styleColor=" + data.cssStyle.styleColor+"&peers="+ encodeURIComponent(JSON.stringify(data.peers))+"&otherParams="+ config.otherParams+"&seoSource="+encodeURIComponent(seoSource)+"&seoKeywords="+encodeURIComponent(seoKeywords)+"&companyName="+encodeURIComponent(config.companyName);
+            document.getElementById("qimo_chatpup").getElementsByTagName("iframe")[0].src = config.chatPage + "?v=" + config.version +"&clientId=" + config.clientId + "&urlTitle="+config.urlTitle+ "&fromUrl="+config.fromUrl+"&serviceStates="+data.serviceStates+"&accessId=" + data.accessId+"&styleColor=" + data.cssStyle.styleColor+"&peers="+ encodeURIComponent(JSON.stringify(data.peers))+"&otherParams="+ config.otherParams+"&seoSource="+encodeURIComponent(seoSource)+"&seoKeywords="+encodeURIComponent(seoKeywords)+"&companyName="+encodeURIComponent(config.companyName);
         }
 
         var btn = document.getElementById("chatBtn");
@@ -358,11 +358,11 @@ function QiMoIMSDK() {
         style.type = "text/css";
         style.rel = "stylesheet";
         if(utils.isFromMobile()){
-            style.href = config.chatHost + "/stylesheets/chatStyle_wap.css";
+            style.href = config.chatHost + "stylesheets/chatStyle_wap.css";
             var body = document.getElementsByTagName("body");
             body[0].className = "7m_warp";
         }else{
-            style.href = config.chatHost + "/stylesheets/chatStyle.css";
+            style.href = config.chatHost + "stylesheets/chatStyle.css";
         }
 
         var head = document.getElementsByTagName("head")[0];
@@ -417,13 +417,13 @@ function QiMoIMSDK() {
                 chatBox.getElementsByTagName("iframe")[0].contentWindow.postMessage("selectPeer_" + (selectPeer||""), "*");
                 chatBox.getElementsByTagName("iframe")[0].contentWindow.postMessage("chat_open", "*");
             }else{
-                var chatWin = window.open(config.chatPage + "?v=" + config.version +"&clientId=" + (config.clientId || "") + "&fromUrl="+config.fromUrl+"&serviceStates="+utils.chatboxProp.isServiceTime+"&newWin=true&accessId=" + config.accessId+"&styleColor=" + styleColor+"&peers="+encodeURIComponent(JSON.stringify(peers))+"&peer="+ selectPeer+"&otherParams="+ config.otherParams+"&seoSource="+encodeURIComponent(seoSource)+"&seoKeywords="+encodeURIComponent(seoKeywords)+"&companyName="+encodeURIComponent(config.companyName), "chatWin", "width=380px,height=535px,toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, status=no");
+                var chatWin = window.open(config.chatPage + "?v=" + config.version +"&clientId=" + (config.clientId || "") + "&urlTitle="+config.urlTitle+ "&fromUrl="+config.fromUrl+"&serviceStates="+utils.chatboxProp.isServiceTime+"&newWin=true&accessId=" + config.accessId+"&styleColor=" + styleColor+"&peers="+encodeURIComponent(JSON.stringify(peers))+"&peer="+ selectPeer+"&otherParams="+ config.otherParams+"&seoSource="+encodeURIComponent(seoSource)+"&seoKeywords="+encodeURIComponent(seoKeywords)+"&companyName="+encodeURIComponent(config.companyName), "chatWin", "width=380px,height=535px,toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, status=no");
                 chatWin.focus();
             }
             chatBtn.style.display = "none";
             utils.aniMove(chatBtn, {bottom: -chatBtn.offsetHeight, b: 0});
         } else {
-            var chatWin = window.open(config.chatPage + "?v=" + config.version +"&clientId=" + (config.clientId || "") + "&fromUrl="+config.fromUrl+"&serviceStates="+utils.chatboxProp.isServiceTime+"&newWin=true&accessId=" + config.accessId+"&styleColor=" + styleColor+"&peers="+encodeURIComponent(JSON.stringify(peers))+"&peer="+ selectPeer + "&otherParams="+ config.otherParams+"&seoSource="+encodeURIComponent(seoSource)+"&seoKeywords="+encodeURIComponent(seoKeywords)+"&companyName="+encodeURIComponent(config.companyName), "chatWin", "width=380px,height=535px,toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, status=no");
+            var chatWin = window.open(config.chatPage + "?v=" + config.version +"&clientId=" + (config.clientId || "") + "&urlTitle="+config.urlTitle+ "&fromUrl="+config.fromUrl+"&serviceStates="+utils.chatboxProp.isServiceTime+"&newWin=true&accessId=" + config.accessId+"&styleColor=" + styleColor+"&peers="+encodeURIComponent(JSON.stringify(peers))+"&peer="+ selectPeer + "&otherParams="+ config.otherParams+"&seoSource="+encodeURIComponent(seoSource)+"&seoKeywords="+encodeURIComponent(seoKeywords)+"&companyName="+encodeURIComponent(config.companyName), "chatWin", "width=380px,height=535px,toolbar=no, menubar=no, scrollbars=no, resizable=yes, location=no, status=no");
             if(chatWin){
                 chatWin.focus();
             }

@@ -60,16 +60,16 @@
         </div>
         <div class="fl nav_channel">
             <ul>
-                <li><a href="index" class="active">首页</a></li>
+                <li><a href="index" class="ss">首页</a></li>
                 <li>
-                    <a href="room" >我要租房</a>
+                    <a href="room" class="ss">我要租房</a>
                 </li>
                 <li>
-                    <a href="notice" >租前必读</a>
+                    <a href="notice" class="ss">租前必读</a>
                 </li>
                                 <li><a href="javascript:void(0)" id="fangdongjiameng">房东加盟</a></li>
                 <li>
-                    <a href="abouts" >关于蛋壳</a>
+                    <a href="abouts" class="ss">关于蛋壳</a>
                 </li>
             </ul>
         </div>
@@ -87,4 +87,11 @@
 
     @yield('content')
 </body>
+
+<script>
+    $(".ss").click(function(){
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+    })
+</script>
 </html>
