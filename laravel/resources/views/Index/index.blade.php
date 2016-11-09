@@ -1031,7 +1031,7 @@
 
 <script src="js/public-fea84bbb90.js"></script>
 
-    <script src="js/pc_home/index-9c29349919.js"></script>
+    <script src="js/index-9c29349919.js"></script>
 
 
             <!-- 在线预约 -->
