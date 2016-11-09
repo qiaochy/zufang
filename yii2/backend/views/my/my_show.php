@@ -18,9 +18,20 @@
 				
 			</tr>
 			<tr>
-				<th>内容</th>
-				<td><?php echo $res['content']?></td>
-				
+				<th>联系</th>
+				<td><?php echo $res['phone']?></td>				
+			</tr>
+			<tr>
+				<td>邮箱</td>
+				<td><?php echo $res['email']?></td>
+			</tr>
+			<tr>
+				<td>邮编</td>
+				<td><?php echo $res['code']?></td>
+			</tr>
+			<tr>
+				<td>坐标</td>
+				<td><?php echo $res['coor']?></td>
 			</tr>
 			<tr>
 				<th>图片</th>
@@ -28,9 +39,11 @@
 				
 			</tr>
 			<tr>
-				<th>联系</th>
-				<td><?php echo $res['phone']?></td>				
+				<th>内容</th>
+				<td><?php echo $res['content']?></td>
+				
 			</tr>
+			
 			
 		</table>
 	

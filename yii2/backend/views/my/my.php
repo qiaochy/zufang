@@ -18,6 +18,22 @@ $form = ActiveForm::begin(['action' => ['my/upload'],'method'=>'post','options' 
 			<td><input type="text" name="title" value="<?php echo $res['title']?>"></td>
 		</tr>
 		<tr>
+			<td>联系</td>
+			<td><input type="text" name="phone" value="<?php echo $res['phone']?>"></td>
+		</tr>
+		<tr>
+			<td>邮箱</td>
+			<td><input type="text" name="email" value="<?php echo $res['email']?>"></td>
+		</tr>
+		<tr>
+			<td>邮编</td>
+			<td><input type="text" name="code" value="<?php echo $res['code']?>"></td>
+		</tr>
+		<tr>
+			<td>坐标</td>
+			<td><input type="text" name="coor" value="<?php echo $res['coor']?>"></td>
+		</tr>
+		<tr>
 			<td>图片</td>
 			<td><?= $form->field($model, 'file')->fileInput() ?></td>
 
@@ -26,22 +42,8 @@ $form = ActiveForm::begin(['action' => ['my/upload'],'method'=>'post','options' 
 			<td>内容</td>
 			<td><textarea name="content" id="container" cols="30" rows="10"><?php echo $res['content']?></textarea></td>
 		</tr>
-		<tr>
-			<td>联系</td>
-			<td><input type="text" name="phone" value="<?php echo $res['phone']?>"></td>
-		</tr>
-		<tr>
-			<td>启用</td>
-			<td>
-				<?php if($res['status']==1){?>
-				<input type="radio" name="status" value="1" checked="checked">是
-				<input type="radio" name="status" value="0">否
-				<?php }else{?>
-				<input type="radio" name="status" value="1">是
-				<input type="radio" name="status" value="0" checked="checked">否
-				<?php }?>
-			</td>
-		</tr>
+		
+		
 		<tr>
 			<td><button class="btn btn-lg btn-success"><i class="icon-ok"></i>修改</button></td>
 		</tr>
