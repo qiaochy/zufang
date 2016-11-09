@@ -23,6 +23,8 @@
 
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
+Route::get('map','RoomController@map');//地图找房
+Route::get('maptext','RoomController@maptext');//地图信息
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');//关于我们
