@@ -51,23 +51,23 @@ use yii\widgets\ActiveForm;
 	<tr>
 		<td>是否已出租</td>
 		<td>
-			<input type="radio" name="status" value='0' checked="checked">待出租
-			<input type="radio" name="status" value='1'>已出租
+			<input type="radio" name="status" class="ace" value='0' checked="checked"><span class="lbl"> 待出租</span>
+			<input type="radio" name="status" class="ace" value='1'><span class="lbl"> 已出租</span>
 		</td>
 	</tr>
 	<tr >
 		<td >房屋公共配置</td>
 		<td style="width:1000px">
 			<?php foreach ($conf as  $v) {?>
-			<?= $v['con_name'];?><input type="checkbox" name="con_id[]" value="<?= $v['con_id'];?>">
-			<?php }?>
+			<span class="lbl"><?= $v['con_name'];?></span><input type="checkbox" class="ace" name="con_id[]" value="<?= $v['con_id'];?>">
+			<?php }?>&nbsp&nbsp
 			
 		</td>
 	</tr>
 	<tr>
 		<td>房屋评价</td>
 		<td>
-			<textarea name="survey"  cols="15" rows="4"></textarea>
+			<textarea name="survey"   cols="15" rows="4"></textarea>
 		</td>
 	</tr>
 	<tr>

@@ -10,9 +10,9 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
 class AboutsController extends Controller{
-    //表单页面
-    public function abouts(){
-
+    //关于租房网
+    public function abouts()
+    {
         return view('abouts.abouts');
     }
 }
