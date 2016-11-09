@@ -13,6 +13,9 @@ class AboutsController extends Controller{
     //关于租房网
     public function abouts()
     {
-        return view('abouts.abouts');
+        //查询信息
+        $my = DB::table('my')->get();
+        
+        return view('abouts.abouts',['my'=>$my[0]]);
     }
 }
