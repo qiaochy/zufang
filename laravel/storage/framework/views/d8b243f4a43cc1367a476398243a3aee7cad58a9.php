@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<!-- saved from url=(0039)http://www.dankegongyu.com/about/notice -->
+<!-- saved from url=(0040)http://www.dankegongyu.com/about/aboutus -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>租前必读_蛋壳公寓</title>
+    <title>蛋壳公寓介绍_蛋壳公寓</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="租房必读,租房问题,租房须知,蛋壳公寓">
-    <meta name="description" content="蛋壳公寓租前必读，关于租房中遇到的问题，租房价格，租房情况，付款方式，各种问题解答说明。">
+    <meta name="keywords" content="关于蛋壳公寓,关于蛋壳,了解蛋壳公寓">
+    <meta name="description" content="蛋壳公寓致力于为都市白领创造高品质租住生活，为加盟蛋壳的业主提供一站式房屋租赁委托服务。">
     <link rel="icon" type="image/x-icon" href="http://s1.wutongwan.org/favicon.ico">
     <!-- Set render engine for multi engine browser -->
     <meta name="renderer" content="webkit">
     <!-- Disable Baidu Siteapp -->
     <meta http-equiv="Cache-Control" content="no-siteapp">
 
-    <link media="all" type="text/css" rel="stylesheet" href="./css/bootstrap-2f624089c6.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-2f624089c6.min.css">
 
-    <link media="all" type="text/css" rel="stylesheet" href="./css/swiper-0b941af5db.min.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/swiper-0b941af5db.min.css">
 
-    <link media="all" type="text/css" rel="stylesheet" href="./css/common-f34e3d4c02.css">
+    <link media="all" type="text/css" rel="stylesheet" href="css/common-f34e3d4c02.css">
 
 
-    	<link media="all" type="text/css" rel="stylesheet" href="./css/myrent-9062646260.css">
+        <link media="all" type="text/css" rel="stylesheet" href="css/about-us-f2f37daa1a.css">
 
 
 </head>
@@ -42,7 +42,7 @@
 <div class="danke_header" id="topbar">
     <div class="nav_warp">
         <div class="fl">
-            <a href="http://www.dankegongyu.com/" class="logo" title="蛋壳公寓"><img src="./img/logo.png"></a>
+            <a href="http://www.dankegongyu.com/" class="logo" title="蛋壳公寓"><img src="img/logo.png"></a>
         </div>
         <div class="fl grline"></div>
         <div class="fl dkcity">
@@ -68,16 +68,16 @@
         </div>
         <div class="fl nav_channel">
             <ul>
-                <li><a href="index">首页</a></li>
+                <li><a href="http://www.dankegongyu.com/">首页</a></li>
                 <li>
-                    <a href="room">我要租房</a>
+                    <a href="http://www.dankegongyu.com/room/bj">我要租房</a>
                 </li>
                 <li>
-                    <a href="notice" class="active">租前必读</a>
+                    <a href="http://www.dankegongyu.com/about/notice">租前必读</a>
                 </li>
                                 <li><a href="javascript:void(0)" id="fangdongjiameng">房东加盟</a></li>
                 <li>
-                    <a href="abouts">关于蛋壳</a>
+                    <a href="./蛋壳公寓介绍_蛋壳公寓_files/蛋壳公寓介绍_蛋壳公寓.html" class="active">关于蛋壳</a>
                 </li>
             </ul>
         </div>
@@ -94,112 +94,75 @@
 </div>
 
 
-	<!--header end-->
-<div class="wrapper">
-	<!--面包屑导航-->
-	<div class="intro">
-		<div class="fl container_n">
-			<a href="http://www.dankegongyu.com/">首页</a> &gt; <a href="http://www.dankegongyu.com/about/aboutus">租前必读</a>
-		</div>
-	</div>
-	<!--面包屑导航 end-->
-</div>	
-<!--租前必读-->
-<div class="wrapper clearfix">
-	<div class="fl roomintro">
-		<h2>租前必读</h2>
-		<ul class="nav_rent_ban">
-			<li class="active"><a href="http://www.dankegongyu.com/about/notice#section-1" target="_parent">关于合租</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-2" target="_parent">承诺做个好邻居</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-3" target="_parent">谢绝短租</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-4" target="_parent">零附加费</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-5" target="_parent">付款方式</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-6" target="_parent">现房&amp;配置中</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-7" target="_parent">可否携带宠物</a></li>
-			<li><a href="http://www.dankegongyu.com/about/notice#section-8" target="_parent">附加服务</a></li>
-		</ul>
-		<div class="roomtel">
-			<p>更多问题请咨询蛋壳客服</p>
-			<p><b>400-818-5656</b></p>
-		</div>
-	</div>
-	<div class="fr roomcenter">
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-1">
-				关于合租
-			</div>
-			<div class="roombox_qabox">
-				我们的公寓大多是3室以上的房型，暂不提供整套出租。<br>如果你一定想整租，可以拉上几个好友，一人一间把整套租下来哦。
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-2">
-				承诺做个好邻居
-			</div>
-			<div class="roombox_qabox">
-				万一碰上奇葩邻居让人无法忍受怎么办？<br>
-				我们租约中特意规定，任何人被50%以上的邻居投诉，都会被强制清退。<br>
-				不被大家喜欢的人会被大家所驱逐，好的环境需要大家一起来维护。
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-3">
-				谢绝短租
-			</div>
-			<div class="roombox_qabox">
-				我们不接受短期租客，一年起租，谢谢配合！
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-4">
-				零附加费
-			</div>
-			<div class="roombox_qabox">
-				价格透明，不会每月额外还收你10%服务费，我们所有标示价格都是最终价。				
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-5">
-				付款方式
-			</div>
-			<div class="roombox_qabox">
-				押一付一，你再也不用为一次掏3个月房租而烦恼了。
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-6">
-				现房&amp;配置中
-			</div>
-			<div class="roombox_qabox">
-				现房：已装配完毕，拎包即可入住。<br>
-				配置中：装配过程中，可看房和提前预定。
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-7">
-				可否携带宠物
-			</div>
-			<div class="roombox_qabox">
-				邻居可能会对毛发过敏，为避免不必要的纠纷，合租房禁止养宠物哦。
-			</div>
-		</div>
-		<div class="roombox_qa">
-			<div class="roombox_qatitl" id="section-8">
-				附加服务
-			</div>
-			<div class="roombox_qabox">
-				每两周一次的免费公共区域保洁，免费WIFI，屋内设施故障一个电话即可预约维修。
-			</div>
-		</div>
-	</div>
-	
-</div>
+    <!--header end-->
+    <div class="wrapper">
+        <!--面包屑导航-->
+        <div class="intro">
+            <div class="fl container_n">
+                <a href="http://www.dankegongyu.com/">首页</a> &gt; <a href="./蛋壳公寓介绍_蛋壳公寓_files/蛋壳公寓介绍_蛋壳公寓.html">关于我们</a>
+            </div>
+        </div>
+        <!--面包屑导航 end-->
+    </div>
+    <!--关于我们-->
+    <div class="wrapper clearfix">
+        <div class="fl roomintro">
+            <div class="hp_usbox">
+    <ul>
+                    <li class="active">
+                <a href="./蛋壳公寓介绍_蛋壳公寓_files/蛋壳公寓介绍_蛋壳公寓.html">关于蛋壳</a>
+            </li>
+                    <li class="">
+                <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a>
+            </li>
+                    <li class="">
+                <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a>
+            </li>
+            </ul>
+</div>        </div>
+        <div class="fr roomcenter">
+            <div class="hp_title">
+                <div class="hp_t_h">
+                    关于蛋壳
+                </div>
+                <span class="hp_t_line"></span>
+            </div>
+            <div class="hp_txtbox">
+                <p>
+                    我们不建造房子，<br>
+                    但我们改造房间。<br>
+                    我们不是五星级酒店，<br>
+                    但我们给您五星级睡眠。<br>
+                    我们不收任何服务费，<br>
+                    但我们努力提供优质的服务。
+                </p>
+                <p>
+                    我们不是星巴克，<br>
+                    但我们为您提供高速免费Wifi。<br>
+                    我们不开发房地产，<br>
+                    但我们提供私人定制的居住空间。<br>
+                    我们不是房产中介公司，<br>
+                    我们是互联网公司 ~ 蛋壳公寓
+                </p>
+                <p>
+                    蛋壳公寓是紫梧桐（北京）资产管理有限公司旗下的高端白领公寓品牌，专注于为白领打造高品质租住生活，并以精致的装修、品牌家居家电配置、优质的服务快速赢得了租客的青睐。公司于2014年12月在北京成立，正式进入O2O租房市场，并迅速成为互联网租房行业的一匹黑马！
+                </p>
+                <p>
+                    <strong>蛋壳公寓不是中介</strong>，不是传统意义上的房屋租赁公司，蛋壳公寓是互联网公司，是资产管理公司。依托于“互联网+房产+金融”的发展模式，蛋壳公寓已获得A+轮融资，注资千万级美元。
+                </p>
+                <p>
+                    目前，公司已从创始初期的11人迅速发展到现在的400多人，业务已从北京拓展到深圳、上海等地。团队成员大多是有互联网从业经验的高端人才，涉及技术、市场、销售、运营等多个领域。人才聚而发展始，公司正以强劲的发展态势迅速崛起！
+                </p>
+            </div>
+        </div>
+
+    </div>
 
 <div class="footer">
     <div class="footcontainer">
         <div class="fl contai">
             <a href="tel:4008185656" class="m_keep"><i></i><span>客服热线：400-818-5656</span></a>
-            <a href="http://www.dankegongyu.com/about/aboutus">关于蛋壳</a><span>·</span>
+            <a href="./蛋壳公寓介绍_蛋壳公寓_files/蛋壳公寓介绍_蛋壳公寓.html">关于蛋壳</a><span>·</span>
             <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a><span>·</span>
             <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a><span>·</span>
             <span>关注我们</span>
@@ -237,13 +200,13 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
-<script charset="utf-8" src="./js/lxb.js"></script><script charset="utf-8" src="./js/v.js"></script><script src="./js/hm.js"></script><script async="" src="./js/analytics.js"></script><script src="./js/jquery-8fa48925b6.min.js"></script>
+<script charset="utf-8" src="js/lxb.js"></script><script charset="utf-8" src="js/v.js"></script><script src="js/hm.js"></script><script async="" src="js/analytics.js"></script><script src="js/jquery-8fa48925b6.min.js"></script>
 
-<script src="./js/bootstrap-c5b5b2fa19.min.js"></script>
+<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
 
-<script src="./js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
 
-<script src="./js/public-fea84bbb90.js"></script>
+<script src="js/public-fea84bbb90.js"></script>
 
 <script>
         var tracker = {
