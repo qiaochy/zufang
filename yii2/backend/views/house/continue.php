@@ -7,11 +7,7 @@ use yii\helpers\Html;
 <table calss="table">
 <?php
 //简单的表单使用自带的表单
-$form =ActiveForm::begin([
-        'action'=>Url::toRoute(['continue']),
-    'method'=>'post',
-   
-]);
+$form = ActiveForm::begin(['action' => ['house/continue'],'method'=>'post','options' => ['enctype' => 'multipart/form-data']]);
 ?>
 <div class="well">
 	<h2 style="margin-left:200px">填写房间信息</h2>
