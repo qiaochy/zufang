@@ -205,7 +205,7 @@
                                     </div>
                 <div class="r_ls_box">
                                             <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb"></a>
+                            <a href="roomcon" class="rimg"><img src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb"></a>
                             <div class="r_lbx_cen">
                                 <a href="http://www.dankegongyu.com/room/3584.html">龙泽 国仕汇 主卧 朝东南 C室</a>
                                 <div class="r_lbx_cena">

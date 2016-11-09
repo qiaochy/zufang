@@ -10,6 +10,7 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
 class AboutsController extends Controller{
+
    
     //------------------------------------关于租房网------------------------------
     public function abouts()
@@ -26,5 +27,6 @@ class AboutsController extends Controller{
          //查询信息
         $my = DB::table('my')->get();
         return view('abouts.touch',['my'=>$my[0]]);
+
     }
 }
