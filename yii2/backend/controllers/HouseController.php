@@ -122,8 +122,9 @@ class HouseController extends Controller
 	             if($file) {  
 	             echo "<pre/>";  
 	             foreach ($file as $fl) {  
-	             $file ='uploads/' .mt_rand(1100,9900) .time() .$fl->baseName. '.' . $fl->extension;
-	             $fl->saveAs('uploads/' .mt_rand(1100,9900) .time() .$fl->baseName. '.' . $fl->extension); 
+	             	
+	             $file ='uploads/' .rand(1100,9900) .time() .$fl->baseName. '.' . $fl->extension;
+	             $fl->saveAs($file); 
 	             $res=yii::$app->db->createCommand()->insert('img',['h_id'=>$h_id,'file'=>$file])->execute();
 	            }   
 	        }  
@@ -173,11 +174,11 @@ class HouseController extends Controller
 	           	 // var_dump($arr);die;
 		 $session = Yii::$app->session;
 		 $h_id=$session['h_id'];
-		 // echo $h_id;die;
-		 $filename =array_pop($data);
-		 $r_img ='uploads/' .mt_rand(1100,9900) .time() .$filename;
+		 $img =$_FILES['r_img'];
+		 // print_r($img);die;
+		 $r_img ='uploads/' .rand(1100,9900) .time() .$img['name'];
 		// echo $r_img;
-		 move_uploaded_file($filename,  $r_img);
+		 move_uploaded_file($img['tmp_name'],$r_img);
 		 $res=yii::$app->db->createCommand()->update('room',[
 		 	'r_title'=>$data['r_title'],
 		 	'r_area'=>$data['r_area'],
@@ -207,9 +208,71 @@ class HouseController extends Controller
 		if(!empty($room)){
 		return $this->render('continue',['room'=>$room,'conf'=>$conf]);	
 		}else{
-			echo "complete";
+			$this->redirect(['house/show-house']);
 		}
+	}
+	// 房间信息展示
+	public function  actionShowHouse(){
+		//房屋信息
+
+		$query = new Query();
+		$data = $query->select('*')->from('house')->leftJoin('orientation', 'house.direction = orientation.did')->leftJoin('pattern', 'house.pay = pattern.wid');
+		// var_dump($data);die;
+	             $pages = new Pagination(['totalCount' => $data->count(),'pageSize'=>3]);
+		$models = $data->offset($pages->offset)
+	             ->limit($pages->limit)
+	             ->all();
+	             $id = yii::$app->request->get('id');
+	             if($id){
+	             	if($models){
+	             		\Yii::$app->getSession()->setFlash('error', '该房屋房间信息不为空，故需要先删除该房屋的房间信息');
+	             	// \Yii::$app->getSession()->setFlash('success', '修改成功');
+	             	}
+	             }
+	             // var_dump($models);die;
+		return $this->render('ShowHouse', [
+				        'data' => $models,
+				        'pages' => $pages,
+				    ]);
+				
+
+	}
+	// 房间信息展示
+	public function  actionShowRoom(){
+		//房屋信息
+		$id = yii::$app->request->get('id');	
+		$session =yii::$app->session;
+		$session['id']=$id;
+		$data =yii::$app->db->createCommand("select  *,group_concat(p_name) as g from room left join rp  on room.r_id = rp.r_id LEFT JOIN private_conf on rp.p_id=private_conf.p_id where(h_id='$id') GROUP BY (room.r_id) ")
+	             ->queryAll();
+	             // var_dump($data);die;
+	             if(!empty($data)){
+	             	return $this->render('ShowRoom', [
+				        'data' => $data    
+				    ]);
+	             }else{
+	             	//当房间信息删空的时候，删除该房屋的信息
+             		$res = yii::$app->db->createCommand()->delete('house',['h_id'=>$id])->execute();
+		$str = yii::$app->db->createCommand()->delete('hc',['h_id'=>$id])->execute();
+	             	// 跳页面，显示不出来Yii::$app->getSession()->setFlash('notice', '该房屋房间信息已删空，故删除该房屋的信息');
+	             	$this->redirect(['house/show-house']);
+	             }
 		
-}
+				
+
+	}
+	//房间删除
+	public function actionHouseDel(){
+		$id = yii::$app->request->get('id');
+		$res = yii::$app->db->createCommand()->delete('room',['r_id'=>$id])->execute();
+		$str = yii::$app->db->createCommand()->delete('rp',['r_id'=>$id])->execute();
+		if($res||$str){
+			$session =yii::$app->session;
+			$id=$session['id'];
+			$this->redirect(['house/show-room','id'=>$id]);
+		}
+
+	}
+	//修改不做了，哈哈
 
 }

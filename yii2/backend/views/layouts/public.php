@@ -430,6 +430,12 @@
 										房屋类型
 									</a>
 								</li>
+								<li>
+									<a href="?r=house/cat-show">
+										<i class="icon-double-angle-right"></i>
+										房屋展示
+									</a>
+								</li>
 								
 								
 							</ul>
