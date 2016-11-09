@@ -24,7 +24,8 @@
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
 Route::get('notice','NoticeController@notice');
-Route::get('abouts','AboutsController@abouts');
+Route::get('abouts','AboutsController@abouts');//关于我们
+Route::get('touch','AboutsController@touch');//联系我们
 Route::get('index','IndexController@index');
 
 

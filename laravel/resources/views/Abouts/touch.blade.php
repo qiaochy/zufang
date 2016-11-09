@@ -37,7 +37,7 @@
                     <li class="active">
                 <a href="abouts">关于租房网</a>
             </li>
-                    <li class="">
+                    <li class="active">
                 <a href="touch">联系租房网</a>
             </li>
                    
@@ -45,9 +45,40 @@
 </div>        </div>
 
         <div class="fr roomcenter">
-           
+		 <div class="hp_title">
+			<div class="hp_t_h"> 联系租房网 </div>
+			<span class="hp_t_line"></span>
+		</div>
             <div class="hp_txtbox">
-               {!!$my['content']!!}
+            		<div class="hp_co_box">
+			<p><label for="">地 址：</label>{{$my['address']}}</p>
+			<p><label for="">邮 编：</label>{{$my['code']}}</p>
+			<p><label for="">电 话：</label><a href="tel:{{$my['phone']}}">{{$my['phone']}}</a></p>
+			<p><label for="">邮 箱：</label><a href="mailto:{{$my['email']}}">{{$my['email']}}</a>&nbsp;&nbsp;(商务合作专用)</p>
+		</div>
+		<div class="hp_baidumap">
+			<div id="l-map"></div>
+			<style type="text/css">
+				body, html,#allmap {width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+				#l-map{height:500px;width:100%;}
+				#r-result{width:100%;}
+			</style>
+			<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Gr68Lju8r8SZ4MD3hPGskpNlsrTmBCT9"></script>
+			<script type="text/javascript">
+				// 百度地图API功能
+				var map = new BMap.Map("l-map");
+				var point = new BMap.Point(116.304772,40.048037);
+				map.centerAndZoom(point, 12);
+				var marker = new BMap.Marker(point);// 创建标注
+				map.addOverlay(marker);             // 将标注添加到地图中
+				marker.disableDragging();           // 不可拖拽
+				setTimeout(function(){
+					map.setZoom(14);   
+				}, 2000);  //2秒后放大到14级
+				map.enableScrollWheelZoom(true);
+			</script>
+
+		</div>
             </div>
         </div>
 
