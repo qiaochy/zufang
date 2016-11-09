@@ -205,16 +205,17 @@
                                                 <a href="http://www.dankegongyu.com/room/bj?orderby=area&asc=asc">面积<i></i></a>
                                     </div>
                 <div class="r_ls_box">
+                    @foreach($room as $item)
                                             <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb"></a>
+                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/3584.html">龙泽 国仕汇 主卧 朝东南 C室</a>
+                                <a href="http://www.dankegongyu.com/room/3584.html">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
                                 <div class="r_lbx_cena">
-                                    地铁 13号线
+                                    {{$item['survey']}}
                                 </div>
                                 <div class="r_lbx_cenb">
 
-                                    27㎡ | 30楼 |  5室2卫                                      | 朝东南
+                                     {{$item['r_area']}}㎡ | {{$item['floor']}}楼 |  {{$item['cat_name']}}                                    | {{$item['direct']}}
                                 </div>
                                 <div class="r_lbx_cenc">
                                                                                                                 
@@ -231,7 +232,7 @@
                             <div class="r_lbx_money">
                                 <div class="r_lbx_moneya">
                                     <span class="ty_a">￥</span>
-                                    <span class="ty_b">3040</span>
+                                    <span class="ty_b">{{$item['r_price']}}</span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
                                 <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
@@ -239,6 +240,7 @@
                                 </a>
                             </div>
                         </div>
+                        @endforeach
                                             <div class="r_lbx">
                             <a href="http://www.dankegongyu.com/room/9216.html" class="rimg"><img src="img/public-20161103-FuNv1fiKMFJcqHR7u7SNLqMfqtIU"></a>
                             <div class="r_lbx_cen">
