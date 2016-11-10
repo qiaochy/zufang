@@ -7299,6 +7299,7 @@ Stack trace:
 #33 F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #34 F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\public\index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #35 {main}  
+<<<<<<< HEAD
 [2016-11-10 02:03:03] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '->' (T_OBJECT_OPERATOR)' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\app\Http\Controllers\RoomController.php:19
 Stack trace:
 #0 {main}  
@@ -8044,3 +8045,5 @@ Stack trace:
 [2016-11-10 13:02:40] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '' (T_ENCAPSED_AND_WHITESPACE), expecting identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\app\Http\Controllers\RoomController.php:70
 Stack trace:
 #0 {main}  
+=======
+>>>>>>> 3025d5c8fde58eff31714fc9c568a30adc33905c
