@@ -37,7 +37,7 @@
                     按条件找房
                 </div>
                 <div class="zf_map_ta">
-                    <a href="http://www.dankegongyu.com/room/map/bj?from=room" target="_blank">地图找房</a>
+                    <a href="map" target="_blank">地图找房</a>
                 </div>
             </div>
             <form method="GET" action="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html" accept-charset="UTF-8">
@@ -64,27 +64,30 @@
                 <dl class="dl_lst">
                     <dt>区域：</dt>
                     <dd>
-                                                    <div class="option_list">
-                                                                    <a href="room" class="onlist">不限</a>
-                                                                    @foreach($region as $item)
-                                                                    <a href="room?region_name={{$item['region_name']}}">{{$item['region_name']}}</a>
-                                                                    @endforeach
-                                                    </dd>
-                                                                
+
+                        <div class="option_list">
+                            <a href="room?region_id=%" class="region">不限</a>
+                            
+                            @foreach($region as $item)
+                            <a href="room?region_id={{$item['region_id']}}" class="region">{{$item['region_name']}}</a>
+                            
+                            @endforeach
+                        </div>    
+                    </dd>
+
                 </dl>
                                     
                 
-                <dl class="dl_lst">
+                    <dl class="dl_lst">
                     <dt>租金：</dt>
                     <dd>
-                                                <div class="option_list">
-                            <a href="http://www.dankegongyu.com/room/bj?search=1" class="onlist">不限</a>
-                                                                                            <a href="room?begin=1&end=2000" class="">2000元以下</a>
-                                                                                            <a href="room?begin=2000&end=2500" class="">2000-2500元</a>
-                                                                                            <a href="room?begin=2500&end=3000" class="">2500-3000元</a>
-                                                                                            <a href="room?begin=3000&end=3500" class="">3000-3500元</a>
-                                                                                            <a href="room?begin=3500&end=99999" class="">3500元以上</a>
-                            
+                            <div class="option_list">
+                            <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
+                            <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
+                            <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
+                            <a href="javascript:void(0)" price="price=2500&priced=3000" class="price">2500-3000元</a>
+                            <a href="javascript:void(0)" price="price=3000&priced=3500" class="price">3000-3500元</a>
+                            <a href="javascript:void(0)" price="price=3500&priced=20000" class="price">3500元以上</a>
 
                         </div>
                     </dd>
@@ -94,10 +97,10 @@
                     <dd>
                         <div class="option_list">
 
-                            
-                            <a href="http://www.dankegongyu.com/room/bj?search=1" class="onlist">不限</a>
+                            <a href="javascript:void(0)" cat_id = "cat_id=%" class="cate">不限</a>
                             @foreach($cate as $item)
-                            <a href="room?cat_name={{$item['cat_name']}}">{{$item['cat_name']}}</a>
+                            <a href="javascript:void(0)" cat_id = "cat_id={{$item['cat_id']}}" class="cate">{{$item['cat_name']}}</a>
+
                             @endforeach
                         </div>
                     </dd>
@@ -105,54 +108,60 @@
                 <dl class="dl_lst">
                     <dt>特色：</dt>
                     <dd>
-                                                <div class="dlul">
-                            <a href="http://www.dankegongyu.com/room/bj?has_toilet=&has_balcony=&has_shower=&search=1&page=1" class="check_on">
+                        <div class="dlul">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=%">
                                 <i></i>不限
                             </a>
 
-                                                        <a href="">
+
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=1">
+
                                 <i></i>独卫
                             </a>
 
-                                                        <a href="http://www.dankegongyu.com/room/bj?page=1&search=1&has_balcony=%E6%9C%89">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=3">
                                 <i></i>独立阳台
                             </a>
-                                                        <a href="http://www.dankegongyu.com/room/bj?page=1&search=1&has_shower=%E6%9C%89">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=2">
                                 <i></i>独立淋浴
                             </a>
                         </div>
                         <!--主次卧-->
                         
-                        <div class="bedroombox selectmodel">
+<!--                         <div class="bedroombox selectmodel">
                             <div class="dropdown">
                                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     主次卧
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&typeroom=">不限</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&typeroom=%E4%B8%BB%E5%8D%A7">主卧</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&typeroom=%E6%AC%A1%E5%8D%A7">次卧</a></li>
+                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title=''">不限</a></li>
+                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='主卧'">主卧</a></li>
+                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='次卧'">次卧</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <!--朝向face-->
+ -->                        <!--朝向face-->
                         
-                        <div class="directionbox selectmodel">
+<!--                         <div class="directionbox selectmodel">
                             <div class="dropdown">
                                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     朝向
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+
                                                                         <li><a href="room">不限</a></li>
                                                                         <li><a href="room?direct=东">东</a></li>
                                                                         <li><a href="room?direct=南">南</a></li>
                                                                         <li><a href="room?direct=西">西</a></li>
                                                                         <li><a href="room?direct=北">北</a></li>
+
                                 </ul>
                             </div>
-                        </div>
+                                </ul>
+                            </div>
+                        </div> -->
 
 
                     </dd>
@@ -166,17 +175,15 @@
 
         <!--房源列表-->
         <div class="roomlist">
-
-
-                            <div class="r_ls">
-                                                <a href="http://www.dankegongyu.com/room/bj?orderby=&asc=" class="ss ck_on">默认</a>
-                                                <a href="room?asc=r_price" class="ss">价格<i></i></a>
-                                                <a href="room?asc=r_area" class="ss">面积<i></i></a>
-                                    </div>
+                <div class="r_ls">
+                    <a href="http://www.dankegongyu.com/room/bj?orderby=&asc=" class="ss ck_on">默认</a>
+                    <a href="room?asc=r_price" class="ss">价格<i></i></a>
+                    <a href="room?asc=r_area" class="ss">面积<i></i></a>
+                </div>
                                     
                 <div class="r_ls_box">
                     @foreach($room as $item)
-                                            <div class="r_lbx">
+                        <div class="r_lbx">
                             <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
                                 <a href="http://www.dankegongyu.com/room/3584.html">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
@@ -188,18 +195,18 @@
                                      {{$item['r_area']}}㎡ | {{$item['floor']}}楼 |  {{$item['cat_name']}} | {{$item['direct']}}
                                 </div>
                                 <div class="r_lbx_cenc">
-                                                                                @foreach($item['privape'] as $val)
-                                                                                                      
-                                                                                            @if($val['p_id']==1)          
-                                                                                            <span>独立卫生间</span>
-                                                                                            @endif
-                                                                                            @if($val['p_id']==2)
-                                                                                            <span>独立淋浴</span>
-                                                                                            @endif
-                                                                                            @if($val['p_id']==3)
-                                                                                            <span>独立阳台</span>
-                                                                                            @endif
-                                                                              @endforeach
+                                    @foreach($item['privape'] as $val)
+                                                          
+                                        @if($val['p_id']==1)          
+                                        <span>独立卫生间</span>
+                                        @endif
+                                        @if($val['p_id']==2)
+                                        <span>独立淋浴</span>
+                                        @endif
+                                        @if($val['p_id']==3)
+                                        <span>独立阳台</span>
+                                        @endif
+                                  @endforeach
                              </div>
                             </div>
                             <div class="r_lbx_money">
@@ -213,7 +220,7 @@
                                 </a>
                             </div>
                         </div>
-                        @endforeach
+                    @endforeach
                                          
                                         
                 <!--翻页插件-->
@@ -221,15 +228,15 @@
                 
                 <div class="page">
 
-                                            <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
-                                    </div>
+                    <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
+                </div>
                 <!--翻页插件 end-->
-                    </div>
+                </div>
 
         <!--房源列表 end-->
 
@@ -826,5 +833,86 @@
                                                
 </script>
 
-<script type="text/javascript" src="./北京租房信息_蛋壳公寓北京站_files/online"></script><div><div class="qimo_chatpup" id="qimo_chatpup" style="display: none; border-top-color: rgb(0, 204, 205); border-left-color: rgb(0, 204, 205); border-right-color: rgb(0, 204, 205);"><iframe src="./北京租房信息_蛋壳公寓北京站_files/moor_chat.html" height="100%" width="100%"></iframe></div><div id="chatBtn" class="chatBtn" style="bottom: -1px; background-color: rgb(0, 204, 205);"><img width="28px" height="25px" style="margin:0px 5px -6px 0px;" src="img/chat.png"><span>咨询客服</span></div></div></body>
+<script type="text/javascript" src="./北京租房信息_蛋壳公寓北京站_files/online"></script><div><div class="qimo_chatpup" id="qimo_chatpup" style="display: none; border-top-color: rgb(0, 204, 205); border-left-color: rgb(0, 204, 205); border-right-color: rgb(0, 204, 205);"><iframe src="./北京租房信息_蛋壳公寓北京站_files/moor_chat.html" height="100%" width="100%"></iframe></div><div id="chatBtn" class="chatBtn" style="bottom: -1px; background-color: rgb(0, 204, 205);"><img width="28px" height="25px" style="margin:0px 5px -6px 0px;" src="img/chat.png"><span>咨询客服</span></div></div>
+<script>
+    $(function(){
+        $(".region").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+            // var region_id = $(this).attr("region_id");
+            // alert(region_id);
+        });
+        //房租
+        $(".price").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var price = $(this).attr("price");
+             var wid = window.location.href; 
+            // alert(wid);return false;
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+price;
+             }else{
+                if(wid.indexOf("price")>0){
+                    wid = wid.substr(0,wid.indexOf("price")-1);
+                    // alert(wid);return false;
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+price;
+                    }else{
+                        location.href = wid+"&"+price;
+                    }
+                    
+                }else{
+                    location.href = wid+"&"+price;
+                }
+
+             }
+        });
+        //居室
+        $(".cate").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var cate = $(this).attr("cat_id");
+             var wid = window.location.href; 
+
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+cate;
+             }else{
+                if(wid.indexOf("cat_id")>0){
+                    wid = wid.substr(0,wid.indexOf("cat_id")-1);
+                    // alert(wid);return false;
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+cate;
+                    }else{
+                        location.href = wid+"&"+cate;
+                    }
+                    
+                }else{
+                    location.href = wid+"&"+cate;
+                }
+             }
+        });
+        //特色
+        $(".pri").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var pri = $(this).attr("p_id");
+             var wid = window.location.href; 
+
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+pri;
+             }else{
+                if(wid.indexOf("p_id")>0){
+                    wid = wid.substr(0,wid.indexOf("p_id")-1);
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+pri;
+                    }else{
+                        location.href = wid+"&"+pri;
+                    }
+                }else{
+                    location.href = wid+"&"+pri;
+                }
+             }
+        });
+
+    });
+</script>
 @stop
