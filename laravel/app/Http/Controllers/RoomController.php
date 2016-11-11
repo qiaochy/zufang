@@ -32,12 +32,9 @@ class RoomController extends Controller{
         ->Join('orientation','house.direction','=','orientation.did')
         ->select('r_id','region_name','h_name','r_title','direct','r_name','r_area','cat_name','survey','floor','r_price','r_img','house.region_id','house.cat_id')
         ->where('r_status','=','0')
-
         ->where('house.region_id','like',"$region_id")
         ->where('house.cat_id','like',"$cat_id")
-        // ->where('r_title','like',"%$r_title%")
         ->whereBetween('r_price', [$price, $priced])
-
         ->orderBy($order,'desc')
         ->get();      
         //查询房间配置
