@@ -10109,6 +10109,8 @@ Stack trace:
 #32 F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\vendor\laravel\framework\src\Illuminate\Foundation\Http\Kernel.php(99): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #33 F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\public\index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #34 {main}  
+#34 {main}  
+<<<<<<< .mine
 >>>>>>> b391d4934e101f86dc04909c98c6a1662e57cdc5
 [2016-11-11 11:03:22] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\storage\framework\views\4ec65fdadfaeeb102902fd48205b4397eb46d80d.php:981
 Stack trace:
@@ -10119,3 +10121,15 @@ Stack trace:
 [2016-11-11 11:05:07] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in F:\XMAPP\htdocs\PDO\house\zufang\zufang\laravel\storage\framework\views\4ec65fdadfaeeb102902fd48205b4397eb46d80d.php:981
 Stack trace:
 #0 {main}  
+=======
+>>>>>>> b391d4934e101f86dc04909c98c6a1662e57cdc5
+
+
+
+
+
+
+
+
+
+>>>>>>> .theirs

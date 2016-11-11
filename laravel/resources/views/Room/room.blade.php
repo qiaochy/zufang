@@ -64,31 +64,29 @@
                 <dl class="dl_lst">
                     <dt>区域：</dt>
                     <dd>
-
                         <div class="option_list">
                             <a href="room?region_id=%" class="region">不限</a>
-                            
+                            <!-- <a href="javascript:void(0)" region_id="%" class="region onlist">不限</a> -->
                             @foreach($region as $item)
                             <a href="room?region_id={{$item['region_id']}}" class="region">{{$item['region_name']}}</a>
-                            
+                            <!-- <a href="javascript:void(0)" region_id="{{$item['region_id']}}" class="region">{{$item['region_name']}}</a> -->
                             @endforeach
                         </div>    
                     </dd>
-
                 </dl>
                                     
                 
-                    <dl class="dl_lst">
+                <dl class="dl_lst">
                     <dt>租金：</dt>
                     <dd>
-                            <div class="option_list">
+                        <div class="option_list">
+
                             <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
                             <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
                             <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
                             <a href="javascript:void(0)" price="price=2500&priced=3000" class="price">2500-3000元</a>
                             <a href="javascript:void(0)" price="price=3000&priced=3500" class="price">3000-3500元</a>
                             <a href="javascript:void(0)" price="price=3500&priced=20000" class="price">3500元以上</a>
-
                         </div>
                     </dd>
                 </dl>
@@ -96,11 +94,9 @@
                     <dt>居室：</dt>
                     <dd>
                         <div class="option_list">
-
                             <a href="javascript:void(0)" cat_id = "cat_id=%" class="cate">不限</a>
                             @foreach($cate as $item)
                             <a href="javascript:void(0)" cat_id = "cat_id={{$item['cat_id']}}" class="cate">{{$item['cat_name']}}</a>
-
                             @endforeach
                         </div>
                     </dd>
@@ -113,9 +109,7 @@
                                 <i></i>不限
                             </a>
 
-
                             <a href="javascript:void(0)" class="pri" p_id = "p_id=1">
-
                                 <i></i>独卫
                             </a>
 
@@ -150,15 +144,11 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-
-                                                                        <li><a href="room">不限</a></li>
-                                                                        <li><a href="room?direct=东">东</a></li>
-                                                                        <li><a href="room?direct=南">南</a></li>
-                                                                        <li><a href="room?direct=西">西</a></li>
-                                                                        <li><a href="room?direct=北">北</a></li>
-
-                                </ul>
-                            </div>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=">不限</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E4%B8%9C">东</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8D%97">南</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E8%A5%BF">西</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8C%97">北</a></li>
                                 </ul>
                             </div>
                         </div> -->
@@ -192,7 +182,7 @@
                                 </div>
                                 <div class="r_lbx_cenb">
 
-                                     {{$item['r_area']}}㎡ | {{$item['floor']}}楼 |  {{$item['cat_name']}} | {{$item['direct']}}
+                                     {{$item['r_area']}}㎡ | {{$item['floor']}}楼 |  {{$item['cat_name']}}                                    | {{$item['direct']}}
                                 </div>
                                 <div class="r_lbx_cenc">
                                     @foreach($item['privape'] as $val)
@@ -913,6 +903,7 @@
              }
         });
 
+      
     });
 </script>
 @stop
