@@ -63,58 +63,34 @@
                 <dl class="dl_lst">
                     <dt>区域：</dt>
                     <dd>
-                                                    <div class="option_list">
-                                <a href="http://www.dankegongyu.com/room/bj?search=1&from=list" class="onlist">不限</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E4%B8%9C%E5%9F%8E%E5%8C%BA">东城区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E8%A5%BF%E5%9F%8E%E5%8C%BA">西城区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E6%9C%9D%E9%98%B3%E5%8C%BA">朝阳区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E6%B5%B7%E6%B7%80%E5%8C%BA">海淀区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E4%B8%B0%E5%8F%B0%E5%8C%BA">丰台区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E9%80%9A%E5%B7%9E%E5%8C%BA">通州区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E6%98%8C%E5%B9%B3%E5%8C%BA">昌平区</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&area=%E5%A4%A7%E5%85%B4%E5%8C%BA">大兴区</a>
-                                                            </div>
-                                                                        </dd>
+                        <div class="option_list">
+                            <a href="room?region_id=%" class="region">不限</a>
+                            <!-- <a href="javascript:void(0)" region_id="%" class="region onlist">不限</a> -->
+                            <?php foreach($region as $item): ?>
+                            <a href="room?region_id=<?php echo e($item['region_id']); ?>" class="region"><?php echo e($item['region_name']); ?></a>
+                            <!-- <a href="javascript:void(0)" region_id="<?php echo e($item['region_id']); ?>" class="region"><?php echo e($item['region_name']); ?></a> -->
+                            <?php endforeach; ?>
+                        </div>    
+                    </dd>
                 </dl>
-                                    <dl class="dl_lst">
-                        <dt>地铁：</dt>
-                        <dd>
-                            <div class="option_list">
-                                <a href="http://www.dankegongyu.com/room/bj?search=1&from=list" class="onlist">不限</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=1%E5%8F%B7%E7%BA%BF">1号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=2%E5%8F%B7%E7%BA%BF">2号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=4%E5%8F%B7%E7%BA%BF">4号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=5%E5%8F%B7%E7%BA%BF">5号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=6%E5%8F%B7%E7%BA%BF">6号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=7%E5%8F%B7%E7%BA%BF">7号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=8%E5%8F%B7%E7%BA%BF">8号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=9%E5%8F%B7%E7%BA%BF">9号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=10%E5%8F%B7%E7%BA%BF">10号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=13%E5%8F%B7%E7%BA%BF">13号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=14%E5%8F%B7%E7%BA%BF">14号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=15%E5%8F%B7%E7%BA%BF">15号线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=%E5%A4%A7%E5%85%B4%E7%BA%BF">大兴线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=%E5%85%AB%E9%80%9A%E7%BA%BF">八通线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=%E6%98%8C%E5%B9%B3%E7%BA%BF">昌平线</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list&line=%E4%BA%A6%E5%BA%84%E7%BA%BF">亦庄线</a>
-                                
-                            </div>
-
-                                                    </dd>
-                    </dl>
+                                    
                 
                 <dl class="dl_lst">
                     <dt>租金：</dt>
                     <dd>
-                                                <div class="option_list">
-                            <a href="http://www.dankegongyu.com/room/bj?search=1" class="onlist">不限</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?search=1&price%5Bfrom%5D=0&price%5Bto%5D=2000" class="">2000元以下</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?search=1&price%5Bfrom%5D=2000&price%5Bto%5D=2500" class="">2000-2500元</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?search=1&price%5Bfrom%5D=2500&price%5Bto%5D=3000" class="">2500-3000元</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?search=1&price%5Bfrom%5D=3000&price%5Bto%5D=3500" class="">3000-3500元</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?search=1&price%5Bfrom%5D=3500&price%5Bto%5D=20000" class="">3500元以上</a>
-                            
-
+                        <div class="option_list">
+<!--                             <a href="room?price=0&priced=20000" class="onlist price">不限</a>
+                            <a href="room?price=0&priced=2000" class="">2000元以下</a>
+                            <a href="room?price=2000&priced=2500" class="">2000-2500元</a>
+                            <a href="room?price=2500&priced=3000" class="">2500-3000元</a>
+                            <a href="room?price=3000&priced=3500" class="">3000-3500元</a>
+                            <a href="room?price=3500&priced=20000" class="">3500元以上</a> -->
+                            <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
+                            <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
+                            <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
+                            <a href="javascript:void(0)" price="price=2500&priced=3000" class="price">2500-3000元</a>
+                            <a href="javascript:void(0)" price="price=3000&priced=3500" class="price">3000-3500元</a>
+                            <a href="javascript:void(0)" price="price=3500&priced=20000" class="price">3500元以上</a>
                         </div>
                     </dd>
                 </dl>
@@ -122,67 +98,64 @@
                     <dt>居室：</dt>
                     <dd>
                         <div class="option_list">
-
-                            
-                            <a href="http://www.dankegongyu.com/room/bj?search=1" class="onlist">不限</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&suite_bedroom_num=1">1居室</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&suite_bedroom_num=2">2户合租</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&suite_bedroom_num=3">3户合租</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&suite_bedroom_num=4">4户及以上合租</a>
+                            <a href="javascript:void(0)" cat_id = "cat_id=%" class="cate">不限</a>
+                            <?php foreach($cate as $item): ?>
+                            <a href="javascript:void(0)" cat_id = "cat_id=<?php echo e($item['cat_id']); ?>" class="cate"><?php echo e($item['cat_name']); ?></a>
+                            <?php endforeach; ?>
                         </div>
                     </dd>
                 </dl>
                 <dl class="dl_lst">
                     <dt>特色：</dt>
                     <dd>
-                                                <div class="dlul">
-                            <a href="http://www.dankegongyu.com/room/bj?has_toilet=&has_balcony=&has_shower=&search=1&page=1" class="check_on">
+                        <div class="dlul">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=%">
                                 <i></i>不限
                             </a>
 
-                                                        <a href="http://www.dankegongyu.com/room/bj?page=1&search=1&has_toilet=%E6%9C%89">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=1">
                                 <i></i>独卫
                             </a>
 
-                                                        <a href="http://www.dankegongyu.com/room/bj?page=1&search=1&has_balcony=%E6%9C%89">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=3">
                                 <i></i>独立阳台
                             </a>
-                                                        <a href="http://www.dankegongyu.com/room/bj?page=1&search=1&has_shower=%E6%9C%89">
+                            <a href="javascript:void(0)" class="pri" p_id = "p_id=2">
                                 <i></i>独立淋浴
                             </a>
                         </div>
                         <!--主次卧-->
                         
-                        <div class="bedroombox selectmodel">
+<!--                         <div class="bedroombox selectmodel">
                             <div class="dropdown">
                                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     主次卧
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&typeroom=">不限</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&typeroom=%E4%B8%BB%E5%8D%A7">主卧</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&typeroom=%E6%AC%A1%E5%8D%A7">次卧</a></li>
+                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title=''">不限</a></li>
+                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='主卧'">主卧</a></li>
+                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='次卧'">次卧</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <!--朝向face-->
+ -->                        <!--朝向face-->
                         
-                        <div class="directionbox selectmodel">
+<!--                         <div class="directionbox selectmodel">
                             <div class="dropdown">
                                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                                     朝向
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=">不限</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E4%B8%9C">东</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8D%97">南</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E8%A5%BF">西</a></li>
-                                                                        <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8C%97">北</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=">不限</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E4%B8%9C">东</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8D%97">南</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E8%A5%BF">西</a></li>
+                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8C%97">北</a></li>
                                 </ul>
                             </div>
-                        </div>
+                        </div> -->
 
 
                     </dd>
@@ -196,41 +169,46 @@
 
         <!--房源列表-->
         <div class="roomlist">
-
-
-                            <div class="r_ls">
-                                        <a href="http://www.dankegongyu.com/room/bj?orderby=&asc=" class="ck_on">默认</a>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?orderby=price&asc=asc">价格<i></i></a>
-                                                <a href="http://www.dankegongyu.com/room/bj?orderby=area&asc=asc">面积<i></i></a>
-                                    </div>
+                <div class="r_ls">
+                    <a href="http://www.dankegongyu.com/room/bj?orderby=&asc=" class="ss ck_on">默认</a>
+                    <a href="room?asc=r_price" class="ss">价格<i></i></a>
+                    <a href="room?asc=r_area" class="ss">面积<i></i></a>
+                </div>
+                                    
                 <div class="r_ls_box">
-                                            <div class="r_lbx">
-                            <a href="roomcon" class="rimg"><img src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb"></a>
+                    <?php foreach($room as $item): ?>
+                        <div class="r_lbx">
+                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/3584.html">龙泽 国仕汇 主卧 朝东南 C室</a>
+                                <a href="http://www.dankegongyu.com/room/3584.html"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
                                 <div class="r_lbx_cena">
-                                    地铁 13号线
+                                    <?php echo e($item['survey']); ?>
+
                                 </div>
                                 <div class="r_lbx_cenb">
 
-                                    27㎡ | 30楼 |  5室2卫                                      | 朝东南
+                                     <?php echo e($item['r_area']); ?>㎡ | <?php echo e($item['floor']); ?>楼 |  <?php echo e($item['cat_name']); ?>                                    | <?php echo e($item['direct']); ?>
+
                                 </div>
                                 <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                            <span>独立卫生间</span>
-                                                                                    
-                                                                            
-                                                                                            <span>独立淋浴</span>
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>自采暖</span>
-                                                                                                        </div>
+                                    <?php foreach($item['privape'] as $val): ?>
+                                                          
+                                        <?php if($val['p_id']==1): ?>          
+                                        <span>独立卫生间</span>
+                                        <?php endif; ?>
+                                        <?php if($val['p_id']==2): ?>
+                                        <span>独立淋浴</span>
+                                        <?php endif; ?>
+                                        <?php if($val['p_id']==3): ?>
+                                        <span>独立阳台</span>
+                                        <?php endif; ?>
+                                  <?php endforeach; ?>
+                             </div>
                             </div>
                             <div class="r_lbx_money">
                                 <div class="r_lbx_moneya">
                                     <span class="ty_a">￥</span>
-                                    <span class="ty_b">3040</span>
+                                    <span class="ty_b"><?php echo e($item['r_price']); ?></span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
                                 <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
@@ -238,314 +216,23 @@
                                 </a>
                             </div>
                         </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/9216.html" class="rimg"><img src="img/public-20161103-FuNv1fiKMFJcqHR7u7SNLqMfqtIU"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/9216.html">青年路 姚家园西里2号院 主卧 朝西南 C室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 6号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    16㎡ | 9楼 |  5室2卫                                      | 朝西南
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>自采暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2650</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/9216.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/9473.html" class="rimg"><img src="img/public-20161019-FpRsOHvyYt9upBmyhsMt6fPGt6de"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/9473.html">欢乐谷景区 垡头翠城馨园 主卧 朝北 D室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 7号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    12㎡ | 11楼 |  4室1卫                                      | 朝北
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>自采暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2090</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/9473.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/9729.html" class="rimg"><img src="img/public-20160926-luqBXKHi-XCCz5xtsCQXdTVDAvjK"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/9729.html">物资学院路 新建村小区 次卧 朝北 A室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 6号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    11㎡ | 3楼 |  3室1卫                                      | 朝北
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>集中供暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">1990</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/9729.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/5122.html" class="rimg"><img src="img/public-20161107-FjGvXHQrKv3yuL-VyKBeQTbGCi83"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/5122.html">青年路 姚家园西里5号院 主卧 朝北 A室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 6号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    14㎡ | 4楼 |  3室1卫                                      | 朝北
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>自采暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2460</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/5122.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/4355.html" class="rimg"><img src="img/public-20160617-llYq5XwjePFWdyM9zSDvkuA_lmlX"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/4355.html">天通苑南 天通苑东一区 主卧 朝南 B室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 5号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    16㎡ | 6楼 |  6室2卫                                      | 朝南
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                            <span>独立阳台</span>
-                                                                                    
-                                                                                                                <span>集中供暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2090</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/4355.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/4611.html" class="rimg"><img src="img/public-20160617-lmk8FX0wgj7AgMl-1ZDFnAIbFLgH"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/4611.html">虎坊桥 畅柳园 主卧 朝西南 B室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 7号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    16㎡ | 5楼 |  3室1卫                                      | 朝西南
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                            <span>独立阳台</span>
-                                                                                    
-                                                                                                                <span>集中供暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">3390</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/4611.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/8195.html" class="rimg"><img src="img/public-20160910-llM6DUuf1B9GF8pc_9BMnWgp7Z68"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/8195.html">物资学院路 新建村小区 主卧 朝北 D室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 6号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    17㎡ | 9楼 |  4室1卫                                      | 朝北
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                            <span>独立阳台</span>
-                                                                                    
-                                                                                                                <span>集中供暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2090</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/8195.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/11011.html" class="rimg"><img src="img/public-20161101-Fi03NQGZyH5UZoG_yudK1cEcQUOS"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/11011.html">回龙观 龙腾苑二区 主卧 朝北 A室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 13号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    12㎡ | 6楼 |  4室1卫                                      | 朝北
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>自采暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2290</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/11011.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                            <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/5124.html" class="rimg"><img src="img/public-20161021-FmBC6LX-yDAsOWLW6uTutxSUzmBT"></a>
-                            <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/5124.html">青年路 姚家园西里5号院 次卧 朝南 C室</a>
-                                <div class="r_lbx_cena">
-                                    地铁 6号线
-                                </div>
-                                <div class="r_lbx_cenb">
-
-                                    11㎡ | 4楼 |  3室1卫                                      | 朝南
-                                </div>
-                                <div class="r_lbx_cenc">
-                                                                                                                
-                                                                                    
-                                                                            
-                                                                                    
-                                                                            
-                                                                                    
-                                                                                                                <span>自采暖</span>
-                                                                                                        </div>
-                            </div>
-                            <div class="r_lbx_money">
-                                <div class="r_lbx_moneya">
-                                    <span class="ty_a">￥</span>
-                                    <span class="ty_b">2350</span>
-                                    <span class="ty_c">/ 月</span>
-                                </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/5124.html">
-                                    查看房间详情
-                                </a>
-                            </div>
-                        </div>
-                                    </div>
+                    <?php endforeach; ?>
+                                         
+                                        
                 <!--翻页插件-->
 
                 
                 <div class="page">
-                    
-                                                                                            
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
-                                                                                            <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
-                    
-                                            <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
-                                    </div>
+
+                    <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
+                    <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
+                </div>
                 <!--翻页插件 end-->
-                    </div>
+                </div>
 
         <!--房源列表 end-->
 
@@ -1132,6 +819,119 @@
     }
 </script>
 
-<script type="text/javascript" src="./北京租房信息_蛋壳公寓北京站_files/online"></script><div><div class="qimo_chatpup" id="qimo_chatpup" style="display: none; border-top-color: rgb(0, 204, 205); border-left-color: rgb(0, 204, 205); border-right-color: rgb(0, 204, 205);"><iframe src="./北京租房信息_蛋壳公寓北京站_files/moor_chat.html" height="100%" width="100%"></iframe></div><div id="chatBtn" class="chatBtn" style="bottom: -1px; background-color: rgb(0, 204, 205);"><img width="28px" height="25px" style="margin:0px 5px -6px 0px;" src="img/chat.png"><span>咨询客服</span></div></div></body>
+<script>
+                $(function(){
+                    $(".ss").click(function(){
+                        $(this).addClass('ck_on');
+                        $(this).siblings().removeClass();
+                    })
+                })                               
+                                               
+</script>
+
+<script type="text/javascript" src="./北京租房信息_蛋壳公寓北京站_files/online"></script><div><div class="qimo_chatpup" id="qimo_chatpup" style="display: none; border-top-color: rgb(0, 204, 205); border-left-color: rgb(0, 204, 205); border-right-color: rgb(0, 204, 205);"><iframe src="./北京租房信息_蛋壳公寓北京站_files/moor_chat.html" height="100%" width="100%"></iframe></div><div id="chatBtn" class="chatBtn" style="bottom: -1px; background-color: rgb(0, 204, 205);"><img width="28px" height="25px" style="margin:0px 5px -6px 0px;" src="img/chat.png"><span>咨询客服</span></div></div>
+<script>
+    $(function(){
+        $(".region").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+            // var region_id = $(this).attr("region_id");
+            // alert(region_id);
+        });
+        //房租
+        $(".price").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var price = $(this).attr("price");
+             var wid = window.location.href; 
+            // alert(wid);return false;
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+price;
+             }else{
+                if(wid.indexOf("price")>0){
+                    wid = wid.substr(0,wid.indexOf("price")-1);
+                    // alert(wid);return false;
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+price;
+                    }else{
+                        location.href = wid+"&"+price;
+                    }
+                    
+                }else{
+                    location.href = wid+"&"+price;
+                }
+
+             }
+        });
+        //居室
+        $(".cate").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var cate = $(this).attr("cat_id");
+             var wid = window.location.href; 
+
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+cate;
+             }else{
+                if(wid.indexOf("cat_id")>0){
+                    wid = wid.substr(0,wid.indexOf("cat_id")-1);
+                    // alert(wid);return false;
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+cate;
+                    }else{
+                        location.href = wid+"&"+cate;
+                    }
+                    
+                }else{
+                    location.href = wid+"&"+cate;
+                }
+             }
+        });
+        //特色
+        $(".pri").click(function(){
+            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var pri = $(this).attr("p_id");
+             var wid = window.location.href; 
+
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+pri;
+             }else{
+                if(wid.indexOf("p_id")>0){
+                    wid = wid.substr(0,wid.indexOf("p_id")-1);
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+pri;
+                    }else{
+                        location.href = wid+"&"+pri;
+                    }
+                }else{
+                    location.href = wid+"&"+pri;
+                }
+             }
+        });
+
+        //主次卧
+        $(".zc").change(function(){
+            // $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var zc = $(this).attr("r_title");
+             var wid = window.location.href; 
+            // alert(zc);return false;
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+zc;
+             }else{
+                if(wid.indexOf("r_title")>0){
+                    wid = wid.substr(0,wid.indexOf("r_title")-1);
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+zc;
+                    }else{
+                        location.href = wid+"&"+zc;
+                    }
+                }else{
+                    location.href = wid+"&"+zc;
+                }
+             }
+        });        
+    });
+</script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('Layout/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
