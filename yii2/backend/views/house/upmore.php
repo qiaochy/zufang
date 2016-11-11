@@ -94,6 +94,59 @@ use yii\widgets\ActiveForm;
 			</select>
 		</td>
 	</tr>
+	<tr>
+		<td>房屋详细地址</td>
+		<td>
+			<input type="text" name="detail">
+		</td>
+	</tr>
+	<tr>
+		<td>地图经度</td>
+		<td>
+			<input type="text" name="coord">
+		</td>
+	</tr>
+	<tr>
+		<td>地图纬度</td>
+		<td>
+			<input type="text" name="roord">
+		</td>
+	</tr>
+	<tr>
+		<td>点击地图添加地址</td>
+		<td>
+			<div id="allmap"></div>
+		</td>
+		<style type="text/css">
+		body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";font-size:14px;}
+		#allmap {width:80%;height:460px;}
+		</style>
+		<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=Gr68Lju8r8SZ4MD3hPGskpNlsrTmBCT9"></script>
+			<script type="text/javascript">
+		// 百度地图API功能
+		var map = new BMap.Map("allmap");
+		var point = new BMap.Point(116.331398,39.897445);
+		map.centerAndZoom(point,12);
+		var geoc = new BMap.Geocoder();    
+		//经纬度
+		function showInfo(e){
+			$("input[name='coord']").val(e.point.lng);
+			$("input[name='roord']").val(e.point.lat);
+		
+		}
+		map.addEventListener("click", showInfo);
+		//详细地址
+		map.addEventListener("click", function(e){        
+			var pt = e.point;
+			geoc.getLocation(pt, function(rs){
+				var addComp = rs.addressComponents;
+				$("input[name='detail']").val(addComp.province + ", " + addComp.city + ", " + addComp.district + ", " + addComp.street + ", " + addComp.streetNumber);
+				//console.log(addComp);
+			});        
+		});
+		map.enableScrollWheelZoom(true);     //开启鼠标滚轮缩放
+		</script>
+		</tr>
 	
 </table>
 </div>

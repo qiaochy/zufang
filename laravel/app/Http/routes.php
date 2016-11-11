@@ -23,7 +23,7 @@
 
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
-<?php
+
 
 /*
 |--------------------------------------------------------------------------
@@ -48,13 +48,10 @@ Route::get('room','RoomController@room');
 
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
-<<<<<<< .mine
+
 Route::get('map','RoomController@map');//地图找房
 Route::get('maptext','RoomController@maptext');//地图信息
-=======
 
-
->>>>>>> .theirs
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');//关于我们

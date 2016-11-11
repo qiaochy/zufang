@@ -70,11 +70,7 @@
                                                                     <a href="room?region_name={{$item['region_name']}}">{{$item['region_name']}}</a>
                                                                     @endforeach
                                                     </dd>
-                                                                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=list" class="onlist">不限</a>
-                                                                    @foreach($region as $item)
-                                                                    <a href="room?region_id={{$item['region_id']}}">{{$item['region_name']}}</a>
-                                                                    @endforeach
-                                                    </dd>
+                                                                
                 </dl>
                                     
                 

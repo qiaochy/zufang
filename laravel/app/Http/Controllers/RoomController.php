@@ -67,7 +67,7 @@ class RoomController extends Controller{
         {
              $map[$k][]=$v['coord'];
              $map[$k][]=$v['roord'];
-             $map[$k][]="<a href=''>".$v['h_name']."</a>";
+             $map[$k][]="租房地址：<a href=''>".$v['detail']."</a>";
         }
         echo json_encode($map);
     }
