@@ -37,6 +37,45 @@
                     按条件找房
                 </div>
                 <div class="zf_map_ta">
+@extends('Layout/layout')
+@section('header')
+    <meta name="renderer" content="webkit">
+    <!-- Disable Baidu Siteapp -->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-2f624089c6.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/swiper-0b941af5db.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/common-f34e3d4c02.css">
+
+
+        <link media="all" type="text/css" rel="stylesheet" href="css/list-a87958db94.css">
+
+
+<link type="text/css" rel="stylesheet" href="css/chatStyle.css">
+@stop
+
+@section('content')
+
+
+    <input type="hidden" name="" id="windowId" value="list">
+    <div class="wrapper">
+        <!--面包屑导航-->
+        <div class="intro">
+            <div class="fl container">
+                <a href="index">首页</a> &gt;
+                <a href="room">我要租房</a>
+            </div>
+        </div>
+        <!--面包屑导航 end-->
+        <!--条件找房-->
+        <div class="zf_c_box">
+            <div class="zf_ban_t">
+                <div class="zf_ban_ta">
+                    按条件找房
+                </div>
+                <div class="zf_map_ta">
                     <a href="map" target="_blank">地图找房</a>
                 </div>
             </div>
@@ -73,6 +112,8 @@
                             @endforeach
                         </div>    
                     </dd>
+
+
                 </dl>
                                     
                 
@@ -144,11 +185,7 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=">不限</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E4%B8%9C">东</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8D%97">南</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E8%A5%BF">西</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8C%97">北</a></li>
+
                                 </ul>
                             </div>
                         </div> -->
