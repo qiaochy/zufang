@@ -37,6 +37,45 @@
                     按条件找房
                 </div>
                 <div class="zf_map_ta">
+@extends('Layout/layout')
+@section('header')
+    <meta name="renderer" content="webkit">
+    <!-- Disable Baidu Siteapp -->
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-2f624089c6.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/swiper-0b941af5db.min.css">
+
+    <link media="all" type="text/css" rel="stylesheet" href="css/common-f34e3d4c02.css">
+
+
+        <link media="all" type="text/css" rel="stylesheet" href="css/list-a87958db94.css">
+
+
+<link type="text/css" rel="stylesheet" href="css/chatStyle.css">
+@stop
+
+@section('content')
+
+
+    <input type="hidden" name="" id="windowId" value="list">
+    <div class="wrapper">
+        <!--面包屑导航-->
+        <div class="intro">
+            <div class="fl container">
+                <a href="index">首页</a> &gt;
+                <a href="room">我要租房</a>
+            </div>
+        </div>
+        <!--面包屑导航 end-->
+        <!--条件找房-->
+        <div class="zf_c_box">
+            <div class="zf_ban_t">
+                <div class="zf_ban_ta">
+                    按条件找房
+                </div>
+                <div class="zf_map_ta">
                     <a href="map" target="_blank">地图找房</a>
                 </div>
             </div>
@@ -74,7 +113,27 @@
                             @endforeach
                         </div>    
                     </dd>
+<<<<<<< .mine
 
+
+
+
+
+
+
+
+
+=======
+=======
+                                                    <div class="option_list">
+                                                                    <a href="room" class="onlist">不限</a>
+                                                                    @foreach($region as $item)
+                                                                    <a href="room?region_name={{$item['region_name']}}">{{$item['region_name']}}</a>
+                                                                    @endforeach
+                                                    </dd>
+                                                                
+>>>>>>> b391d4934e101f86dc04909c98c6a1662e57cdc5
+>>>>>>> .theirs
                 </dl>
                                     
                 
