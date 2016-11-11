@@ -66,7 +66,7 @@
                     <dd>
                         <div class="option_list">
                             <a href="room?region_id=%" class="region">不限</a>
-                            <!-- <a href="javascript:void(0)" region_id="%" class="region onlist">不限</a> -->
+                     
                             @foreach($region as $item)
                             <a href="room?region_id={{$item['region_id']}}" class="region">{{$item['region_name']}}</a>
                             <!-- <a href="javascript:void(0)" region_id="{{$item['region_id']}}" class="region">{{$item['region_name']}}</a> -->
@@ -903,7 +903,28 @@
              }
         });
 
-      
+        //主次卧
+        $(".zc").change(function(){
+            // $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var zc = $(this).attr("r_title");
+             var wid = window.location.href; 
+            // alert(zc);return false;
+             
+             if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                location.href = wid+"?"+zc;
+             }else{
+                if(wid.indexOf("r_title")>0){
+                    wid = wid.substr(0,wid.indexOf("r_title")-1);
+                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
+                        location.href = wid+"?"+zc;
+                    }else{
+                        location.href = wid+"&"+zc;
+                    }
+                }else{
+                    location.href = wid+"&"+zc;
+                }
+             }
+        });        
     });
 </script>
 @stop
