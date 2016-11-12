@@ -37,7 +37,7 @@
                     按条件找房
                 </div>
                 <div class="zf_map_ta">
-                    <a href="map" target="_blank">地图找房</a>
+                    <a href="http://www.dankegongyu.com/room/map/bj?from=room" target="_blank">地图找房</a>
                 </div>
             </div>
             <form method="GET" action="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html" accept-charset="UTF-8">
@@ -51,11 +51,11 @@
                     热门搜索：
                     <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
                     <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
-                                                                <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
-                                        <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
+                    <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
                 </div>
             </div>
             </form>
@@ -66,20 +66,13 @@
                     <dd>
                         <div class="option_list">
                             <a href="room?region_id=%" class="region">不限</a>
-                     
+                            <!-- <a href="javascript:void(0)" region_id="%" class="region onlist">不限</a> -->
                             @foreach($region as $item)
                             <a href="room?region_id={{$item['region_id']}}" class="region">{{$item['region_name']}}</a>
                             <!-- <a href="javascript:void(0)" region_id="{{$item['region_id']}}" class="region">{{$item['region_name']}}</a> -->
                             @endforeach
                         </div>    
                     </dd>
-<<<<<<< .mine
-
-
-=======
-
-
->>>>>>> .theirs
                 </dl>
                                     
                 
@@ -87,7 +80,6 @@
                     <dt>租金：</dt>
                     <dd>
                         <div class="option_list">
-
                             <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
                             <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
                             <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
@@ -151,78 +143,6 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                </dl>
-                                    
-                
-                <dl class="dl_lst">
-                    <dt>租金：</dt>
-                    <dd>
-                        <div class="option_list">
-
-                            <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
-                            <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
-                            <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
-                            <a href="javascript:void(0)" price="price=2500&priced=3000" class="price">2500-3000元</a>
-                            <a href="javascript:void(0)" price="price=3000&priced=3500" class="price">3000-3500元</a>
-                            <a href="javascript:void(0)" price="price=3500&priced=20000" class="price">3500元以上</a>
-                        </div>
-                    </dd>
-                </dl>
-                <dl class="dl_lst">
-                    <dt>居室：</dt>
-                    <dd>
-                        <div class="option_list">
-                            <a href="javascript:void(0)" cat_id = "cat_id=%" class="cate">不限</a>
-                            @foreach($cate as $item)
-                            <a href="javascript:void(0)" cat_id = "cat_id={{$item['cat_id']}}" class="cate">{{$item['cat_name']}}</a>
-                            @endforeach
-                        </div>
-                    </dd>
-                </dl>
-                <dl class="dl_lst">
-                    <dt>特色：</dt>
-                    <dd>
-                        <div class="dlul">
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=%">
-                                <i></i>不限
-                            </a>
-
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=1">
-                                <i></i>独卫
-                            </a>
-
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=3">
-                                <i></i>独立阳台
-                            </a>
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=2">
-                                <i></i>独立淋浴
-                            </a>
-                        </div>
-                        <!--主次卧-->
-                        
-<!--                         <div class="bedroombox selectmodel">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    主次卧
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title=''">不限</a></li>
-                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='主卧'">主卧</a></li>
-                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='次卧'">次卧</a></li>
-                                </ul>
-                            </div>
-                        </div>
- -->                        <!--朝向face-->
-                        
-<!--                         <div class="directionbox selectmodel">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    朝向
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-<<<<<<< .mine
                                     <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=">不限</a></li>
                                     <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E4%B8%9C">东</a></li>
                                     <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8D%97">南</a></li>
@@ -230,15 +150,6 @@
                                     <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8C%97">北</a></li>
                                 </ul>
                             </div>
-=======
-
-                                </ul>
-                            </div>
-
-
-
-
->>>>>>> .theirs
                         </div> -->
 
 
@@ -305,7 +216,6 @@
 
                 
                 <div class="page">
-
                     <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
                     <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
                     <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
