@@ -23694,3 +23694,1688 @@ $_SERVER = [
 =======
 >>>>>>> 233c060568f348e7c1cdde141919c1a6ec3ea14c
 >>>>>>> b300b1258e20de18eb7f80e7fd899e76e0264a39
+2016-11-11 16:29:46 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'status' (T_STRING), expecting ',' or ';'' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\views\house\ShowHouse.php:33
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-11 16:29:46 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '2'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478850589'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478850589; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '57630'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=2&per-page=3'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478852986.286
+    'REQUEST_TIME' => 1478852986
+]
+2016-11-11 16:35:43 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'endforeach' (T_ENDFOREACH)' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\views\house\ShowHouse.php:45
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-11 16:35:43 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '2'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478850589'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478850589; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '57795'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=2&per-page=3'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478853343.498
+    'REQUEST_TIME' => 1478853343
+]
+2016-11-11 19:43:12 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected '}'' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:289
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-11 19:43:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '2'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64012'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=2&per-page=3'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478864592.7
+    'REQUEST_TIME' => 1478864592
+]
+2016-11-11 19:53:47 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant id - assumed 'id'' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:280
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(280): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\phpStudy\\WWW...', 280, Array)
+#1 [internal function]: backend\controllers\HouseController->actionUpdate()
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-11 19:53:47 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'id' => '7'
+    'val' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64323'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&id=7&val=1'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&id=7&val=1'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478865227.421
+    'REQUEST_TIME' => 1478865227
+]
+2016-11-11 19:55:38 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hid' in 'where clause'' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'hid' in 'where clause'
+The SQL being executed was: UPDATE `house` SET `status`=1 WHERE hid=9' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `house` ...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column 'hid' in 'where clause'
+)
+
+2016-11-11 19:55:38 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'id' => '9'
+    'val' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64369'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&id=9&val=1'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&id=9&val=1'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478865338.649
+    'REQUEST_TIME' => 1478865338
+]
+2016-11-11 19:56:41 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\base\ErrorException:2] exception 'yii\base\ErrorException' with message 'Missing argument 2 for yii\db\Command::update(), called in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php on line 281 and defined' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:484
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(484): yii\base\ErrorHandler->handleError(2, 'Missing argumen...', 'D:\\phpStudy\\WWW...', 484, Array)
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->update(Array)
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+2016-11-11 19:56:41 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'id' => '9'
+    'val' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64395'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&id=9&val=1'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&id=9&val=1'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478865401.328
+    'REQUEST_TIME' => 1478865401
+]
+2016-11-11 19:59:05 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: val' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:281
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 281, Array)
+#1 [internal function]: backend\controllers\HouseController->actionUpdate()
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-11 19:59:05 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'id' => '9'
+    'val' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64448'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&id=9&val=1'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&id=9&val=1'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478865545.119
+    'REQUEST_TIME' => 1478865545
+]
+2016-11-11 19:59:07 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Undefined variable: val' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:281
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'D:\\phpStudy\\WWW...', 281, Array)
+#1 [internal function]: backend\controllers\HouseController->actionUpdate()
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-11 19:59:07 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'id' => '7'
+    'val' => '1'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64460'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&id=7&val=1'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&id=7&val=1'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478865547.435
+    'REQUEST_TIME' => 1478865547
+]
+2016-11-11 20:01:52 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: house/Fshow-house' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('Fshow-house', Array)
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/Fshow-hou...', Array)
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-11 20:01:52 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/Fshow-house'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478861391'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478861391; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '64539'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/Fshow-house'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/Fshow-house'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478865712.258
+    'REQUEST_TIME' => 1478865712
+]
+2016-11-11 20:22:38 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `house` SET `status`=0 WHERE h_id=' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `house` ...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-11 20:22:38 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'val' => '0'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478866793'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478866793; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '65148'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&val=0'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&val=0'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478866958.453
+    'REQUEST_TIME' => 1478866958
+]
+2016-11-11 20:23:12 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `house` SET `status`=0 WHERE h_id=' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `house` ...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-11 20:23:12 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'val' => '0'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478866793'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478866793; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '65171'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&val=0'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&val=0'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478866992.84
+    'REQUEST_TIME' => 1478866992
+]
+2016-11-11 20:23:14 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `house` SET `status`=0 WHERE h_id=' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `house` ...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-11 20:23:14 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'val' => '0'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478866793'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478866793; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '65179'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&val=0'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&val=0'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478866994.54
+    'REQUEST_TIME' => 1478866994
+]
+2016-11-11 20:23:17 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `house` SET `status`=0 WHERE h_id=' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `house` ...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(281): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdate()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/update', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-11 20:23:17 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/update'
+    'val' => '0'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478866793'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478866793; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '65182'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/update&val=0'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/update&val=0'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478866997.613
+    'REQUEST_TIME' => 1478866997
+]
+2016-11-11 21:07:38 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC)' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:288
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-11 21:07:38 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '1'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478866793'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478866793; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '50058'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=1&per-page=3'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478869658.545
+    'REQUEST_TIME' => 1478869658
+]
+2016-11-11 21:08:29 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(293): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdates()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('updates', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/updates', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+The SQL being executed was: UPDATE `house` SET `h_name`=NULL WHERE h_id=' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'UPDATE `house` ...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(293): yii\db\Command->execute()
+#2 [internal function]: backend\controllers\HouseController->actionUpdates()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('updates', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/updates', Array)
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#9 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+)
+
+2016-11-11 21:08:29 [127.0.0.1][-][33ntkfv5eql3jkcbhlbfq86np6][info][application] $_GET = [
+    'r' => 'house/updates'
+]
+
+$_POST = [
+    'id' => '4'
+    'val' => '你妹啊'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478866793'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '33ntkfv5eql3jkcbhlbfq86np6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'h_id' => '10'
+    'id' => '10'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded; charset=UTF-8'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'CONTENT_LENGTH' => '36'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478866793; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=33ntkfv5eql3jkcbhlbfq86np6'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '50111'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=house/updates'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house/updates'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478869709.529
+    'REQUEST_TIME' => 1478869709
+]
+2016-11-12 08:43:18 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: house/ways' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('ways', Array)
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/ways', Array)
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-12 08:43:18 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][info][application] $_GET = [
+    'r' => 'house/ways'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478910014'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '5ddabljaa92qp1cratrfekh4m4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/?r=house/show-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478910014; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=5ddabljaa92qp1cratrfekh4m4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '52742'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/ways'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/?r=house/ways'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478911398.018
+    'REQUEST_TIME' => 1478911398
+]
+2016-11-12 08:43:18 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: house/ways' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('ways', Array)
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/ways', Array)
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-12 08:43:18 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][info][application] $_GET = [
+    'r' => 'house/ways'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478910014'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '5ddabljaa92qp1cratrfekh4m4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/?r=house/show-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478910014; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=5ddabljaa92qp1cratrfekh4m4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '52742'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/ways'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/?r=house/ways'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478911398.918
+    'REQUEST_TIME' => 1478911398
+]
+2016-11-12 08:43:33 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: house/ways' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php:125
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('ways', Array)
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/ways', Array)
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-11-12 08:43:33 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][info][application] $_GET = [
+    'r' => 'house/ways'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478910014'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '5ddabljaa92qp1cratrfekh4m4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/?r=house/show-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478910014; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=5ddabljaa92qp1cratrfekh4m4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '52827'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/ways'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/?r=house/ways'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478911413.095
+    'REQUEST_TIME' => 1478911413
+]
+2016-11-12 09:28:13 [127.0.0.1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected 'functioin' (T_STRING), expecting variable (T_VARIABLE)' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:313
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-12 09:28:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/show-house'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478910014'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '5ddabljaa92qp1cratrfekh4m4'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/?r=house/show-house'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478910014; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=5ddabljaa92qp1cratrfekh4m4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '54533'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/show-house'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/?r=house/show-house'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478914093.296
+    'REQUEST_TIME' => 1478914093
+]
+2016-11-12 11:10:52 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][error][yii\base\ErrorException:8] exception 'yii\base\ErrorException' with message 'Use of undefined constant desc - assumed 'desc'' in D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php:219
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(219): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'D:\\phpStudy\\WWW...', 219, Array)
+#1 [internal function]: backend\controllers\HouseController->actionShowHouse()
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('show-house', Array)
+#5 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('house/show-hous...', Array)
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2016-11-12 11:10:52 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '1'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478915415'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '5ddabljaa92qp1cratrfekh4m4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478915415; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=5ddabljaa92qp1cratrfekh4m4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '58472'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=1&per-page=3'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478920252.332
+    'REQUEST_TIME' => 1478920252
+]
+2016-11-12 11:11:39 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause'' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(221): yii\db\Query->count()
+#5 [internal function]: backend\controllers\HouseController->actionShowHouse()
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column '0' in 'order clause'
+The SQL being executed was: SELECT COUNT(*) FROM `house` LEFT JOIN `orientation` ON house.direction = orientation.did LEFT JOIN `pattern` ON house.pay = pattern.wid ORDER BY `0`, `1`' in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('<span class="st...', '<span class="nu...')
+#2 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\db\Query.php(300): yii\db\Query->queryScalar('<span class="st...', '<span class="ke...')
+#4 D:\phpStudy\WWW\teamone\zufang\yii2\backend\controllers\HouseController.php(221): yii\db\Query->count()
+#5 [internal function]: backend\controllers\HouseController->actionShowHouse()
+#6 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array('[<span class="t...', '[]')
+#7 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams('[<span class="s...')
+#8 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('<span class="st...', '[<span class="s...')
+#9 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('<span class="st...', '[<span class="s...')
+#10 D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 D:\phpStudy\WWW\teamone\zufang\yii2\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+Additional Information:
+Array
+(
+    [0] => 42S22
+    [1] => 1054
+    [2] => Unknown column '0' in 'order clause'
+)
+
+2016-11-12 11:11:39 [127.0.0.1][-][5ddabljaa92qp1cratrfekh4m4][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '1'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'CNZZDATA155540' => 'cnzz_eid=1081514738-1478240279-&ntime=1478915415'
+    '58tj_uuid' => '2ebd872a-bee2-40fd-839c-afac7717a992'
+    'new_uv' => '1'
+    'als' => '0'
+    '_ga' => 'GA1.1.1263942852.1478328456'
+    'iweb_safecode' => 'f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg'
+    'iweb_shoppingcart' => '8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ+NzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9'
+    'iweb_visit' => '26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU+NGAwNDEyYzdkazU4OzYkMSY'
+    'bdshare_firstime' => '1478573415785'
+    'iweb_captcha' => '1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ'
+    'PHPSESSID' => '5ddabljaa92qp1cratrfekh4m4'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; WOW64; rv:49.0) Gecko/20100101 Firefox/49.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://127.0.0.1/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'CNZZDATA155540=cnzz_eid%3D1081514738-1478240279-%26ntime%3D1478915415; 58tj_uuid=2ebd872a-bee2-40fd-839c-afac7717a992; new_uv=1; als=0; _ga=GA1.1.1263942852.1478328456; iweb_safecode=f60a6cc660MDkwOTgwMDAwMTZhM2EzNTM2Y2I2ZmNkOTYwYjAzOTkwNmUwOWZoMTVmMD84NDoyNDU3MjpgYDQwPTM4ZThhMg; iweb_shoppingcart=8524b359f2MDA1NjA1MDAxOTA7NmU1NDIwZmQ%2BNzFlOWNiYDA2ZzN7JmBnb2N0JjlTXSQucHJpYnxrdCYyW1h9; iweb_visit=26610a1bf0MjA4MzEzMDAwMWNlbGxjOTU%2BNGAwNDEyYzdkazU4OzYkMSY; bdshare_firstime=1478573415785; iweb_captcha=1d81d2447aMDAwMDAwNTA1MDExMmNlNmtnYmM3MTptNTA4N2ZmYzBjZ2VpaQ; PHPSESSID=5ddabljaa92qp1cratrfekh4m4'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\TortoiseSVN\\bin;D:\\phpStudy\\php55;C:\\ProgramData\\ComposerSetup\\bin;D:\\安装区\\ToroiseGit\\Git\\cmd;D:\\安装区\\ToroiseGit\\bin;D:\\phpStudy\\MySQL\\bin;C:\\Users\\haoxibo\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e PHP/5.5.30'
+    'SERVER_NAME' => '127.0.0.1'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/phpStudy/WWW'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'SCRIPT_FILENAME' => 'D:/phpStudy/WWW/teamone/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '58515'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=1&per-page=3'
+    'REQUEST_URI' => '/teamone/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=1&per-page=3'
+    'SCRIPT_NAME' => '/teamone/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/teamone/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1478920299.834
+    'REQUEST_TIME' => 1478920299
+]

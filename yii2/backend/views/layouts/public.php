@@ -431,7 +431,7 @@
 									</a>
 								</li>
 								<li>
-									<a href="?r=house/cat-show">
+									<a href="?r=house/show-house">
 										<i class="icon-double-angle-right"></i>
 										房屋展示
 									</a>

@@ -129,7 +129,7 @@ class HouseController extends Controller
 	            }   
 	        }  
 	        // 入房间表  默认值都是0
-	        	if($cat_id>1){
+	        	if($cat_id){
 	        		// echo $cat_id;
 	        		$arr=['A室','B室','C室','D室','E室','F室','G室','H室','I室','J室'];
 	        		$room = array_slice($arr,0,$cat_id);
@@ -216,11 +216,11 @@ class HouseController extends Controller
 		//房屋信息
 
 		$query = new Query();
-		$data = $query->select('*')->from('house')->leftJoin('orientation', 'house.direction = orientation.did')->leftJoin('pattern', 'house.pay = pattern.wid');
+		$data = $query->select('*')->from('house')->leftJoin('orientation', 'house.direction = orientation.did')->leftJoin('pattern', 'house.pay = pattern.wid')->orderBy('h_id');
 		// var_dump($data);die;
 	             $pages = new Pagination(['totalCount' => $data->count(),'pageSize'=>3]);
 		$models = $data->offset($pages->offset)
-	             ->limit($pages->limit)
+	             ->limit($pages->limit) 
 	             ->all();
 	             $id = yii::$app->request->get('id');
 	             if($id){
@@ -253,7 +253,7 @@ class HouseController extends Controller
 	             }else{
 	             	//当房间信息删空的时候，删除该房屋的信息
              		$res = yii::$app->db->createCommand()->delete('house',['h_id'=>$id])->execute();
-		$str = yii::$app->db->createCommand()->delete('hc',['h_id'=>$id])->execute();
+			$str = yii::$app->db->createCommand()->delete('hc',['h_id'=>$id])->execute();
 	             	// 跳页面，显示不出来Yii::$app->getSession()->setFlash('notice', '该房屋房间信息已删空，故删除该房屋的信息');
 	             	$this->redirect(['house/show-house']);
 	             }
@@ -273,6 +273,48 @@ class HouseController extends Controller
 		}
 
 	}
-	//修改不做了，哈哈
+	//修改不做了，哈哈,做了状态和付款方式的几点技改
+	public function actionUpdate(){
+		$id=yii::$app->request->get('id');
+		$str=yii::$app->request->get('val');
+		// echo $str;echo $id;die;
+		$res=yii::$app->db->createCommand()->update('house', ['status'=>$str],'h_id='.$id)->execute();
+		if($res){
+			echo 1;
+		}else{
+			echo 0;
+		}
+	}
+		//修改不做了，哈哈,做了状态和付款方式的几点技改
+	public function actionUpdates(){
+		$id=yii::$app->request->get('id');
+		$str=yii::$app->request->get('val');
+		// echo $str;echo $id;die;
+		$res=yii::$app->db->createCommand()->update('house', ['h_name'=>$str],'h_id='.$id)->execute();
+		if($res){
+			echo 1;
+		}else{
+			echo 0;
+		}
+	}
+	//修改付款方式
+	public function actionWays(){
+		$id=yii::$app->request->get('id');
+		$str=yii::$app->request->get('str');
+		// echo $str;echo $id;die;
+		$res=yii::$app->db->createCommand()->update('house', ['pay'=>$str],'h_id='.$id)->execute();
+		if($res){
+			echo 1;
+		}else{
+			echo 0;
+		}
+	}
+	//查询支付方式
+	public function actionInfo(){
+		$query= new Query();
+		$info=$query->select('*')->from('pattern')->all();
+		echo json_encode($info);
+
+	}
 
 }
