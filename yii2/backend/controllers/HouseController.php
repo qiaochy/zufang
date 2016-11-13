@@ -214,7 +214,6 @@ class HouseController extends Controller
 	// 房间信息展示
 	public function  actionShowHouse(){
 		//房屋信息
-
 		$query = new Query();
 		$data = $query->select('*')->from('house')->leftJoin('orientation', 'house.direction = orientation.did')->leftJoin('pattern', 'house.pay = pattern.wid')->orderBy('h_id');
 		// var_dump($data);die;
@@ -257,9 +256,6 @@ class HouseController extends Controller
 	             	// 跳页面，显示不出来Yii::$app->getSession()->setFlash('notice', '该房屋房间信息已删空，故删除该房屋的信息');
 	             	$this->redirect(['house/show-house']);
 	             }
-		
-				
-
 	}
 	//房间删除
 	public function actionHouseDel(){
@@ -314,7 +310,5 @@ class HouseController extends Controller
 		$query= new Query();
 		$info=$query->select('*')->from('pattern')->all();
 		echo json_encode($info);
-
 	}
-
 }

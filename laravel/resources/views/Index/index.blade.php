@@ -31,6 +31,11 @@
                             <img src="http://public.wutongwan.org/public-20160813-Fn_Juu0shuUGd7iD2D30tUK9mAId" alt=""/>
                         </a>
                     </div>
+                      <div class="item">
+                        <a href="http://www.dankegongyu.com/about/join" target="_blank">
+                            <img src="http://public.wutongwan.org/public-20160813-Fn_Juu0shuUGd7iD2D30tUK9mAId" alt=""/>
+                        </a>
+                    </div>
                                                                                                                                                                 </div>
             <!-- 轮播（Carousel）导航 -->
             <a class="swiper-button-prev swiper-button-white" href="#myCarousel" data-slide="prev"></a>
