@@ -33,15 +33,15 @@ return [
             // Enable Yii Validate CSRF Token
             'enableCsrfValidation' => false,
         ),
-        'assetManager'=>[
-            'bundles'=>[
-                'yii\web\JqueryAsset'=>[
-                    'jsOptions'=>[
-                        'position'=>\yii\web\View::POS_HEAD,
-                    ]
-                ]
-            ]
-        ],
+        // 'assetManager'=>[
+        //     'bundles'=>[
+        //         'yii\web\JqueryAsset'=>[
+        //             'jsOptions'=>[
+        //                 'position'=>\yii\web\View::POS_HEAD,
+        //             ]
+        //         ]
+        //     ]
+        // ],
     ],
 
 ];
