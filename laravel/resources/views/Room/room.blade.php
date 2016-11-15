@@ -173,9 +173,9 @@
                 <div class="r_ls_box">
                     @foreach($room as $item)
                         <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
+                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/3584.html">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
+                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
                                 <div class="r_lbx_cena">
                                     {{$item['survey']}}
                                 </div>
@@ -204,7 +204,7 @@
                                     <span class="ty_b">{{$item['r_price']}}</span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
+                                <a class="lk_more" href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}">
                                     查看房间详情
                                 </a>
                             </div>
@@ -215,17 +215,17 @@
                 <!--翻页插件-->
 
                 
-                <div class="page">
-                    <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
-                </div>
+                    <div class="page">
+                        <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
+                    </div>
                 <!--翻页插件 end-->
                 </div>
-
+            
         <!--房源列表 end-->
 
         <!--猜你喜欢-->

@@ -16,26 +16,13 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators"></ol>
             <div class="carousel-inner">
-                                                                        <div class="item">
-                        <a href="http://dankeyu-zukegushi.sxl.cn/" target="_blank">
-                            <img src="http://public.wutongwan.org/public-20161010-FsdeuASSvLdUu6SLHP-lkPxx9gqj" alt=""/>
+            <?php foreach($ad_img as $k=>$v){?>
+                    <div class="item">
+                        <a href="#" target="_blank">
+                            <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['ad_img']?>" alt=""/>
                         </a>
                     </div>
-                                                                                                                                                                                            <div class="item">
-                        <a href="http://dankegongyu-baibiansc.sxl.cn/?src=banner" target="_blank">
-                            <img src="img/baibianshuangchuang.jpg" alt=""/>
-                        </a>
-                    </div>
-                                                        <div class="item">
-                        <a href="http://www.dankegongyu.com/about/join" target="_blank">
-                            <img src="http://public.wutongwan.org/public-20160813-Fn_Juu0shuUGd7iD2D30tUK9mAId" alt=""/>
-                        </a>
-                    </div>
-                      <div class="item">
-                        <a href="http://www.dankegongyu.com/about/join" target="_blank">
-                            <img src="http://public.wutongwan.org/public-20160813-Fn_Juu0shuUGd7iD2D30tUK9mAId" alt=""/>
-                        </a>
-                    </div>
+            <?php }?>
                                                                                                                                                                 </div>
             <!-- 轮播（Carousel）导航 -->
             <a class="swiper-button-prev swiper-button-white" href="#myCarousel" data-slide="prev"></a>
