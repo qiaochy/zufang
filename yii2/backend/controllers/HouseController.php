@@ -60,7 +60,8 @@ class HouseController extends Controller
 			$res=$this->db->createCommand()->delete('category',['cat_id'=>$id])->execute();
 			if($res){
 				//删除成功，跳转到展示页面
-				$this->redirect(['house/cat-show']);
+				// $this->redirect(['house/cat-show']);
+				return 1;
 			}
 		}
 	}

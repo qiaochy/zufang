@@ -28,7 +28,7 @@
 				<?php } ?>
 			</td>
 			<td>
-				<a class="badge badge-pink" href='?r=ycust/del&id=<?php echo $v["y_id"]?>'>删除</a>|
+				<a class="badge badge-pink del" href='javascript:void(0)' id='<?php echo $v["y_id"]?>'>删除</a>|
 				<a  class="badge badge-purple" href='?r=ycust/save&id=<?php echo $v["y_id"]?>'>编辑</a>
 			</td>
 		</tr>
@@ -42,4 +42,23 @@
             'prevPageLabel' => '上一页',
             'nextPageLabel' => '下一页',
         ]);
-        ?> 
+        ?>
+<script src="assets/js/jquery-1.8.2.min.js"></script>         
+<script>
+	$(".del").click(function(){
+		var id = $(this).attr("id");
+		var obj = $(this);
+		$.ajax({
+		   type: "GET",
+		   url: "?r=ycust/del",
+		   data: {
+		   	id:id
+		   },
+		   success: function(msg){
+		     if(msg==1){
+		     	obj.parents("tr").remove();
+		     }
+		   }
+		});
+	});
+</script>           

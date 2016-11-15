@@ -35,7 +35,7 @@
 						echo "是";}else{ echo "否";}?>
 				</td>
 				<td>
-					<a href="<?= Url::to(['cat-del','id'=>$v['cat_id']])?>">删除 </a>
+					<a href="javascript:void(0)" id="<?php echo $v['cat_id']?>" class="del">删除 </a>
 					<a href="<?= Url::to(['cat-update','id'=>$v['cat_id']])?>">修改 </a>
 				</td>
 				
@@ -49,4 +49,23 @@
 		    ]);
 		?> 
 </body>
+<script src="assets/js/jquery-1.8.2.min.js"></script>
+<script>
+	$(".del").click(function(){
+		var id = $(this).attr("id");
+		var obj = $(this);
+		$.ajax({
+		   type: "GET",
+		   url: "?r=house/cat-del",
+		   data: {
+		   	id:id
+		   },
+		   success: function(msg){
+		     if(msg==1){
+		     	obj.parents("tr").remove();
+		     }
+		   }
+		});
+	});
+</script>    
 </html>

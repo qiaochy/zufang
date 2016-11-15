@@ -38,7 +38,7 @@
 			<td><?php echo $v["end_time"]?></td>
 			<td><?php echo $v["cust_desc"]?></td>
 			<td>
-				<a class="badge badge-pink" href='?r=cust/del&id=<?php echo $v["cust_id"]?>'>删除</a>|
+				<a class="badge badge-pink del" href='javascript:void(0)' id='<?php echo $v["cust_id"]?>'>删除</a>|
 				<a class="badge badge-purple" href='?r=cust/save&id=<?php echo $v["cust_id"]?>'>编辑</a>
 			</td>
 		</tr>
@@ -54,3 +54,22 @@
         ]);
         ?> 
         </div>
+<script src="assets/js/jquery-1.8.2.min.js"></script>
+<script>
+	$(".del").click(function(){
+		var id = $(this).attr("id");
+		var obj = $(this);
+		$.ajax({
+		   type: "GET",
+		   url: "?r=cust/del",
+		   data: {
+		   	id:id
+		   },
+		   success: function(msg){
+		     if(msg==1){
+		     	obj.parents("tr").remove();
+		     }
+		   }
+		});
+	});
+</script>        

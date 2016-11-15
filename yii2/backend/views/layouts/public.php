@@ -440,7 +440,31 @@
 								
 							</ul>
 						</li>
+						<li>
+							<a href="#" class="dropdown-toggle">
+								<i class="icon-list"></i>
+								<span class="menu-text"> 广告管理 </span>
 
+								<b class="arrow icon-angle-down"></b>
+							</a>
+
+							<ul class="submenu">
+								<li>
+									<a href="?r=ad/add">
+										<i class="icon-double-angle-right"></i>
+										广告录入
+									</a>
+								</li>
+								<li>
+									<a href="?r=ad/index">
+										<i class="icon-double-angle-right"></i>
+										广告展示
+									</a>
+								</li>
+								
+								
+							</ul>
+						</li>
 						
 						<li>
 							<a href="#" class="dropdown-toggle">
