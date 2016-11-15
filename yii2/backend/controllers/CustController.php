@@ -70,13 +70,13 @@ class CustController extends Controller
 		$id = Yii::$app->request->get("id");
 		$res = Yii::$app->db->createCommand()->delete('customer', 'cust_id = '.$id)->execute();
 		if($res){
-				Yii::$app->session->setFlash('success', '删除成功');
-				$this->redirect(['cust/index']);
-								
+				// Yii::$app->session->setFlash('success', '删除成功');
+				// $this->redirect(['cust/index']);
+				return 1;				
 		}else{
-				Yii::$app->session->setFlash('error', '删除失败');
-				$this->redirect(['cust/index']);
-								
+				// Yii::$app->session->setFlash('error', '删除失败');
+				// $this->redirect(['cust/index']);
+				return 0;				
 		}
 		
 	}

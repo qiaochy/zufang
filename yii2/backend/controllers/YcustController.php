@@ -36,13 +36,13 @@ class YcustController extends Controller
 		$id = Yii::$app->request->get("id");
 		$res = Yii::$app->db->createCommand()->delete('ycustomer', 'y_id = '.$id)->execute();
 		if($res){
-				Yii::$app->session->setFlash('success', '删除成功');
-				$this->redirect(['ycust/index']);
-								
+				// Yii::$app->session->setFlash('success', '删除成功');
+				// $this->redirect(['ycust/index']);
+				return 1;				
 		}else{
-				Yii::$app->session->setFlash('error', '删除失败');
-				$this->redirect(['ycust/index']);
-								
+				// Yii::$app->session->setFlash('error', '删除失败');
+				// $this->redirect(['ycust/index']);
+				return 0;				
 		}
 		
 	}
