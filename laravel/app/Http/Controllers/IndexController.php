@@ -14,4 +14,8 @@ class IndexController extends Controller{
     public function index(){
         return view("index/index");
     }
+    public function search(Request $request){
+        $search =$request->input('search_text');
+        var_dump($search);
+    }
 }

@@ -60,8 +60,6 @@ class RoomController extends Controller{
 
         return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate]);
     }
-
-
     //房屋详情页面
     public function roomcon(){
     	return view('room.roomcon');
