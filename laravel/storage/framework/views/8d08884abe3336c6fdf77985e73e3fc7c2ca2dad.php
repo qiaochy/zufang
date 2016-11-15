@@ -50,11 +50,11 @@
                     热门搜索：
                     <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
                     <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
-                                                                <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
-                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
-                                        <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
+                    <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
                 </div>
             </div>
             </form>
@@ -79,12 +79,6 @@
                     <dt>租金：</dt>
                     <dd>
                         <div class="option_list">
-<!--                             <a href="room?price=0&priced=20000" class="onlist price">不限</a>
-                            <a href="room?price=0&priced=2000" class="">2000元以下</a>
-                            <a href="room?price=2000&priced=2500" class="">2000-2500元</a>
-                            <a href="room?price=2500&priced=3000" class="">2500-3000元</a>
-                            <a href="room?price=3000&priced=3500" class="">3000-3500元</a>
-                            <a href="room?price=3500&priced=20000" class="">3500元以上</a> -->
                             <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
                             <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
                             <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
@@ -178,9 +172,9 @@
                 <div class="r_ls_box">
                     <?php foreach($room as $item): ?>
                         <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
+                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>" class="rimg"><img src="http://www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/3584.html"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
+                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
                                 <div class="r_lbx_cena">
                                     <?php echo e($item['survey']); ?>
 
@@ -211,7 +205,7 @@
                                     <span class="ty_b"><?php echo e($item['r_price']); ?></span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
+                                <a class="lk_more" href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>">
                                     查看房间详情
                                 </a>
                             </div>
@@ -222,18 +216,17 @@
                 <!--翻页插件-->
 
                 
-                <div class="page">
-
-                    <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
-                    <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
-                </div>
+                    <div class="page">
+                        <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
+                        <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
+                    </div>
                 <!--翻页插件 end-->
                 </div>
-
+            
         <!--房源列表 end-->
 
         <!--猜你喜欢-->

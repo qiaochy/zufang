@@ -114,43 +114,12 @@
                 <div id="myCarousel" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators"><li data-target="#myCarousel" data-slide-to="0" class=""></li><li data-target="#myCarousel" data-slide-to="1" class="active"></li><li data-target="#myCarousel" data-slide-to="2"></li><li data-target="#myCarousel" data-slide-to="3"></li><li data-target="#myCarousel" data-slide-to="4"></li><li data-target="#myCarousel" data-slide-to="5"></li><li data-target="#myCarousel" data-slide-to="6"></li><li data-target="#myCarousel" data-slide-to="7"></li><li data-target="#myCarousel" data-slide-to="8"></li><li data-target="#myCarousel" data-slide-to="9"></li><li data-target="#myCarousel" data-slide-to="10"></li><li data-target="#myCarousel" data-slide-to="11"></li></ol>
                     <div class="carousel-inner">
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb">
+                        <?php foreach($img as $k=>$v){?>
+                            <div class="item">
+                                <img alt="image" style="margin: auto;" class="img-responsive" src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['file']?>">
                             </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FvPETqX1EVg3gNQiJ1YHHmTr02yw">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FmYf48r8x7eVozb1yhHAMDEXYu1C">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fq6O-lReu3jaQ8N5zFVRC2gIYbz0">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FtVTZPQ-6vkcGe1abB93-6n-7On-">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FuHSqHMt9gSOLxD3POsOWidFr7Ui">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fs1tUzcxmhx1EqKCdCQbyFUc52so">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fsy5x--V4K1YtFbWJCrU6qFl1r5w">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fk0bj1BpUpTkLvyZK3TKbVvwjGBW">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FjhDg5XSQ9k2608a5aj7EnouX54q">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Ftbu-huaE-G4TA7LUiJ_JMMWJTkT">
-                            </div>
-                                                    <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FkFAk6B3BvRo_RzNqWJJq0aqeAiE">
-                            </div>
-                                            </div>
+                        <?php }?>
+                    </div>
                     <!-- 轮播（Carousel）导航 -->
                     <a class="swiper-button-prev swiper-button-white" href="http://www.dankegongyu.com/room/3584.html#myCarousel" data-slide="prev" style="display: none;"></a>
                     <a class="swiper-button-next swiper-button-white" href="http://www.dankegongyu.com/room/3584.html#myCarousel" data-slide="next" style="display: none;"></a>
@@ -161,48 +130,13 @@
 
                         <!--返回-->
                         
-                        <div class="swiper-wrapper" style="transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="11">
+                        <div class="swiper-wrapper" style="transition-duration: 0ms;">
+
+                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="11">
                                     <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FkFAk6B3BvRo_RzNqWJJq0aqeAiE">
-                                </div>
-                                                            <div class="swiper-slide swiper-slide-active on" data-swiper-slide-index="0">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb">
-                                </div>
-                                                            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FvPETqX1EVg3gNQiJ1YHHmTr02yw">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="2">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FmYf48r8x7eVozb1yhHAMDEXYu1C">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="3">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fq6O-lReu3jaQ8N5zFVRC2gIYbz0">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="4">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FtVTZPQ-6vkcGe1abB93-6n-7On-">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="5">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FuHSqHMt9gSOLxD3POsOWidFr7Ui">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="6">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fs1tUzcxmhx1EqKCdCQbyFUc52so">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="7">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fsy5x--V4K1YtFbWJCrU6qFl1r5w">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="8">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fk0bj1BpUpTkLvyZK3TKbVvwjGBW">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="9">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FjhDg5XSQ9k2608a5aj7EnouX54q">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="10">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Ftbu-huaE-G4TA7LUiJ_JMMWJTkT">
-                                </div>
-                                                            <div class="swiper-slide" data-swiper-slide-index="11">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FkFAk6B3BvRo_RzNqWJJq0aqeAiE">
-                                </div>
-                                                    <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb">
-                                </div></div>
+                            </div>
+
+                    </div>
 
                         <!-- Add Pagination -->
                         <div class="swiper-pagination swiper-pagination-white swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
@@ -216,43 +150,12 @@
                     <div class="iconleftbox"><span></span></div>
                     <div class="iconbox_content">
                         <div class="iconboxf" style="width: 1080px;">
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FoSrzx0w186SD3UHgD6HDYmj-5Tb(1)">
+                            <?php foreach($img as $k=>$v){?>
+                                <div class="swiper-slide">
+                                    <img alt="image" style="margin: auto;" class="img-responsive" src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['file']?>">
                                 </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FvPETqX1EVg3gNQiJ1YHHmTr02yw(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FmYf48r8x7eVozb1yhHAMDEXYu1C(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fq6O-lReu3jaQ8N5zFVRC2gIYbz0(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FtVTZPQ-6vkcGe1abB93-6n-7On-(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FuHSqHMt9gSOLxD3POsOWidFr7Ui(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fs1tUzcxmhx1EqKCdCQbyFUc52so(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fsy5x--V4K1YtFbWJCrU6qFl1r5w(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Fk0bj1BpUpTkLvyZK3TKbVvwjGBW(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FjhDg5XSQ9k2608a5aj7EnouX54q(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-Ftbu-huaE-G4TA7LUiJ_JMMWJTkT(1)">
-                                </div>
-                                                            <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="img/public-20161104-FkFAk6B3BvRo_RzNqWJJq0aqeAiE(1)">
-                                </div>
-                                                    </div>
+                            <?php }?>                                
+                        </div>
                     </div>
                     <div class="iconrightbox"><span></span></div>
                 </div>
@@ -261,14 +164,20 @@
 
             <!--右侧概述-->
             <div class="room_detail_gs fr">
-                <h1>龙泽 国仕汇 主卧 朝东南 C室 </h1>
+                <h1>
+                    <?php echo $room['region_name']?>
+                    <?php echo $room['h_name']?>
+                    <?php echo $room['r_title']?>
+                    <?php echo $room['direct']?>
+                    <?php echo $room['r_name']?>
+                </h1>
                 <div class="room_de_a">
-                    地铁 13号线
+                    <!-- 地铁 13号线 -->
                 </div>
                 <div class="r_lbx_moneya">
-                                            <span class="ty_b">3040</span>
+                        <span class="ty_b"><?php echo $room['r_price']?></span>
                         <span class="ty_c">元/月</span>
-                        <span class="methos_keep">押一付一</span>
+                        <span class="methos_keep"><?php echo $room['ways']?></span>
                                     </div>
                 <!--咨询电话-->
                 <div class="phoneroom">
@@ -278,28 +187,37 @@
                 </div>
                 <div class="room_detail_q">
                     <div class="ro_de_qa">
-                        编号： 1052-C
+                        <!-- 编号： 1052-C -->
                     </div>
                     <div class="ro_de_qa">
-                        房型：    5
-                        室2卫    30楼
+                        房型：    <?php echo $room['cat_name']?>
+
                     </div>
                     <div class="ro_de_qa">
-                        概况： 27㎡ | 朝东南
+                        概况： <?php echo $room['r_area']?>㎡ | <?php echo $room['direct']?>
+
                     </div>
                     <div class="ro_de_qa">
                         <div class="ro_de_qatxt">
-                            付款： 押一付一
+                            付款： <?php echo $room['ways']?>
                         </div>
                         <div class="ro_de_qarb">
                             不收中介费
                         </div>
                     </div>
                     <div class="ro_de_qb ">
-                                                                                                            <span>独卫</span>
-                                                                                                                <span>独立淋浴</span>
-                                                                                                                                                            <span>自采暖</span>
-                                                                    </div>
+                        <?php foreach($privape as $val): ?>                            
+                            <?php if($val['p_id']==1): ?>          
+                            <span>独立卫生间</span>
+                            <?php endif; ?>
+                            <?php if($val['p_id']==2): ?>
+                            <span>独立淋浴</span>
+                            <?php endif; ?>
+                            <?php if($val['p_id']==3): ?>
+                            <span>独立阳台</span>
+                            <?php endif; ?>
+                      <?php endforeach; ?>   
+                    </div>
                 </div>
                 <div class="contactus">
                     <div class="hotphone">
@@ -352,101 +270,65 @@
                             </tr>
                             </thead>
                             <tbody>
-
-                                                            <tr>
+                            <?php foreach($roomd as $v): ?>
+                                <tr>
                                     <td>
-                                        <strong>A房间</strong>&nbsp;
-                                                                                <span>已出租</span>
-                                        <a href="http://www.dankegongyu.com/room/3582.html">查看详情</a>
-                                                                                </td>
+                                        <strong><?php echo e($v["r_name"]); ?></strong>&nbsp;
+                                        <span>
+                                            <?php if($v["r_status"]==0): ?>
+                                                未出租
+                                            <?php endif; ?>
+                                            <?php if($v["r_status"]==1): ?>
+                                                已出租
+                                            <?php endif; ?>
+                                        </span>
+                                        <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo $v['r_id']?>" target="_blank">查看详情</a>
+                                    </td>
 
-                                        <td>
-                                            <em> 男 </em>
-                                        </td>
-                                        <td>17㎡</td>
-
-
-                                                                                                                                                                            <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                    
-                                                                                    <td>已出租</td>
-                                                                        </tr>
-                                                            <tr>
                                     <td>
-                                        <strong>B房间</strong>&nbsp;
-                                                                                <span>已出租</span>
-                                        <a href="http://www.dankegongyu.com/room/3583.html">查看详情</a>
-                                                                                </td>
-
-                                        <td>
-                                            <em> 男 </em>
-                                        </td>
-                                        <td>26㎡</td>
-
-
-                                                                                                                                                                            <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                                                                                                                <td><i class="text_mute"></i></td>
-                                                                                    
-                                                                                    <td>已出租</td>
-                                                                        </tr>
-                                                            <tr>
+                                        <em> 男 </em>
+                                    </td>
+                                    <td><?php echo e($v["r_area"]); ?>㎡</td>
                                     <td>
-                                        <strong>C房间</strong>&nbsp;
-                                                                                    <span class="on">当前房间</span></td>
-                                                                            
-
-                                        <td>
-                                            <em>  </em>
-                                        </td>
-                                        <td>27㎡</td>
-
-
-                                                                                                                                                                            <td><i class="text_mute"></i></td>
-                                                                                                                                                                                <td><i class="text_mute"></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                    
-                                                                                    <td> 3040 元/月</td>
-                                                                        </tr>
-                                                            <tr>
+                                    <?php foreach($v['privape'] as $val): ?>
+                                        
+                                        <?php if($val['p_id']==1): ?>
+                                        <li>√</li>
+                                        <?php endif; ?>
+                                        
+                                    <?php endforeach; ?>
+                                    </td>
                                     <td>
-                                        <strong>D房间</strong>&nbsp;
-                                                                                <span>已出租</span>
-                                        <a href="http://www.dankegongyu.com/room/3585.html">查看详情</a>
-                                                                                </td>
+                                    <?php foreach($v['privape'] as $val): ?>
+                                        
+                                        <?php if($val['p_id']==2): ?>
+                                        <li>√</li>
+                                        <?php endif; ?>
+                                        
+                                    <?php endforeach; ?>
+                                    </td>
 
-                                        <td>
-                                            <em> 女 </em>
-                                        </td>
-                                        <td>16㎡</td>
-
-
-                                                                                                                                                                            <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                    
-                                                                                    <td>已出租</td>
-                                                                        </tr>
-                                                            <tr>
                                     <td>
-                                        <strong>E房间</strong>&nbsp;
-                                                                                <span>已出租</span>
-                                        <a href="http://www.dankegongyu.com/room/3586.html">查看详情</a>
-                                                                                </td>
-
-                                        <td>
-                                            <em> 男 </em>
-                                        </td>
-                                        <td>16㎡</td>
-
-
-                                                                                                                                                                            <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                                                                                                                <td><i></i></td>
-                                                                                    
-                                                                                    <td>已出租</td>
-                                                                        </tr>
+                                    <?php foreach($v['privape'] as $val): ?>
+                                        
+                                        <?php if($val['p_id']==3): ?>
+                                        <li>√</li>
+                                       
+                                        <?php endif; ?>
+                                        
+                                    <?php endforeach; ?>
+                                    </td>
+                                   
+                                    <td>    
+                                    <?php if($v["r_status"]==0): ?>
+                                        <?php echo e($v['r_price']); ?>元/月
+                                    <?php endif; ?>
+                                    <?php if($v["r_status"]==1): ?>
+                                        已出租
+                                    <?php endif; ?>
+                                    </td>
+                                </tr>
+                            <?php endforeach; ?>                               
                             
                             </tbody>
                         </table>
@@ -459,15 +341,10 @@
                             </div>
                             <div class="room_pro_box">
                                 <p>
-                                                                            <span>空调</span>
-                                                                            <span>床</span>
-                                                                            <span>床垫</span>
-                                                                            <span>书桌</span>
-                                                                            <span>座椅</span>
-                                                                            <span>衣柜</span>
-                                                                            <span>台灯</span>
-                                                                            <span>垃圾桶</span>
-                                                                    </p>
+                                <?php foreach($conf as $v): ?>
+                                    <span><?php echo e($v["con_name"]); ?></span>
+                                <?php endforeach; ?>
+                                </p>
                             </div>
                         </div>
                                             <div class="room_pro">
@@ -476,13 +353,13 @@
                             </div>
                             <div class="room_pro_box">
                                 <p>
-                                                                            <span>冰箱</span>
-                                                                            <span>抽油烟机</span>
-                                                                            <span>燃气灶</span>
-                                                                            <span>微波炉</span>
-                                                                            <span>热水器</span>
-                                                                            <span>洗衣机</span>
-                                                                    </p>
+                                    <span>冰箱</span>
+                                    <span>抽油烟机</span>
+                                    <span>燃气灶</span>
+                                    <span>微波炉</span>
+                                    <span>热水器</span>
+                                    <span>洗衣机</span>
+                                </p>
                             </div>
                         </div>
                                             <div class="room_pro">
@@ -491,10 +368,10 @@
                             </div>
                             <div class="room_pro_box">
                                 <p>
-                                                                            <span>免费高速WIFI</span>
-                                                                            <span>公共区域定期免费保洁</span>
-                                                                            <span>客服预约维修</span>
-                                                                    </p>
+                                    <span>免费高速WIFI</span>
+                                    <span>公共区域定期免费保洁</span>
+                                    <span>客服预约维修</span>
+                                </p>
                             </div>
                         </div>
                                     </div>
@@ -526,50 +403,40 @@
                         <h2 class="cn">猜你喜欢</h2>
                     </div>
                     <div class="lk_room_box">
-
-                                                    <dl>
+                            <?php foreach($like as $v): ?>
+                            <dl>
                                 <dt>
-                                    <a href="http://www.dankegongyu.com/room/9979.html">
-                                        <img src="img/public-20161004-FmY2Lf10dsEQWp8PFfAksj8h0ICn">
-                                        <div class="month_y">
-                                            2050<span>元/月</span>
+                                    <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($v['r_id']); ?>">
+                                        <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo e($v['r_img']); ?>">
+                                        <div class="month_y" style="color: red;">
+                                            <?php echo e($v["r_price"]); ?><span>元/月</span>
                                         </div>
                                     </a>
                                 </dt>
                                 <dd>
-                                    <a href="http://www.dankegongyu.com/room/9979.html">龙泽 冠庭园 主卧 朝北 A室</a>
-                                    <p>地铁 13号线 / 12平米  / 独立阳台  </p>
+                                    <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($v['r_id']); ?>"><?php echo e($v['region_name']); ?><?php echo e($v['h_name']); ?><?php echo e($v['r_title']); ?><?php echo e($v['direct']); ?><?php echo e($v['r_name']); ?></a>
+                                    <p> <?php echo e($v["r_area"]); ?>平米  /                                     <?php foreach($v['privape'] as $val): ?>
+                                        <?php if($val['p_id']==1): ?>
+                                        <span>独立阳台</span>
+                                        <?php endif; ?>                                        
+                                    <?php endforeach; ?>  
+                            
+                                    <?php foreach($v['privape'] as $val): ?>
+                                        <?php if($val['p_id']==2): ?>
+                                        <span>独立淋浴</span>
+                                        <?php endif; ?>                                        
+                                    <?php endforeach; ?>  
+                                    
+                                    <?php foreach($v['privape'] as $val): ?>
+                                        <?php if($val['p_id']==3): ?>
+                                        <span>独立卫生间</span>
+                                        <?php endif; ?>                                        
+                                    <?php endforeach; ?>  
+                                    </p>
                                 </dd>
                             </dl>
-                                                    <dl>
-                                <dt>
-                                    <a href="http://www.dankegongyu.com/room/6467.html">
-                                        <img src="img/public-20161017-FtBVDPdYTFAjgJ8ZVRDz1oJ55bGh">
-                                        <div class="month_y">
-                                            2490<span>元/月</span>
-                                        </div>
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="http://www.dankegongyu.com/room/6467.html">龙泽 新龙城 主卧 朝西北 A室</a>
-                                    <p>地铁 13号线 / 13平米 </p>
-                                </dd>
-                            </dl>
-                                                    <dl>
-                                <dt>
-                                    <a href="http://www.dankegongyu.com/room/11075.html">
-                                        <img src="img/public-20161029-FuWtEsTxttzk-fTmuEx0GhilTN-I">
-                                        <div class="month_y">
-                                            3090<span>元/月</span>
-                                        </div>
-                                    </a>
-                                </dt>
-                                <dd>
-                                    <a href="http://www.dankegongyu.com/room/11075.html">龙泽 新龙城 主卧 朝南 A室</a>
-                                    <p>地铁 13号线 / 21平米  / 独立阳台  </p>
-                                </dd>
-                            </dl>
-                                            </div>
+                             <?php endforeach; ?>                       
+                    </div>
                 </div>
             </div>
             <div class="near_box_right">

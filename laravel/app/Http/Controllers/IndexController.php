@@ -12,6 +12,8 @@ use Illuminate\Http\Request;
 class IndexController extends Controller{
 	//表单页面
     public function index(){
-        return view("index/index");
+    	$ad_img = DB::table('ad')->where("is_show","=","1")->get();
+    	// var_dump($room);die;
+        return view("index/index",["ad_img"=>$ad_img]);
     }
 }
