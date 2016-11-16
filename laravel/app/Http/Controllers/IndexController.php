@@ -16,8 +16,4 @@ class IndexController extends Controller{
     	// var_dump($room);die;
         return view("index/index",["ad_img"=>$ad_img]);
     }
-    public function search(Request $request){
-        $search =$request->input('search_text');
-        var_dump($search);
-    }
 }
