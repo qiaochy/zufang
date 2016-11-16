@@ -36,25 +36,25 @@
                     按条件找房
                 </div>
                 <div class="zf_map_ta">
-                    <a href="http://www.dankegongyu.com/room/map/bj?from=room" target="_blank">地图找房</a>
+                    <a href="map" target="_blank">地图找房</a>
                 </div>
             </div>
             <form method="GET" action="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html" accept-charset="UTF-8">
             <input type="hidden" name="search" value="1">
             <div class="zf_sebox">
                 <div class="sear_menu">
-                    <input type="text" class="sear_input" name="search_text" value="" placeholder="例如: 10号线、四惠、天通苑等">
-                    <button type="submit" class="search_btn">搜索</button>
+                    <input type="text" class="sear_input" name="search_text" value="" placeholder="例如: 四惠、天通苑等">
+                    <button type="button" id="but" class="search_btn">搜索</button>
                 </div>
                 <div class="sear_more">
                     热门搜索：
                     <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
                     <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
-                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
-                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
-                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
-                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
-                    <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
+                                        <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
                 </div>
             </div>
             </form>
@@ -64,14 +64,13 @@
                     <dt>区域：</dt>
                     <dd>
                         <div class="option_list">
-                            <a href="room?region_id=%" class="region">不限</a>
-                            <!-- <a href="javascript:void(0)" region_id="%" class="region onlist">不限</a> -->
+                            <a href="javascript:void(0)" class="region" region_id="%">不限</a>
                             <?php foreach($region as $item): ?>
-                            <a href="room?region_id=<?php echo e($item['region_id']); ?>" class="region"><?php echo e($item['region_name']); ?></a>
-                            <!-- <a href="javascript:void(0)" region_id="<?php echo e($item['region_id']); ?>" class="region"><?php echo e($item['region_name']); ?></a> -->
+                            <a href="javascript:void(0)" class="region" region_id="<?php echo e($item['region_id']); ?>"><?php echo e($item['region_name']); ?></a>
                             <?php endforeach; ?>
                         </div>    
                     </dd>
+
                 </dl>
                                     
                 
@@ -79,12 +78,13 @@
                     <dt>租金：</dt>
                     <dd>
                         <div class="option_list">
-                            <a href="javascript:void(0)" price="price=0&priced=20000" class="price">不限</a>
-                            <a href="javascript:void(0)" price="price=0&priced=2000" class="price">2000元以下</a>
-                            <a href="javascript:void(0)" price="price=2000&priced=2500" class="price">2000-2500元</a>
-                            <a href="javascript:void(0)" price="price=2500&priced=3000" class="price">2500-3000元</a>
-                            <a href="javascript:void(0)" price="price=3000&priced=3500" class="price">3000-3500元</a>
-                            <a href="javascript:void(0)" price="price=3500&priced=20000" class="price">3500元以上</a>
+
+                            <a href="javascript:void(0)" price="0"priced="999999" class="price">不限</a>
+                            <a href="javascript:void(0)" price="0"priced="2000" class="price">2000元以下</a>
+                            <a href="javascript:void(0)" price="2000"priced="2500" class="price">2000-2500元</a>
+                            <a href="javascript:void(0)" price="2500"priced="3000" class="price">2500-3000元</a>
+                            <a href="javascript:void(0)" price="3000"priced="3500" class="price">3000-3500元</a>
+                            <a href="javascript:void(0)" price="3500"priced="999999" class="price">3500元以上</a>
                         </div>
                     </dd>
                 </dl>
@@ -92,9 +92,9 @@
                     <dt>居室：</dt>
                     <dd>
                         <div class="option_list">
-                            <a href="javascript:void(0)" cat_id = "cat_id=%" class="cate">不限</a>
+                            <a href="javascript:void(0)" cat_id = "%" class="room">不限</a>
                             <?php foreach($cate as $item): ?>
-                            <a href="javascript:void(0)" cat_id = "cat_id=<?php echo e($item['cat_id']); ?>" class="cate"><?php echo e($item['cat_name']); ?></a>
+                            <a href="javascript:void(0)"  cat_id = "<?php echo e($item['cat_id']); ?>" class="room" ><?php echo e($item['cat_name']); ?></a>
                             <?php endforeach; ?>
                         </div>
                     </dd>
@@ -102,54 +102,23 @@
                 <dl class="dl_lst">
                     <dt>特色：</dt>
                     <dd>
-                        <div class="dlul">
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=%">
+                        <div class="option_list">
+                            <a href="javascript:void(0)" class="pri" p_id = "%">
                                 <i></i>不限
                             </a>
 
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=1">
+                            <a href="javascript:void(0)" class="pri" p_id = "1">
                                 <i></i>独卫
                             </a>
 
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=3">
+                            <a href="javascript:void(0)" class="pri" p_id = "3">
                                 <i></i>独立阳台
                             </a>
-                            <a href="javascript:void(0)" class="pri" p_id = "p_id=2">
+                            <a href="javascript:void(0)" class="pri" p_id = "2">
                                 <i></i>独立淋浴
                             </a>
                         </div>
-                        <!--主次卧-->
-                        
-<!--                         <div class="bedroombox selectmodel">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    主次卧
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title=''">不限</a></li>
-                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='主卧'">主卧</a></li>
-                                    <li><a href="javascript:void(0)" class="zc" r_title = "r_title='次卧'">次卧</a></li>
-                                </ul>
-                            </div>
-                        </div>
- -->                        <!--朝向face-->
-                        
-<!--                         <div class="directionbox selectmodel">
-                            <div class="dropdown">
-                                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                                    朝向
-                                    <span class="caret"></span>
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=">不限</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E4%B8%9C">东</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8D%97">南</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E8%A5%BF">西</a></li>
-                                    <li><a href="http://www.dankegongyu.com/room/bj?search=1&page=1&face=%E5%8C%97">北</a></li>
-                                </ul>
-                            </div>
-                        </div> -->
+                    
 
 
                     </dd>
@@ -157,22 +126,29 @@
 
             </div>
 
-
+    <input type="hidden" id="cat_id" value=''>
+    <input type="hidden" id="region_id" value=''>
+    <input type="hidden" id="priced" value=''>
+    <input type="hidden" id="price" value=''>
+    <input type="hidden" id="p_id" value=''>
+    <input type="hidden" id="search_text" value=''>
+    <input type="hidden" id="asc" value=''>
         </div>
         <!--条件找房 end-->
 
         <!--房源列表-->
         <div class="roomlist">
                 <div class="r_ls">
-                    <a href="http://www.dankegongyu.com/room/bj?orderby=&asc=" class="ss ck_on">默认</a>
-                    <a href="room?asc=r_price" class="ss">价格<i></i></a>
-                    <a href="room?asc=r_area" class="ss">面积<i></i></a>
+                    <a href="javascript:void(0)" asc="r_id"class="ss ck_on">默认</a>
+                    <a href="javascript:void(0)" asc="r_price" class="ss">价格<i></i></a>
+                    <a href="javascript:void(0)" asc="r_area"  class="ss">面积<i></i></a>
                 </div>
                                     
-                <div class="r_ls_box">
+                <div class="r_ls_box" id="soso" >
+                    
                     <?php foreach($room as $item): ?>
                         <div class="r_lbx">
-                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>" class="rimg"><img src="http://www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
+                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>" class="rimg"><img src="www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
                             <div class="r_lbx_cen">
                                 <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
                                 <div class="r_lbx_cena">
@@ -181,7 +157,7 @@
                                 </div>
                                 <div class="r_lbx_cenb">
 
-                                     <?php echo e($item['r_area']); ?>㎡ | <?php echo e($item['floor']); ?>楼 |  <?php echo e($item['cat_name']); ?>                                    | <?php echo e($item['direct']); ?>
+                                     <?php echo e($item['r_area']); ?>㎡ | <?php echo e($item['floor']); ?>楼 |  <?php echo e($item['cat_name']); ?> | <?php echo e($item['direct']); ?>
 
                                 </div>
                                 <div class="r_lbx_cenc">
@@ -205,28 +181,29 @@
                                     <span class="ty_b"><?php echo e($item['r_price']); ?></span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>">
+                                <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
                                     查看房间详情
                                 </a>
                             </div>
+
                         </div>
                     <?php endforeach; ?>
-                                         
-                                        
+                    
+                                   
                 <!--翻页插件-->
 
                 
-                    <div class="page">
-                        <a href="http://www.dankegongyu.com/room/bj?page=1" class="on">1</a>
-                        <a href="http://www.dankegongyu.com/room/bj?page=2">2</a>
-                        <a href="http://www.dankegongyu.com/room/bj?page=3">3</a>
-                        <a href="http://www.dankegongyu.com/room/bj?page=4">4</a>
-                        <a href="http://www.dankegongyu.com/room/bj?page=5">5</a>
-                        <a href="http://www.dankegongyu.com/room/bj?page=2">&gt;</a>
-                    </div>
-                <!--翻页插件 end-->
+                <div class="page">
+                    <a href="http://www.dankegongyu.com/room/bj?page=1" class="pages on">1</a>
+                    <?php for($i=1;$i<=$cou-1;$i++): ?>
+                    <a href="javascript:void(0)" class="pages" page="<?php echo e($i+1); ?>" ><?php echo e(($i+1)); ?></a>
+                    <?php endfor; ?>
                 </div>
-            
+                <!--翻页插件 end-->
+                 </div>    
+
+                </div>
+
         <!--房源列表 end-->
 
         <!--猜你喜欢-->
@@ -824,107 +801,105 @@
 
 <script type="text/javascript" src="./北京租房信息_蛋壳公寓北京站_files/online"></script><div><div class="qimo_chatpup" id="qimo_chatpup" style="display: none; border-top-color: rgb(0, 204, 205); border-left-color: rgb(0, 204, 205); border-right-color: rgb(0, 204, 205);"><iframe src="./北京租房信息_蛋壳公寓北京站_files/moor_chat.html" height="100%" width="100%"></iframe></div><div id="chatBtn" class="chatBtn" style="bottom: -1px; background-color: rgb(0, 204, 205);"><img width="28px" height="25px" style="margin:0px 5px -6px 0px;" src="img/chat.png"><span>咨询客服</span></div></div>
 <script>
+ //多条件传值
+
     $(function(){
+       
+        //分页
+        $(document).on('click','.pages',function(){
+              var region_id = $("#region_id").val();//区域id
+              var cat_id = $("#cat_id").val();//居室
+              var price = $("#price").val();//租金
+              var priced = $("#priced").val();//租金
+              var p_id = $("#p_id").val();//特色ID
+              var search_text = $("#search_text").val();//搜索词
+              var asc = $("#asc").val();//排序
+              var page = $(this).attr('page');
+              var data = {page:page,region_id:region_id,cat_id:cat_id,price:price,priced:priced,p_id:p_id,search_text:search_text,asc:asc};
+               list_get(data);
+        })
+        //地区
         $(".region").click(function(){
-            $(this).attr("class","onlist").siblings().removeClass("onlist");
-            // var region_id = $(this).attr("region_id");
-            // alert(region_id);
+            $("a").removeClass("onlist");//删除所有a链接的点击属性
+            $("input[type='hidden']").val('');
+            $(this).addClass("onlist");//当前a链接获取点击属性
+            var region_id = $(this).attr('region_id');
+            var data = {region_id:region_id};
+            $("#region_id").val(region_id);
+            list_get(data);
         });
+          //居室
+        $(".room").click(function(){
+              var region_id = $("#region_id").val();//区域id
+              var price = $("#price").val();//租金
+              var priced = $("#priced").val();//租金
+              var p_id = $("#p_id").val();//特色ID
+             $(this).addClass("onlist").siblings().removeClass("onlist");
+             var cat_id = $(this).attr("cat_id");
+             $("#cat_id").val(cat_id);
+             var data = {price:price,priced:priced,region_id:region_id,p_id:p_id,cat_id:cat_id};
+              list_get(data);
+        })
         //房租
         $(".price").click(function(){
-            $(this).attr("class","onlist").siblings().removeClass("onlist");
+             var region_id = $("#region_id").val();//区域id
+             var cat_id = $("#cat_id").val();//居室
+             var p_id = $("#p_id").val();//特色ID
+             $(this).addClass("onlist").siblings().removeClass("onlist");
              var price = $(this).attr("price");
-             var wid = window.location.href; 
-            // alert(wid);return false;
-             
-             if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                location.href = wid+"?"+price;
-             }else{
-                if(wid.indexOf("price")>0){
-                    wid = wid.substr(0,wid.indexOf("price")-1);
-                    // alert(wid);return false;
-                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                        location.href = wid+"?"+price;
-                    }else{
-                        location.href = wid+"&"+price;
-                    }
-                    
-                }else{
-                    location.href = wid+"&"+price;
-                }
-
-             }
+             var priced = $(this).attr("priced");
+             $("#price").val(price);
+             $("#priced").val(priced);
+             var data = {price:price,priced:priced,region_id:region_id,p_id:p_id,cat_id:cat_id};
+             list_get(data);
         });
-        //居室
-        $(".cate").click(function(){
-            $(this).attr("class","onlist").siblings().removeClass("onlist");
-             var cate = $(this).attr("cat_id");
-             var wid = window.location.href; 
 
-             
-             if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                location.href = wid+"?"+cate;
-             }else{
-                if(wid.indexOf("cat_id")>0){
-                    wid = wid.substr(0,wid.indexOf("cat_id")-1);
-                    // alert(wid);return false;
-                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                        location.href = wid+"?"+cate;
-                    }else{
-                        location.href = wid+"&"+cate;
-                    }
-                    
-                }else{
-                    location.href = wid+"&"+cate;
-                }
-             }
-        });
         //特色
         $(".pri").click(function(){
-            $(this).attr("class","onlist").siblings().removeClass("onlist");
-             var pri = $(this).attr("p_id");
-             var wid = window.location.href; 
-
-             
-             if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                location.href = wid+"?"+pri;
-             }else{
-                if(wid.indexOf("p_id")>0){
-                    wid = wid.substr(0,wid.indexOf("p_id")-1);
-                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                        location.href = wid+"?"+pri;
-                    }else{
-                        location.href = wid+"&"+pri;
-                    }
-                }else{
-                    location.href = wid+"&"+pri;
-                }
-             }
+              $(this).addClass("onlist").siblings().removeClass("onlist");
+              var p_id = $(this).attr("p_id");//特色ID
+              $("#p_id").val(p_id);
+              var region_id = $("#region_id").val();//区域id
+              var cat_id = $("#cat_id").val();//居室
+              var price = $("#price").val();//租金
+              var priced = $("#priced").val();//租金
+              var data = {price:price,priced:priced,region_id:region_id,cat_id:cat_id,p_id:p_id};
+                list_get(data);
         });
 
-        //主次卧
-        $(".zc").change(function(){
-            // $(this).attr("class","onlist").siblings().removeClass("onlist");
-             var zc = $(this).attr("r_title");
-             var wid = window.location.href; 
-            // alert(zc);return false;
-             
-             if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                location.href = wid+"?"+zc;
-             }else{
-                if(wid.indexOf("r_title")>0){
-                    wid = wid.substr(0,wid.indexOf("r_title")-1);
-                    if(wid == "http://www.qiaochy.com/laravel/public/room"){
-                        location.href = wid+"?"+zc;
-                    }else{
-                        location.href = wid+"&"+zc;
-                    }
-                }else{
-                    location.href = wid+"&"+zc;
-                }
-             }
-        });        
+        //排序
+        $(".ss").click(function(){
+            $(this).addClass("ck_on").siblings().removeClass("ck_on");
+              var region_id = $("#region_id").val();//区域id
+              var cat_id = $("#cat_id").val();//居室
+              var price = $("#price").val();//租金
+              var priced = $("#priced").val();//租金
+              var p_id = $("#p_id").val();//特色ID
+              var search_text = $("#search_text").val();//搜索词
+              var asc = $(this).attr("asc");
+              $("#asc").val(asc);
+              var data = {region_id:region_id,cat_id:cat_id,price:price,priced:priced,p_id:p_id,search_text:search_text,asc:asc};
+              list_get(data);
+        })
+        //搜索
+      $(document).on('click','#but',function(){
+        var search_text = $("input[name='search_text']").val()
+        var data = {search_text:search_text};
+        $("a").removeClass("onlist");
+        $("#search_text").val(search_text);
+        list_get(data);
+      })
+    //get 请求
+    var list_get = function(data)
+      {
+            $("#soso").html("<img src='img/load.gif'>");
+            $.get("where",data,function(msg){
+
+                     $("#soso").html(msg);
+            })
+      }
     });
+  
 </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('Layout/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

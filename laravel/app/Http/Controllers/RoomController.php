@@ -246,8 +246,51 @@ class RoomController extends Controller{
 
 
     //房屋详情页面
-    public function roomcon()
+    public function roomcon(Request $request)
     {
-        return view('room.roomcon');
+    	$r_id = $request->input("r_id");
+    	$room = DB::table('house')
+        ->Join('room','room.h_id','=','house.h_id')
+        ->Join('pattern','pattern.wid','=','house.pay')
+        ->Join('category','house.cat_id','=','category.cat_id')
+        ->Join('region','house.region_id','=','region.region_id')
+        ->Join('orientation','house.direction','=','orientation.did')
+        ->select('r_id','region_name','h_name','r_title','direct','r_name','r_area','cat_name','survey','floor','r_price','r_img','house.region_id','house.cat_id',"house.h_id","ways")
+        ->where('r_id','=',$r_id)
+        ->first();
+        $img = DB::table('img')->where("h_id","=",$room['h_id'])->get();
+        $privape = DB::table('rp')->where('r_id','=',$r_id)->get();
+        
+    	$roomd = DB::table('house')
+        ->Join('room','room.h_id','=','house.h_id')
+        ->Join('pattern','pattern.wid','=','house.pay')
+        ->Join('category','house.cat_id','=','category.cat_id')
+        ->Join('region','house.region_id','=','region.region_id')
+        ->Join('orientation','house.direction','=','orientation.did')
+        ->select('r_id','region_name','h_name','r_title','direct','r_name','r_area','cat_name','survey','floor','r_price','r_img','house.region_id','house.cat_id',"house.h_id","ways","r_status")
+        ->where('house.h_id','=',$room['h_id'])
+        ->get();
+        foreach($roomd as $k=>$v){
+        	    $roomd[$k]['privape'] = DB::table('rp')->where('r_id','=',$v['r_id'])->get();
+                
+        }
+        $conf = DB::table('hc')->Join('conf','conf.con_id','=','hc.con_id')->where('hc.h_id','=',$room['h_id'])->get();
+        
+        //猜你喜欢
+        $like = DB::table('house')
+        ->Join('room','room.h_id','=','house.h_id')
+        ->Join('pattern','pattern.wid','=','house.pay')
+        ->Join('category','house.cat_id','=','category.cat_id')
+        ->Join('region','house.region_id','=','region.region_id')
+        ->Join('orientation','house.direction','=','orientation.did')
+        ->select('r_id','region_name','h_name','r_title','direct','r_name','r_area','cat_name','survey','floor','r_price','r_img','house.region_id','house.cat_id',"house.h_id","ways","r_status")
+        ->where('region.region_name','like',"%".$room['region_name']."%")
+        ->get();
+        foreach($roomd as $k=>$v){
+        	$like[$k]['privape'] = DB::table('rp')->where('r_id','=',$v['r_id'])->get();
+                
+        }
+        // var_dump($like);die;
+        return view('room.roomcon',["room"=>$room,"img"=>$img,"privape"=>$privape,"roomd"=>$roomd,"conf"=>$conf,"like"=>$like]);
     }
 }
