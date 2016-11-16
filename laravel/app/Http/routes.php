@@ -23,8 +23,8 @@
 
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
-Route::get('soso','RoomController@soso');//搜索
 Route::get('where','RoomController@where');//多条件查询
+
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');//关于我们
