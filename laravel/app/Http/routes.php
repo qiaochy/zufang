@@ -26,6 +26,7 @@ Route::get('room','RoomController@room');
 
 Route::get('soso','RoomController@soso');//搜索
 Route::get('where','RoomController@where');//多条件查询
+Route::get('add','RoomController@add');//增加点击量
 
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');

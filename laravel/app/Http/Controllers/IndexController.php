@@ -10,16 +10,16 @@ use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
 class IndexController extends Controller{
-	//表单页面
+	//首页
     public function index(){
-    	$ad_img = DB::table('ad')->where("is_show","=","1")->get();
-    	$data = DB::table('hot')->where("is_show","=","1")->get();
-    	// var_dump($room);die;
-        return view("index/index",["ad_img"=>$ad_img,'data'=>$data]);
+      	$ad_img = DB::table('ad')->where("is_show","=","1")->get();
+           //热词前五条
+    	     $data = DB::table('hot')->where("is_show","=","1")->orderBy('click_num','desc')->limit(5)->get();
+          return view("index/index",["ad_img"=>$ad_img,'data'=>$data]);
     }
     public function search(Request $request){
-        $search =$request->input('search_text');
-        var_dump($search);
+          $search =$request->input('search_text');
+        
     }
 
 }

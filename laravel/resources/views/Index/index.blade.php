@@ -99,8 +99,14 @@
             })
         })
         var ajax = function(data){
-            $.get('where',data,function(){
-                window.location.href="room";
+            $.get('where',data,function(msg){
+               if(msg){
+                // alert(msg);return false;//好用
+                    window.location.href="where";
+               }else{
+                    alert('您查找的房源已经售罄！');
+               }
+              
             })
         }
         </script>
