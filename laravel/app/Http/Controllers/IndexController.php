@@ -13,11 +13,13 @@ class IndexController extends Controller{
 	//表单页面
     public function index(){
     	$ad_img = DB::table('ad')->where("is_show","=","1")->get();
+    	$data = DB::table('hot')->where("is_show","=","1")->get();
     	// var_dump($room);die;
-        return view("index/index",["ad_img"=>$ad_img]);
+        return view("index/index",["ad_img"=>$ad_img,'data'=>$data]);
     }
     public function search(Request $request){
         $search =$request->input('search_text');
         var_dump($search);
     }
+
 }

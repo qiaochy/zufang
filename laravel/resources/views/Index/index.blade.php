@@ -10,6 +10,15 @@
 @stop
 
 @section('content')
+<script src="js/jquery-8fa48925b6.min.js"></script>
+
+<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
+
+<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+
+<script src="js/public-fea84bbb90.js"></script>
+
+    <script src="js/index-9c29349919.js"></script>
 
     <input type="hidden" name="" id="windowId" value="index">
     <div class="main">
@@ -76,15 +85,24 @@
         <div class="s_box_txt">
             <!-- 开始工作 -->
             热门搜索：
-            <a href="javascript:void(0)" class="btn">现房</a>
+            @foreach($data as $v)
+            <a href="javascript:void(0)" class="btn" value="{{$v['name']}}">{{$v['name']}}</a>
+            @endforeach
         </div>
         </form>
         <script>
         $(function(){
             $('.btn').click(function(){
-                alert(23);
+                var val=$(this).attr('value');
+                var data={search_text:val};
+                ajax(data);                                                                                     
             })
         })
+        var ajax = function(data){
+            $.get('where',data,function(){
+                window.location.href="room";
+            })
+        }
         </script>
                 <!--searchbox end-->
         <!--频道导航手机端显示-->
@@ -932,15 +950,7 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
-<script src="js/jquery-8fa48925b6.min.js"></script>
 
-<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
-
-<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
-
-<script src="js/public-fea84bbb90.js"></script>
-
-    <script src="js/index-9c29349919.js"></script>
 
 
             <!-- 在线预约 -->
@@ -1342,10 +1352,7 @@
         </div><!-- /.modal -->
     </div>
 
-    <script type='text/javascript'
-                src='http://webchat.7moor.com/javascripts/7moorInit.js?accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec&autoShow=true'
-                async='async'>
-        </script>
+  
     <script>
         var tracker = {
             channel: '' || null,
