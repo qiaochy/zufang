@@ -148,9 +148,9 @@
                     
                     <?php foreach($room as $item): ?>
                         <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
+                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>" class="rimg"><img src="www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/3584.html"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
+                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
                                 <div class="r_lbx_cena">
                                     <?php echo e($item['survey']); ?>
 

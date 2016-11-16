@@ -29350,6 +29350,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1478921187.325
     'REQUEST_TIME' => 1478921187
 ]
+<<<<<<< HEAD
 2016-11-15 14:02:04 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 36393 bytes' 
 
 in D:\phpStudy\WWW\teamone\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
@@ -33239,3 +33240,5 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1479281637.335
     'REQUEST_TIME' => 1479281637
 ]
+=======
+>>>>>>> f224c521d2132410e4a9b81250832b7134b82c85

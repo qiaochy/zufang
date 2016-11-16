@@ -185,9 +185,9 @@
                     
                     @foreach($room as $item)
                         <div class="r_lbx">
-                            <a href="http://www.dankegongyu.com/room/3584.html" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
+                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.dankegongyu.com/room/3584.html">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
+                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
                                 <div class="r_lbx_cena">
                                     {{$item['survey']}}
                                 </div>

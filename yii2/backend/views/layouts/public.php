@@ -466,32 +466,6 @@
 							</ul>
 						</li>
 						
-						<li>
-							<a href="#" class="dropdown-toggle">
-								<i class="icon-list"></i>
-								<span class="menu-text"> 热词管理 </span>
-
-								<b class="arrow icon-angle-down"></b>
-							</a>
-							<ul class="submenu">
-								<li>
-									<a href="?r=hot/index">
-										<i class="icon-double-angle-right"></i>
-										热词展示
-									</a>
-								</li>
-
-								<li>
-									<a href="?r=hot/add">
-										<i class="icon-double-angle-right"></i>
-										热词添加
-									</a>
-								</li>
-								
-								
-								
-							</ul>
-						</li>
 
 						<li>
 							<a href="?r=my/index">
