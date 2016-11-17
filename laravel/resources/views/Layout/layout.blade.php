@@ -69,7 +69,7 @@
                 </li>
                     <li><a href="javascript:void(0)" id="fangdongjiameng">房东加盟</a></li>
                 <li>
-                    <a href="abouts" class="ss">关于蛋壳</a>
+                    <a href="abouts" class="ss">关于1024公寓</a>
                 </li>
             </ul>
         </div>

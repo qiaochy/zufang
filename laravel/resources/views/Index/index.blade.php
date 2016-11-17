@@ -84,7 +84,7 @@
         </div>
         <div class="s_box_txt">
             热门搜索：
-<<<<<<< HEAD
+
             @foreach($data as $v)
             <a href="javascript:void(0)" class="btn" value="{{$v['name']}}">{{$v['name']}}</a>
             @endforeach
@@ -110,17 +110,11 @@
             })
         }
         </script>
-=======
-            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
-            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
-                                        <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
-                        <a href="http://www.dankegongyu.com/room/bj">所有房源</a>
+
+           
         </div>
         </form>
->>>>>>> f224c521d2132410e4a9b81250832b7134b82c85
+
                 <!--searchbox end-->
         <!--频道导航手机端显示-->
         <div class="mod_box">

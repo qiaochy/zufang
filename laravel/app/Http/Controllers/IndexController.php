@@ -17,12 +17,10 @@ class IndexController extends Controller{
     	     $data = DB::table('hot')->where("is_show","=","1")->orderBy('click_num','desc')->limit(5)->get();
           return view("index/index",["ad_img"=>$ad_img,'data'=>$data]);
     }
-<<<<<<< HEAD
+
     public function search(Request $request){
           $search =$request->input('search_text');
         
     }
 
-=======
->>>>>>> f224c521d2132410e4a9b81250832b7134b82c85
 }

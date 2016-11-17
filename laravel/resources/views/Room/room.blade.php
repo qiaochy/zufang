@@ -82,7 +82,7 @@
                if(msg.length>85){
                $("#soso").html(msg);
                }else{
-                      $("#soso").html('<h2>您查找的房源已经售罄！</h2>');
+                     $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
                }
               
             })
@@ -923,8 +923,11 @@
       {
             $("#soso").html("<img src='img/load.gif'>");
             $.get("where",data,function(msg){
-
-                     $("#soso").html(msg);
+                    if(msg.length>85){
+                            $("#soso").html(msg);
+                     }else{
+                          $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
             })
       }
     });
