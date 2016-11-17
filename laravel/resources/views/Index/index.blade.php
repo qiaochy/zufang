@@ -10,15 +10,6 @@
 @stop
 
 @section('content')
-<script src="js/jquery-8fa48925b6.min.js"></script>
-
-<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
-
-<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
-
-<script src="js/public-fea84bbb90.js"></script>
-
-    <script src="js/index-9c29349919.js"></script>
 
     <input type="hidden" name="" id="windowId" value="index">
     <div class="main">
@@ -69,59 +60,7 @@
     </div>
 
     <div class="wrapper">
-        <!--searchbox-->
-        <form method="GET" action="http://www.dankegongyu.com/room/bj" accept-charset="UTF-8">
-        <div class="s_box">
-            <input type="hidden" name="search" value="1">
-            <div class="sear_menu">
-                <input type="text" class="sear_input" name="search_text"
-                       placeholder="例如: 10号线、四惠、天通苑等"/>
-                <button type="submit" class="search_btn">搜索</button>
-                <a href="http://www.dankegongyu.com/room/map/bj?from=pc_home" target="_blank"
-                   class="gomap"></a>
-            </div>
-            <a href="http://www.dankegongyu.com/room/bj" class="allroom">所有房源</a>
-        </div>
-        <div class="s_box_txt">
-            热门搜索：
-<<<<<<< HEAD
-            @foreach($data as $v)
-            <a href="javascript:void(0)" class="btn" value="{{$v['name']}}">{{$v['name']}}</a>
-            @endforeach
-        </div>
-        </form>
-        <script>
-        $(function(){
-            $('.btn').click(function(){
-                var val=$(this).attr('value');
-                var data={search_text:val};
-                ajax(data);                                                                                     
-            })
-        })
-        var ajax = function(data){
-            $.get('where',data,function(msg){
-               if(msg){
-                // alert(msg);return false;//好用
-                    window.location.href="where";
-               }else{
-                    alert('您查找的房源已经售罄！');
-               }
-              
-            })
-        }
-        </script>
-=======
-            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
-            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
-                                        <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
-                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
-                        <a href="http://www.dankegongyu.com/room/bj">所有房源</a>
-        </div>
-        </form>
->>>>>>> f224c521d2132410e4a9b81250832b7134b82c85
-                <!--searchbox end-->
+
         <!--频道导航手机端显示-->
         <div class="mod_box">
             <div class="gridbox">
@@ -180,150 +119,115 @@
                                     </ul>
             </div>
             <div id="oneTabContent">
-                                    <div class="room_pro fade" id="rooms_租户推荐">
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/2665.html"><img
-                                            src="http://public.wutongwan.org/public-20160215-Fg2cG82-rIT8NJKUaV7HjI1Nu9V9?imageView2/1/w/380/h/285"/></a>
+                        <div class="room_pro fade" id="rooms_租户推荐">
+                            @foreach($u_room as $item)
+                            <div class="room_pro_box">
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}" width="380px" height="285px" /></a>
                                 <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/2665.html">成寿寺 四方景园五区 主卧 朝南 C室</a>
+                                    <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                                 </div>
                                 <div class="roo_ads">
                                     <div class="roo_ads fl">
-                                        地铁 10号线 / 19平米  / 独立阳台  
+                                        {{$item["r_area"]}}平米  /                                     @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==1)
+                                        <span>独立阳台</span>
+                                        @endif                                        
+                                    @endforeach  
+                            
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==2)
+                                        <span>独立淋浴</span>
+                                        @endif                                        
+                                    @endforeach  
+                                    
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==3)
+                                        <span>独立卫生间</span>
+                                        @endif                                        
+                                    @endforeach    
                                     </div>
                                     <div class="room_money fr">
-                                        2950<span>元/月</span>
+                                        {{$item["r_price"]}}<span>元/月</span>
                                     </div>
                                 </div>
                             </div>
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/5457.html"><img
-                                            src="http://public.wutongwan.org/public-20160707-lgKnwTVj9FtaLne4rLJ9RSxapVJ5?imageView2/1/w/380/h/285"/></a>
+                            @endforeach
+                        </div>
+
+                        <div class="room_pro fade" id="rooms_新房上线">
+                            @foreach($n_room as $item)
+                            <div class="room_pro_box">
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}" width="380px" height="285px" /></a>
                                 <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/5457.html">天通苑南 天通苑东二区 主卧 朝北 D室</a>
+                                    <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                                 </div>
                                 <div class="roo_ads">
                                     <div class="roo_ads fl">
-                                        地铁 5号线 / 17平米 
+                                        {{$item["r_area"]}}平米  /                                     @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==1)
+                                        <span>独立阳台</span>
+                                        @endif                                        
+                                    @endforeach  
+                            
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==2)
+                                        <span>独立淋浴</span>
+                                        @endif                                        
+                                    @endforeach  
+                                    
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==3)
+                                        <span>独立卫生间</span>
+                                        @endif                                        
+                                    @endforeach    
                                     </div>
                                     <div class="room_money fr">
-                                        1690<span>元/月</span>
+                                        {{$item["r_price"]}}<span>元/月</span>
                                     </div>
                                 </div>
                             </div>
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/8592.html"><img
-                                            src="http://public.wutongwan.org/public-20160914-Fsvn_HEAkHH5_xdJJjK9R-aLFmOz?imageView2/1/w/380/h/285"/></a>
+                            @endforeach
+                        </div>
+
+                        <div class="room_pro fade" id="rooms_管家推荐">
+
+                            @foreach($g_room as $item)
+                            <div class="room_pro_box">
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}" width="380px" height="285px" /></a>
                                 <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/8592.html">安立路 慧忠北里 主卧 朝南 A室</a>
+                                    <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                                 </div>
                                 <div class="roo_ads">
                                     <div class="roo_ads fl">
-                                        地铁 15号线 / 19平米  / 独立阳台  
+                                        {{$item["r_area"]}}平米  /                                     @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==1)
+                                        <span>独立阳台</span>
+                                        @endif                                        
+                                    @endforeach  
+                            
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==2)
+                                        <span>独立淋浴</span>
+                                        @endif                                        
+                                    @endforeach  
+                                    
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==3)
+                                        <span>独立卫生间</span>
+                                        @endif                                        
+                                    @endforeach    
                                     </div>
                                     <div class="room_money fr">
-                                        3290<span>元/月</span>
+                                        {{$item["r_price"]}}<span>元/月</span>
                                     </div>
                                 </div>
                             </div>
-                                            </div>
-                                    <div class="room_pro fade" id="rooms_新房上线">
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/3511.html"><img
-                                            src="http://public.wutongwan.org/public-20160511-FloXnz57PYZ32rk5clXMJn709FLE?imageView2/1/w/380/h/285"/></a>
-                                <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/3511.html">人民大学 青年公寓 主卧 朝北 A室</a>
-                                </div>
-                                <div class="roo_ads">
-                                    <div class="roo_ads fl">
-                                        地铁 4号线 / 34平米  / 独卫  独浴  独立阳台  
-                                    </div>
-                                    <div class="room_money fr">
-                                        6290<span>元/月</span>
-                                    </div>
-                                </div>
-                            </div>
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/6905.html"><img
-                                            src="http://public.wutongwan.org/public-20160808-lkE5ZgQ5cYFQEBLohXnhSlBAzGBX?imageView2/1/w/380/h/285"/></a>
-                                <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/6905.html">西二旗 学府树家园 主卧 朝东南 B室</a>
-                                </div>
-                                <div class="roo_ads">
-                                    <div class="roo_ads fl">
-                                        地铁 13号线,昌平线 / 16平米 
-                                    </div>
-                                    <div class="room_money fr">
-                                        3350<span>元/月</span>
-                                    </div>
-                                </div>
-                            </div>
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/7568.html"><img
-                                            src="http://public.wutongwan.org/public-20160830-FqwwmFHj8kYUCElbu6O5rpLQY3tJ?imageView2/1/w/380/h/285"/></a>
-                                <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/7568.html">天通苑南 天通苑东一区 主卧 朝南 B室</a>
-                                </div>
-                                <div class="roo_ads">
-                                    <div class="roo_ads fl">
-                                        地铁 5号线 / 20平米  / 独立阳台  
-                                    </div>
-                                    <div class="room_money fr">
-                                        2190<span>元/月</span>
-                                    </div>
-                                </div>
-                            </div>
-                                            </div>
-                                    <div class="room_pro fade" id="rooms_管家推荐">
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/6249.html"><img
-                                            src="http://public.wutongwan.org/public-20160728-ljGYi94F9A5vH2eiJbl63fErZxS_?imageView2/1/w/380/h/285"/></a>
-                                <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/6249.html">立水桥南 北苑家园绣菊园 主卧 朝西 A室</a>
-                                </div>
-                                <div class="roo_ads">
-                                    <div class="roo_ads fl">
-                                        地铁 5号线 / 22平米  / 独立阳台  
-                                    </div>
-                                    <div class="room_money fr">
-                                        2690<span>元/月</span>
-                                    </div>
-                                </div>
-                            </div>
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/6422.html"><img
-                                            src="http://public.wutongwan.org/public-20160804-FgPWXQxcsdAuSBR0T2M5ne_Tm-Cv?imageView2/1/w/380/h/285"/></a>
-                                <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/6422.html">将台 上东三角洲 次卧 朝西 A室</a>
-                                </div>
-                                <div class="roo_ads">
-                                    <div class="roo_ads fl">
-                                        地铁 14号线 / 11平米 
-                                    </div>
-                                    <div class="room_money fr">
-                                        2690<span>元/月</span>
-                                    </div>
-                                </div>
-                            </div>
-                                                    <div class="room_pro_box">
-                                <a href="http://www.dankegongyu.com/room/6911.html"><img
-                                            src="http://public.wutongwan.org/public-20160806-Fqg3LBUz96XsYPFPV9SAqKlYPzQw?imageView2/1/w/380/h/285"/></a>
-                                <div class="room_ti">
-                                    <a href="http://www.dankegongyu.com/room/6911.html">天通苑 天通苑北三区 次卧 朝南 B室</a>
-                                </div>
-                                <div class="roo_ads">
-                                    <div class="roo_ads fl">
-                                        地铁 5号线 / 10平米 
-                                    </div>
-                                    <div class="room_money fr">
-                                        1690<span>元/月</span>
-                                    </div>
-                                </div>
-                            </div>
-                                            </div>
-                            </div>
+                            @endforeach
+
+                        </div>
+                    </div>
             <div class="lk_more">
-                <a href="http://www.dankegongyu.com/room/bj">更多房源</a>
+                <a href="room">更多房源</a>
             </div>
         </div>
         <!--room end-->
@@ -492,91 +396,7 @@
             </div>
         </div>
         <!--room photo end-->
-        <!--yezhu-->
-        <div class="mainbox clear" id="yezhu1">
-            <div class="col_row">
-                <h2 class="title_sec gred3">
-                    房东加盟
-                </h2>
-                <p class="gred9">租金收益稳定、加盟手续简单、省时省心</p>
-            </div>
-
-            <div class="yezhubox">
-                <div class="yz_boxa">
-                    <img src="img/yezhuimg.png"/>
-                    <div class="yezhu_boxa_t">
-                        房租收入稳定
-                        <span>房屋资产管理运营，租金收益增值服务。</span>
-                    </div>
-                </div>
-                <div class="yz_boxa">
-                    <img src="img/yezhuimg3.png"/>
-                    <div class="yezhu_boxa_t">
-                        一站服务、省时省心
-                        <span>金牌管家24小时服务，繁杂租务无需房东操心。</span>
-                    </div>
-                </div>
-                <div class="yz_boxa">
-                    <img src="img/yezhuimg4.png"/>
-                    <div class="yezhu_boxa_t">
-                        安全放心、托付蛋壳
-                        <span>房屋保险、电子锁、家具家电保养维修、水电燃气安全巡检。</span>
-                    </div>
-                </div>
-            </div>
-            <div class="ye_contact">
-                <div class="fl wd_a">
-                    <div class="ye_tel">
-                        电话委托
-                    </div>
-                    <div class="ye_phone">
-                        400-818-5656
-                    </div>
-                    <div class="ye_ser">
-                        服务时间：9:00 - 21:00（节假日照常）
-                    </div>
-                </div>
-                <div class="fr wd_b">
-                    <div class="ye_tel">
-                        在线委托
-                    </div>
-                    <div class="ye_submit">
-                        <a href="javascript:void(0)" data-toggle="modal" data-target="#myroom"
-                           class="online_l_r">房东加盟</a>
-                    </div>
-                    <div class="online_p">
-                        填写房源信息，蛋壳管家将第一时间联系您。
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="yztitme">
-                加盟流程
-            </div>
-            <div class="scena_timebox timeboxa">
-                <div class="scena_aimg"><span class="aimg1">1</span></div>
-                <div class="scena_aimg"><span class="aimg1">2</span></div>
-                <div class="scena_aimg"><span class="aimg1">3</span></div>
-                <div class="scena_aimg"><span class="aimg1">4</span></div>
-            </div>
-            <div class="scena_btxt">
-                <div class="scena_atext atext1">
-                    委托
-                </div>
-                <div class="scena_atext atext2">
-                    上门看房
-                </div>
-                <div class="scena_atext atext3">
-                    签约
-                </div>
-                <div class="scena_atext atext4">
-                    坐享收益
-                </div>
-            </div>
-        </div>
-        <!--yezhu end-->
+        
         <!--goodreson-->
         <div class="mainbox clear">
             <div class="col_row">
@@ -967,7 +787,15 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
+<script src="js/jquery-8fa48925b6.min.js"></script>
 
+<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
+
+<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+
+<script src="js/public-fea84bbb90.js"></script>
+
+    <script src="js/index-9c29349919.js"></script>
 
 
             <!-- 在线预约 -->
@@ -1369,7 +1197,10 @@
         </div><!-- /.modal -->
     </div>
 
-  
+    <script type='text/javascript'
+                src='http://webchat.7moor.com/javascripts/7moorInit.js?accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec&autoShow=true'
+                async='async'>
+        </script>
     <script>
         var tracker = {
             channel: '' || null,
@@ -1420,5 +1251,8 @@
             ga('send', 'event', ev, play);
         });
     }
+</script>
+<script src="js/hit.js">
+
 </script>
 @stop

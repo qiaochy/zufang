@@ -75,7 +75,7 @@
                 <li>
                     <a href="notice">租前必读</a>
                 </li>
-                                <li><a href="javascript:void(0)" id="fangdongjiameng">房东加盟</a></li>
+                                
                 <li>
                     <a href="abouts">关于蛋壳</a>
                 </li>
@@ -406,7 +406,8 @@
                             @foreach($like as $v)
                             <dl>
                                 <dt>
-                                    <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$v['r_id']}}">
+                                    
+                                    <a href="javascript:void(0)"  class="hit" id="{{$v['r_id']}}">
                                         <img src="http://www.qiaochy.com/yii2/backend/web/{{$v['r_img']}}">
                                         <div class="month_y" style="color: red;">
                                             {{$v["r_price"]}}<span>元/月</span>
@@ -414,7 +415,7 @@
                                     </a>
                                 </dt>
                                 <dd>
-                                    <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$v['r_id']}}">{{$v['region_name']}}{{$v['h_name']}}{{$v['r_title']}}{{$v['direct']}}{{$v['r_name']}}</a>
+                                    <a href="javascript:void(0)"  class="hit" id="{{$v['r_id']}}">{{$v['region_name']}}{{$v['h_name']}}{{$v['r_title']}}{{$v['direct']}}{{$v['r_name']}}</a>
                                     <p> {{$v["r_area"]}}平米  /                                     @foreach($v['privape'] as $val)
                                         @if($val['p_id']==1)
                                         <span>独立阳台</span>
@@ -1043,6 +1044,9 @@
             ga('send', 'event', ev, play);
         });
     }
+</script>
+<script src="js/hit.js">
+
 </script>
 
 <script type="text/javascript" src="./龙泽 国仕汇 主卧 朝东南 C室_蛋壳公寓北京站_files/online"></script><div><div class="qimo_chatpup" id="qimo_chatpup" style="display: none; border-top-color: rgb(0, 204, 205); border-left-color: rgb(0, 204, 205); border-right-color: rgb(0, 204, 205);"><iframe src="./龙泽 国仕汇 主卧 朝东南 C室_蛋壳公寓北京站_files/moor_chat.html" height="100%" width="100%"></iframe></div><div id="chatBtn" class="chatBtn" style="bottom: -1px; background-color: rgb(0, 204, 205);"><img width="28px" height="25px" style="margin:0px 5px -6px 0px;" src="./龙泽 国仕汇 主卧 朝东南 C室_蛋壳公寓北京站_files/chat.png"><span>咨询客服</span></div></div></body></html>

@@ -45,16 +45,14 @@ class RoomController extends Controller{
                         ->get();
         //查询居室
         $cate = DB::table('category')->where("is_show","=","1")->get();
-         //热词
-        $data = DB::table('hot')->where("is_show","=","1")->orderBy('click_num','desc')->limit(6)->get();
-        return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate,'cou'=>$cou,'data'=>$data]);
+
+        return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate,'cou'=>$cou]);
     }
 //多条件查询
     public function where(Request $request)
     {
         //接值
         $search_text = $request->input("search_text");//搜索值
-        // echo $search_text;die;
         $order = $request->input("asc") ? $request->input("asc") :'r_id';//排序
         $region_id = $request->input("region_id") ? $request->input("region_id") : '%';//
         $price = $request->input("price") ? $request->input("price") : 0;
@@ -103,8 +101,6 @@ class RoomController extends Controller{
                 $privape = DB::table('rp')->where('r_id','=',$v['r_id'])->get();
                 $room[$k]['privape'] = $privape;
             }
-            // var_dump($room);die;//查到值了
-
         }else
         {
          //多条件查库
@@ -198,9 +194,9 @@ class RoomController extends Controller{
           foreach($room as $item)
         {
             echo '<div class="r_lbx">';
-            echo '<a href="#" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/'.$item['r_img'].'"></a>';
+            echo '<a href="roomcon?r_id='.$item['r_id'].'" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/'.$item['r_img'].'"></a>';
             echo "<div class='r_lbx_cen'>";
-            echo '<a href="#">'.$item['region_name'].$item['h_name'].$item['r_title'].$item['direct'].$item['r_name'].'</a><div class="r_lbx_cena">';   
+            echo '<a href="roomcon?r_id='.$item['r_id'].'">'.$item['region_name'].$item['h_name'].$item['r_title'].$item['direct'].$item['r_name'].'</a><div class="r_lbx_cena">';   
             echo  $item['survey'];
             echo '</div><div class="r_lbx_cenb">';
             echo $item['r_area'].'㎡ | '.$item['floor'].'|'.$item['cat_name'].'|'.$item['direct'];
@@ -289,6 +285,7 @@ class RoomController extends Controller{
         ->Join('orientation','house.direction','=','orientation.did')
         ->select('r_id','region_name','h_name','r_title','direct','r_name','r_area','cat_name','survey','floor','r_price','r_img','house.region_id','house.cat_id',"house.h_id","ways","r_status")
         ->where('region.region_name','like',"%".$room['region_name']."%")
+        ->take(3)
         ->get();
         foreach($roomd as $k=>$v){
         	$like[$k]['privape'] = DB::table('rp')->where('r_id','=',$v['r_id'])->get();
@@ -297,9 +294,13 @@ class RoomController extends Controller{
         // var_dump($like);die;
         return view('room.roomcon',["room"=>$room,"img"=>$img,"privape"=>$privape,"roomd"=>$roomd,"conf"=>$conf,"like"=>$like]);
     }
-    //修改点击量
-    public function add(Request $request){
-        $search_text=$request->input('search_text');
-        $res= DB::update("update hot set  click_num=click_num+1 where name='$search_text'");
+
+    //点击量
+    public function hit(Request $request){
+        $id = $request->input("id");
+        $res = DB::update('update room set hits = hits+1 where r_id = '.$id);
+        if($res){
+            return 1;
+        }    
     }
 }

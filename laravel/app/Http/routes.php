@@ -25,11 +25,6 @@ Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
 Route::get('soso','RoomController@soso');//搜索
 Route::get('where','RoomController@where');//多条件查询
-<<<<<<< HEAD
-Route::get('add','RoomController@add');//增加点击量
-
-=======
->>>>>>> f224c521d2132410e4a9b81250832b7134b82c85
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');//关于我们
@@ -37,6 +32,7 @@ Route::get('touch','AboutsController@touch');//联系我们
 Route::get('index','IndexController@index');
 Route::get('sousuo','RoomController@sousuo');
 Route::get('roomcon','RoomController@roomcon');//房间详情
+Route::get('hit','RoomController@hit');
 
 
 /*

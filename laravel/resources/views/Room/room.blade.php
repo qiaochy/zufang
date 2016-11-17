@@ -18,13 +18,6 @@
 @stop
 
 @section('content')
-<script charset="UTF-8" src="js/QiMoIMSDK.js"></script><script charset="utf-8" src="js/lxb.js"></script><script charset="utf-8" src="js/v.js"></script><script charset="UTF-8" src="js/json2.js"></script><script src="js/hm.js"></script><script async="" src="js/analytics.js"></script><script src="js/jquery-8fa48925b6.min.js"></script>
-
-<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
-
-<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
-
-<script src="js/public-fea84bbb90.js"></script>
 
 
     <input type="hidden" name="" id="windowId" value="list">
@@ -54,47 +47,18 @@
                     <input type="text" class="sear_input" name="search_text" value="" placeholder="例如: 四惠、天通苑等">
                     <button type="button" id="but" class="search_btn">搜索</button>
                 </div>
-                 <div class="s_box_txt">
-            <!-- 开始工作 -->
-            热门搜索：
-            @foreach($data as $v)
-            <a href="javascript:void(0)" class="btn" value="{{$v['name']}}">{{$v['name']}}</a>
-            @endforeach
-        </div>
+                <div class="sear_more">
+                    热门搜索：
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
+                                        <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
+                </div>
             </div>
             </form>
-              <script>
-        $(function(){
-            $('.btn').click(function(){
-                $("a").removeClass("onlist");//删除所有a链接的点击属性
-                $(this).addClass("onlist");//当前a链接获取点击属性
-                var search_text=$(this).attr('value');
-                var data={search_text:search_text};
-                $("#search_text").val(search_text);
-                fun(data);
-                ajax(data);                                                                                     
-            })
-        })
-        //查找房源
-        var ajax = function(data){
-               $("#soso").html("<img src='img/load.gif'>");
-               $.get('where',data,function(msg){
-               if(msg.length>85){
-               $("#soso").html(msg);
-               }else{
-                      $("#soso").html('<h2>您查找的房源已经售罄！</h2>');
-               }
-              
-            })
-        }
-          //增加点击量
-        var fun = function(data){
-               
-               $.get('add',data,function(){     
-
-            })
-        }
-        </script>
 
             <div class="filter_options">
                 <dl class="dl_lst">
@@ -185,9 +149,9 @@
                     
                     @foreach($room as $item)
                         <div class="r_lbx">
-                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}"></a>
+                            <a href="javascript:void(0)" class="rimg hit" id="{{$item['r_id']}}"><img src="www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
                                 <div class="r_lbx_cena">
                                     {{$item['survey']}}
                                 </div>
@@ -249,7 +213,7 @@
             <div class="lk_room_box">
                                     <dl>
                         <dt>
-                            <a href="http://www.dankegongyu.com/room/6574.html">
+                            <a href="">
                                 <img src="img/public-20160801-FiLr4-y-I-gvF1e_Kg3nnR__53s-">
                                 <div class="month_y">
                                     2190<span>元/月</span>
@@ -360,7 +324,13 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
+<script charset="UTF-8" src="js/QiMoIMSDK.js"></script><script charset="utf-8" src="js/lxb.js"></script><script charset="utf-8" src="js/v.js"></script><script charset="UTF-8" src="js/json2.js"></script><script src="js/hm.js"></script><script async="" src="js/analytics.js"></script><script src="js/jquery-8fa48925b6.min.js"></script>
 
+<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
+
+<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+
+<script src="js/public-fea84bbb90.js"></script>
 
     <!-- 有新房源通知我 -->
     <div class="modal fade" id="myroom" tabindex="-1" role="dialog" aria-labelledby="myWeixinLabel" aria-hidden="true">
@@ -929,5 +899,8 @@
       }
     });
   
+</script>
+<script src="js/hit.js">
+
 </script>
 @stop
