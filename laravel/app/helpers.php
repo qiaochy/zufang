@@ -47,7 +47,7 @@ function sendTemplateSMS($to,$datas,$tempId)
          break;
      }
      if($result->statusCode!=0) {
-         echo "发送失败";
+         echo $result->statusMsg;
          //TODO 添加错误处理逻辑
      }else{
          echo "发送成功";

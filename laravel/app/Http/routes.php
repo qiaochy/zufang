@@ -30,8 +30,6 @@ Route::group(['middleware'=>['web']],function(){
 	Route::any('user','RoomController@user');//我要看房
 	Route::any('will','RoomController@will');//用户入库
 });
-
-
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');//关于我们

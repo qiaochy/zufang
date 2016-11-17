@@ -60,6 +60,40 @@
             </div>
             </form>
 
+              <script>
+        $(function(){
+            $('.btn').click(function(){
+                $("a").removeClass("onlist");//删除所有a链接的点击属性
+                $(this).addClass("onlist");//当前a链接获取点击属性
+                var search_text=$(this).attr('value');
+                var data={search_text:search_text};
+                $("#search_text").val(search_text);
+                fun(data);
+                ajax(data);                                                                                     
+            })
+        })
+        //查找房源
+        var ajax = function(data){
+               $("#soso").html("<img src='img/load.gif'>");
+               $.get('where',data,function(msg){
+               if(msg.length>85){
+               $("#soso").html(msg);
+               }else{
+                     $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
+              
+            })
+        }
+          //增加点击量
+        var fun = function(data){
+               
+               $.get('add',data,function(){     
+
+            })
+        }
+        </script>
+
+
             <div class="filter_options">
                 <dl class="dl_lst">
                     <dt>区域：</dt>
@@ -149,9 +183,11 @@
                     
                     @foreach($room as $item)
                         <div class="r_lbx">
+
                             <a href="roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
                                 <a href="roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
+
                                 <div class="r_lbx_cena">
                                     {{$item['survey']}}
                                 </div>
@@ -180,7 +216,7 @@
                                     <span class="ty_b">{{$item['r_price']}}</span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
+                                <a class="lk_more" href="roomcon?r_id={{$item['r_id']}}">
                                     查看房间详情
                                 </a>
                             </div>
@@ -211,71 +247,41 @@
                 猜你喜欢
             </div>
             <div class="lk_room_box">
-                                    <dl>
+                    @foreach($like as $item)
+                    <dl>
                         <dt>
-                            <a href="http://www.dankegongyu.com/room/6574.html">
-                                <img src="img/public-20160801-FiLr4-y-I-gvF1e_Kg3nnR__53s-">
-                                <div class="month_y">
-                                    2190<span>元/月</span>
+                            <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">
+                                <img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}">
+                                <div class="month_y" style="color: red;">
+                                    {{$item["r_price"]}}<span>元/月</span>
                                 </div>
                             </a>
                         </dt>
                         <dd>
-                            <a href="http://www.dankegongyu.com/room/6574.html">天通苑南 丽水园 主卧 朝北 C室</a>
+                            <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                             <p>
-                                地铁 5号线 / 15平米  / 独立阳台  
+                                {{$item["r_area"]}}平米  /                                     @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==1)
+                                        <span>独立阳台</span>
+                                        @endif                                        
+                                    @endforeach  
+                            
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==2)
+                                        <span>独立淋浴</span>
+                                        @endif                                        
+                                    @endforeach  
+                                    
+                                    @foreach($item['privape'] as $val)
+                                        @if($val['p_id']==3)
+                                        <span>独立卫生间</span>
+                                        @endif                                        
+                                    @endforeach  
                             </p>
                         </dd>
                     </dl>
-                                    <dl>
-                        <dt>
-                            <a href="http://www.dankegongyu.com/room/733.html">
-                                <img src="img/public-20161021-FhiaKHSCAmhuw4aieALPvqkygCYQ">
-                                <div class="month_y">
-                                    3690<span>元/月</span>
-                                </div>
-                            </a>
-                        </dt>
-                        <dd>
-                            <a href="http://www.dankegongyu.com/room/733.html">五道口 清华园 主卧 朝南 B室</a>
-                            <p>
-                                地铁 13号线 / 13平米 
-                            </p>
-                        </dd>
-                    </dl>
-                                    <dl>
-                        <dt>
-                            <a href="http://www.dankegongyu.com/room/383.html">
-                                <img src="img/public-20160902-Ftklnzh1Fa4XHhWoMc2tQylmtzSG">
-                                <div class="month_y">
-                                    1850<span>元/月</span>
-                                </div>
-                            </a>
-                        </dt>
-                        <dd>
-                            <a href="http://www.dankegongyu.com/room/383.html">育知路 风雅园二区 次卧 朝南 C室</a>
-                            <p>
-                                地铁 8号线 / 9平米 
-                            </p>
-                        </dd>
-                    </dl>
-                                    <dl>
-                        <dt>
-                            <a href="http://www.dankegongyu.com/room/7092.html">
-                                <img src="img/no-picture.jpg">
-                                <div class="month_y">
-                                    1790<span>元/月</span>
-                                </div>
-                            </a>
-                        </dt>
-                        <dd>
-                            <a href="http://www.dankegongyu.com/room/7092.html">新宫 德鑫嘉园 次卧 朝北 A室</a>
-                            <p>
-                                地铁 大兴线 / 10平米 
-                            </p>
-                        </dd>
-                    </dl>
-                            </div>
+                    @endforeach                
+            </div>
         </div>
         <!--猜你喜欢 end-->
     </div>
@@ -875,11 +881,17 @@
       {
             $("#soso").html("<img src='img/load.gif'>");
             $.get("where",data,function(msg){
-
-                     $("#soso").html(msg);
+                    if(msg.length>85){
+                            $("#soso").html(msg);
+                     }else{
+                          $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
             })
       }
     });
   
+</script>
+<script src="js/hit.js">
+
 </script>
 @stop
