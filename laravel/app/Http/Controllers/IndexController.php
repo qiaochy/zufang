@@ -12,6 +12,19 @@ use Illuminate\Http\Request;
 class IndexController extends Controller{
 	//表单页面
     public function index(){
+<<<<<<< HEAD
+      	$ad_img = DB::table('ad')->where("is_show","=","1")->get();
+           //热词前五条
+    	     $data = DB::table('hot')->where("is_show","=","1")->orderBy('click_num','desc')->limit(5)->get();
+          return view("index/index",["ad_img"=>$ad_img,'data'=>$data]);
+    }
+
+    public function search(Request $request){
+          $search =$request->input('search_text');
+        
+    }
+
+=======
     	//轮播广告
     	$ad_img = DB::table('ad')->where("is_show","=","1")->get();
     	// var_dump($room);die;
@@ -63,4 +76,5 @@ class IndexController extends Controller{
         // var_dump($room);die;
         return view("index/index",["ad_img"=>$ad_img,"n_room"=>$n_room,"g_room"=>$g_room,"u_room"=>$u_room]);
     }
+>>>>>>> e5dfb2f076e76b57eb25a23d21179009db88acd0
 }

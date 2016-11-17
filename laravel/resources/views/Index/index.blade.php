@@ -60,7 +60,57 @@
     </div>
 
     <div class="wrapper">
+<<<<<<< HEAD
+        <!--searchbox-->
+        <form method="GET" action="http://www.dankegongyu.com/room/bj" accept-charset="UTF-8">
+        <div class="s_box">
+            <input type="hidden" name="search" value="1">
+            <div class="sear_menu">
+                <input type="text" class="sear_input" name="search_text"
+                       placeholder="例如: 10号线、四惠、天通苑等"/>
+                <button type="submit" class="search_btn">搜索</button>
+                <a href="http://www.dankegongyu.com/room/map/bj?from=pc_home" target="_blank"
+                   class="gomap"></a>
+            </div>
+            <a href="http://www.dankegongyu.com/room/bj" class="allroom">所有房源</a>
+        </div>
+        <div class="s_box_txt">
+            热门搜索：
 
+            @foreach($data as $v)
+            <a href="javascript:void(0)" class="btn" value="{{$v['name']}}">{{$v['name']}}</a>
+            @endforeach
+        </div>
+        </form>
+        <script>
+        $(function(){
+            $('.btn').click(function(){
+                var val=$(this).attr('value');
+                var data={search_text:val};
+                ajax(data);                                                                                     
+            })
+        })
+        var ajax = function(data){
+            $.get('where',data,function(msg){
+               if(msg){
+                // alert(msg);return false;//好用
+                    window.location.href="where";
+               }else{
+                    alert('您查找的房源已经售罄！');
+               }
+              
+            })
+        }
+        </script>
+
+           
+        </div>
+        </form>
+
+                <!--searchbox end-->
+=======
+
+>>>>>>> e5dfb2f076e76b57eb25a23d21179009db88acd0
         <!--频道导航手机端显示-->
         <div class="mod_box">
             <div class="gridbox">

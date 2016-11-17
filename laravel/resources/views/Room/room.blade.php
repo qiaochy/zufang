@@ -59,6 +59,41 @@
                 </div>
             </div>
             </form>
+<<<<<<< HEAD
+              <script>
+        $(function(){
+            $('.btn').click(function(){
+                $("a").removeClass("onlist");//删除所有a链接的点击属性
+                $(this).addClass("onlist");//当前a链接获取点击属性
+                var search_text=$(this).attr('value');
+                var data={search_text:search_text};
+                $("#search_text").val(search_text);
+                fun(data);
+                ajax(data);                                                                                     
+            })
+        })
+        //查找房源
+        var ajax = function(data){
+               $("#soso").html("<img src='img/load.gif'>");
+               $.get('where',data,function(msg){
+               if(msg.length>85){
+               $("#soso").html(msg);
+               }else{
+                     $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
+              
+            })
+        }
+          //增加点击量
+        var fun = function(data){
+               
+               $.get('add',data,function(){     
+
+            })
+        }
+        </script>
+=======
+>>>>>>> e5dfb2f076e76b57eb25a23d21179009db88acd0
 
             <div class="filter_options">
                 <dl class="dl_lst">
@@ -863,8 +898,11 @@
       {
             $("#soso").html("<img src='img/load.gif'>");
             $.get("where",data,function(msg){
-
-                     $("#soso").html(msg);
+                    if(msg.length>85){
+                            $("#soso").html(msg);
+                     }else{
+                          $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
             })
       }
     });
