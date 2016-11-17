@@ -22,9 +22,6 @@
 	// 百度地图API功能
 	var url = "maptext";	
 	$.get(url,{},function(msg){
-
-		
-
 		
 		function G(id) {
 		return document.getElementById(id);

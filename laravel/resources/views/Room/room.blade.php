@@ -149,9 +149,9 @@
                     
                     @foreach($room as $item)
                         <div class="r_lbx">
-                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}"></a>
+                            <a href="roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
+                                <a href="roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
                                 <div class="r_lbx_cena">
                                     {{$item['survey']}}
                                 </div>
@@ -630,6 +630,7 @@
         });
         //获取验证码
         $('.sta_tx_b2 b').click(function () {
+
             var timer = 60;
             var mobile = $('#mobile').val();
 
@@ -637,27 +638,8 @@
                 tipText.text('请输入正确的手机号码！');
                 return false;
             }
-            //widget include
-            $.ajaxSetup({
-    headers: {
-        'X-CSRF-TOKEN': 'bCB5NV7M4iIUiqksC2Tw1HbVyMOJGwOX8VZq8jti'
-    },
-    cache: false,
-    async: false,
-});            $.ajax({
-                type: "POST",
-                url: '/collect/ajax-verify-code/' + mobile,
-                async: false,
-                error: function (msg) {
-                    alert("提交失败，请退出重试。");
-                },
-                success: function (data) {
-                    $('.pclogintip').text(data['msg']);
-                    if (!data['success']) {
-                        return false;
-                    }
-                }
-            });
+         
+
             $('.sta_tx_b2 b').hide();
             $('.sta_tx_b2 strong').css('display', 'block').text(timer + 's重新获取');
             //获取接口

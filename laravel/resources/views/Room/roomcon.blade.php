@@ -839,33 +839,15 @@
         //获取验证码
         $('.sta_tx_b2 b').click(function () {
             var timer = 60;
-            var mobile = $('#mobile').val();
-
+            var mobile = $('#mobile').val();//手机号码
+            var url = 'user';
             if (!newMobile.test(mobile)) {
                 tipText.text('请输入正确的手机号码！');
                 return false;
             }
-            //widget include
-            $.ajaxSetup({
-    headers: {
-        'X-CSRF-TOKEN': 'EaZRRaDa4NPPAUmitks5Ssr5qFnXbPBLnspPzuy6'
-    },
-    cache: false,
-    async: false,
-});            $.ajax({
-                type: "POST",
-                url: '/collect/ajax-verify-code/' + mobile,
-                async: false,
-                error: function (msg) {
-                    alert("提交失败，请退出重试。");
-                },
-                success: function (data) {
-                    $('.pclogintip').text(data['msg']);
-                    if (!data['success']) {
-                        return false;
-                    }
-                }
-            });
+           $.get(url,{mobile:mobile},function(msg){
+            alert(msg);
+           })
             $('.sta_tx_b2 b').hide();
             $('.sta_tx_b2 strong').css('display', 'block').text(timer + 's重新获取');
             //获取接口
@@ -884,6 +866,7 @@
             var name = $('#name').val();
             var mobile = $('#mobile').val();
             var messgeCode = $('#messgecode').val();
+            var url = "will";
             if (!newMobile.test(mobile)) {
                 tipText.text('请输入正确的手机号码！');
                 return false;
@@ -907,24 +890,15 @@
                     data = {name: name, mobile: mobile, code: messgeCode, type: 'detail', note: note, source: source};
                     break;
             }
-            $.ajax({
-                type: "POST",
-                url: '/collect/ajax-info/' + cityCode,
-                data: data,
-                async: false,
-                error: function (msg) {
-                    alert("提交失败，请退出重试。");
-                },
-                success: function (data) {
-                    if (data['success'] === true) {
-                        $('.form-horizontal,.gui9.telred').hide();
-                        $('.succesbox').show();
-                    } else {
-                        $('.pclogintip').text(data['msg']);
-                    }
+           $.get(url,{name:name,mobile:mobile,messgeCode:messgeCode},function(msg){
+                 if (msg == 1) {
+                        alert("已提交申请，请等待客服联系哦！");
 
-                }
-            });
+                    } else {
+                       alert("验证码错误哦...");
+                    }
+                 
+           })
         });
     });
     function btnShow() {

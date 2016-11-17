@@ -16,13 +16,19 @@
         "symfony/dom-crawler": "2.8.*|3.0.*"
     },
     "autoload": {
-        "classmap": [
-            "database"
+        "files": [
+            "app/helpers.php"
         ],
+        "classmap": [
+            "database",
+            "app/libraries/phpQuery"
+        ],
+       
         "psr-4": {
             "App\\": "app/"
         }
-    },
+    }, 
+  
     "autoload-dev": {
         "classmap": [
             "tests/TestCase.php"

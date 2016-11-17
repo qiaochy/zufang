@@ -24,6 +24,13 @@
 Route::any('/','IndexController@index');
 Route::get('room','RoomController@room');
 Route::get('where','RoomController@where');//多条件查询
+Route::get('map','RoomController@map');//地图找房
+Route::get('maptext','RoomController@maptext');//地图找房信息
+Route::group(['middleware'=>['web']],function(){	
+	Route::any('user','RoomController@user');//我要看房
+	Route::any('will','RoomController@will');//用户入库
+});
+
 
 Route::get('roomcon','RoomController@roomcon');
 Route::get('notice','NoticeController@notice');

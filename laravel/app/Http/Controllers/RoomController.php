@@ -9,7 +9,13 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
+
+
+
 class RoomController extends Controller{
+   
+
+
     //表单页面
     public function room(Request $request)
     {
@@ -194,7 +200,7 @@ class RoomController extends Controller{
           foreach($room as $item)
         {
             echo '<div class="r_lbx">';
-            echo '<a href="#" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/'.$item['r_img'].'"></a>';
+            echo '<a href="roomcon?r_id='.$item['r_id'].' "class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/'.$item['r_img'].'"></a>';
             echo "<div class='r_lbx_cen'>";
             echo '<a href="#">'.$item['region_name'].$item['h_name'].$item['r_title'].$item['direct'].$item['r_name'].'</a><div class="r_lbx_cena">';   
             echo  $item['survey'];
@@ -292,5 +298,55 @@ class RoomController extends Controller{
         }
         // var_dump($like);die;
         return view('room.roomcon',["room"=>$room,"img"=>$img,"privape"=>$privape,"roomd"=>$roomd,"conf"=>$conf,"like"=>$like]);
+    }
+    //地图找房
+        public function map()
+    {
+        return view('room.map');
+    }
+    //地图信息
+    public function maptext()
+    {
+        $sql = DB::table('house')->Join('room','room.h_id','=','house.h_id')->get();
+        //print_r($sql);die();
+        foreach($sql as $k=>$v)
+        {
+             $map[$k][]=$v['coord'];
+             $map[$k][]=$v['roord'];
+             $map[$k][]='租房地址：<a href="roomcon?r_id='.$v['r_id'].'">'.$v['detail'].'</a>';
+        }
+        echo json_encode($map);
+    }
+    //我要看房
+    public function user(Request $request)
+    {
+        $phone = $request->input('mobile');
+        $rand = rand(1000,9999);//手机验证
+        session(["$phone"=>"$rand"]); //存session
+       
+         sendTemplateSMS("$phone",array("$rand",'5'),"1");
+    }
+    //验证手机真实性&入库
+    public function will(Request $request)
+    {
+        $name = $request->input('name');
+        $phone = $request->input('mobile');
+        $messgeCode = $request->input('messgeCode');
+        $code = session("$phone");
+        $data['y_name'] = $name;
+        $data['y_phone'] = $phone;
+        $data['y_time'] = time();
+        $data['y_status'] = 0;
+        //判断验证
+        if($code==$messgeCode)
+        {
+            //入库
+            $res = DB::table("ycustomer")->insert($data);
+            echo "1";
+        }else
+        {
+            echo "0";
+        }
+
     }
 }
