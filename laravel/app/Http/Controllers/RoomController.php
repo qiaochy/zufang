@@ -46,7 +46,23 @@ class RoomController extends Controller{
         //查询居室
         $cate = DB::table('category')->where("is_show","=","1")->get();
 
-        return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate,'cou'=>$cou]);
+        //猜你喜欢
+        $like = DB::table('house')
+        ->Join('room','room.h_id','=','house.h_id')
+        ->Join('pattern','pattern.wid','=','house.pay')
+        ->Join('category','house.cat_id','=','category.cat_id')
+        ->Join('region','house.region_id','=','region.region_id')
+        ->Join('orientation','house.direction','=','orientation.did')
+        ->select('r_id','region_name','h_name','r_title','direct','r_name','r_area','cat_name','survey','floor','r_price','r_img','house.region_id','house.cat_id',"house.h_id","ways","r_status")
+        ->where('r_status','=','0')
+        ->orderBy('hits','desc')
+        ->take(4)
+        ->get();
+        foreach($like as $k=>$v){
+            $like[$k]['privape'] = DB::table('rp')->where('r_id','=',$v['r_id'])->get();
+                
+        }        
+        return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate,'cou'=>$cou,"like"=>$like]);
     }
 //多条件查询
     public function where(Request $request)

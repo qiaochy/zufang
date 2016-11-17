@@ -181,7 +181,7 @@
                                     <span class="ty_b"><?php echo e($item['r_price']); ?></span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="http://www.dankegongyu.com/room/3584.html">
+                                <a class="lk_more" href="roomcon?r_id=<?php echo e($item['r_id']); ?>">
                                     查看房间详情
                                 </a>
                             </div>
@@ -212,71 +212,41 @@
                 猜你喜欢
             </div>
             <div class="lk_room_box">
-                                    <dl>
+                    <?php foreach($like as $item): ?>
+                    <dl>
                         <dt>
-                            <a href="">
-                                <img src="img/public-20160801-FiLr4-y-I-gvF1e_Kg3nnR__53s-">
-                                <div class="month_y">
-                                    2190<span>元/月</span>
+                            <a href="javascript:void(0)"  class="hit" id="<?php echo e($item['r_id']); ?>">
+                                <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>">
+                                <div class="month_y" style="color: red;">
+                                    <?php echo e($item["r_price"]); ?><span>元/月</span>
                                 </div>
                             </a>
                         </dt>
                         <dd>
-                            <a href="http://www.dankegongyu.com/room/6574.html">天通苑南 丽水园 主卧 朝北 C室</a>
+                            <a href="javascript:void(0)"  class="hit" id="<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?><?php echo e($item['h_name']); ?><?php echo e($item['r_title']); ?><?php echo e($item['direct']); ?><?php echo e($item['r_name']); ?></a>
                             <p>
-                                地铁 5号线 / 15平米  / 独立阳台  
+                                <?php echo e($item["r_area"]); ?>平米  /                                     <?php foreach($item['privape'] as $val): ?>
+                                        <?php if($val['p_id']==1): ?>
+                                        <span>独立阳台</span>
+                                        <?php endif; ?>                                        
+                                    <?php endforeach; ?>  
+                            
+                                    <?php foreach($item['privape'] as $val): ?>
+                                        <?php if($val['p_id']==2): ?>
+                                        <span>独立淋浴</span>
+                                        <?php endif; ?>                                        
+                                    <?php endforeach; ?>  
+                                    
+                                    <?php foreach($item['privape'] as $val): ?>
+                                        <?php if($val['p_id']==3): ?>
+                                        <span>独立卫生间</span>
+                                        <?php endif; ?>                                        
+                                    <?php endforeach; ?>  
                             </p>
                         </dd>
                     </dl>
-                                    <dl>
-                        <dt>
-                            <a href="http://www.dankegongyu.com/room/733.html">
-                                <img src="img/public-20161021-FhiaKHSCAmhuw4aieALPvqkygCYQ">
-                                <div class="month_y">
-                                    3690<span>元/月</span>
-                                </div>
-                            </a>
-                        </dt>
-                        <dd>
-                            <a href="http://www.dankegongyu.com/room/733.html">五道口 清华园 主卧 朝南 B室</a>
-                            <p>
-                                地铁 13号线 / 13平米 
-                            </p>
-                        </dd>
-                    </dl>
-                                    <dl>
-                        <dt>
-                            <a href="http://www.dankegongyu.com/room/383.html">
-                                <img src="img/public-20160902-Ftklnzh1Fa4XHhWoMc2tQylmtzSG">
-                                <div class="month_y">
-                                    1850<span>元/月</span>
-                                </div>
-                            </a>
-                        </dt>
-                        <dd>
-                            <a href="http://www.dankegongyu.com/room/383.html">育知路 风雅园二区 次卧 朝南 C室</a>
-                            <p>
-                                地铁 8号线 / 9平米 
-                            </p>
-                        </dd>
-                    </dl>
-                                    <dl>
-                        <dt>
-                            <a href="http://www.dankegongyu.com/room/7092.html">
-                                <img src="img/no-picture.jpg">
-                                <div class="month_y">
-                                    1790<span>元/月</span>
-                                </div>
-                            </a>
-                        </dt>
-                        <dd>
-                            <a href="http://www.dankegongyu.com/room/7092.html">新宫 德鑫嘉园 次卧 朝北 A室</a>
-                            <p>
-                                地铁 大兴线 / 10平米 
-                            </p>
-                        </dd>
-                    </dl>
-                            </div>
+                    <?php endforeach; ?>                
+            </div>
         </div>
         <!--猜你喜欢 end-->
     </div>
