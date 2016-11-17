@@ -148,9 +148,9 @@
                     
                     <?php foreach($room as $item): ?>
                         <div class="r_lbx">
-                            <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>" class="rimg"><img src="www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
+                            <a href="javascript:void(0)" class="rimg hit" id="<?php echo e($item['r_id']); ?>"><img src="www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
                             <div class="r_lbx_cen">
-                                <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
+                                <a href="javascript:void(0)"  class="hit" id="<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
                                 <div class="r_lbx_cena">
                                     <?php echo e($item['survey']); ?>
 
@@ -214,7 +214,7 @@
             <div class="lk_room_box">
                                     <dl>
                         <dt>
-                            <a href="http://www.dankegongyu.com/room/6574.html">
+                            <a href="">
                                 <img src="img/public-20160801-FiLr4-y-I-gvF1e_Kg3nnR__53s-">
                                 <div class="month_y">
                                     2190<span>元/月</span>
@@ -900,6 +900,9 @@
       }
     });
   
+</script>
+<script src="js/hit.js">
+
 </script>
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('Layout/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
