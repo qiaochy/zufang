@@ -184,7 +184,7 @@
                     @foreach($room as $item)
                         <div class="r_lbx">
 
-                            <a href="javascript:void(0)" id={{$item['r_id']}} class="rimg hit"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
+                            <a href="javascript:void(0)" id={{$item['r_id']}} class="rimg hit"><img src="http://img.zufang.com:8080/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
                                 <a href="javascript:void(0)" id={{$item['r_id']}} class="hit">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
 
@@ -252,7 +252,7 @@
                     <dl>
                         <dt>
                             <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">
-                                <img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}">
+                                <img src="http://img.zufang.com:8080/{{$item['r_img']}}">
                                 <div class="month_y" style="color: red;">
                                     {{$item["r_price"]}}<span>元/月</span>
                                 </div>

@@ -37382,3 +37382,63 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1479435534.054
     'REQUEST_TIME' => 1479435534
 ]
+2016-11-18 11:53:04 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'F:\\XMAPP\\htdocs...', 88, Array)
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(88): unserialize('<<<<<<< HEAD\r\na...')
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile('F:\\XMAPP\\htdocs...', Array)
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#4 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#5 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2016-11-18 11:53:03 [127.0.0.1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'img.zufang.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at img.zufang.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'img.zufang.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '50207'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1479441183.647
+    'REQUEST_TIME' => 1479441183
+]

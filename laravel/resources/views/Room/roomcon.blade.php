@@ -96,7 +96,7 @@
                     <div class="carousel-inner">
                         <?php foreach($img as $k=>$v){?>
                             <div class="item">
-                                <img alt="image" style="margin: auto;" class="img-responsive" src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['file']?>">
+                                <img alt="image" style="margin: auto;" class="img-responsive" src="http://img.zufang.com:8080/<?php echo $v['file']?>">
                             </div>
                         <?php }?>
                     </div>
@@ -132,7 +132,7 @@
                         <div class="iconboxf" style="width: 1080px;">
                             <?php foreach($img as $k=>$v){?>
                                 <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['file']?>">
+                                    <img alt="image" style="margin: auto;" class="img-responsive" src="http://img.zufang.com:8080/<?php echo $v['file']?>">
                                 </div>
                             <?php }?>                                
                         </div>
@@ -388,7 +388,7 @@
                                 <dt>
                                     
                                     <a href="javascript:void(0)"  class="hit" id="{{$v['r_id']}}">
-                                        <img src="http://www.qiaochy.com/yii2/backend/web/{{$v['r_img']}}">
+                                        <img src="http://img.zufang.com:8080/{{$v['r_img']}}">
                                         <div class="month_y" style="color: red;">
                                             {{$v["r_price"]}}<span>元/月</span>
                                         </div>
