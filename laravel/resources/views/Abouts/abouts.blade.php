@@ -35,10 +35,10 @@
             <div class="hp_usbox">
     <ul>
                     <li class="active">
-                <a href="abouts">关于租房网</a>
+                <a href="abouts">关于1024网</a>
             </li>
                     <li class="">
-                <a href="touch">联系租房网</a>
+                <a href="touch">联系1024网</a>
             </li>
                    
             </ul>
@@ -57,9 +57,9 @@
     <div class="footcontainer">
         <div class="fl contai">
             <a href="tel:4008185656" class="m_keep"><i></i><span>客服热线：400-818-5656</span></a>
-            <a href="./蛋壳公寓介绍_蛋壳公寓_files/蛋壳公寓介绍_蛋壳公寓.html">关于蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a><span>·</span>
+            <a href="./蛋壳公寓介绍_蛋壳公寓_files/蛋壳公寓介绍_蛋壳公寓.html">关于1024</a><span>·</span>
+            <a href="http://www.dankegongyu.com/about/contact">联系1024</a><span>·</span>
+            <a href="http://www.dankegongyu.com/about/join">加入1024</a><span>·</span>
             <span>关注我们</span>
             <a target="_blank" href="http://weibo.com/u/5712515570?refer_flag=1001030101" class="mart10">
                 <img src="./img/weibo_icon.png">
@@ -69,7 +69,7 @@
             </a>
         </div>
         <div class="fr copyt">
-            © 2016 蛋壳公寓 京ICP备15009197号
+            © 2016 1024公寓 京ICP备15009197号
         </div>
     </div>
 </div>
@@ -83,14 +83,14 @@
                     ×
                 </button>
                 <h4 class="modal-title" id="myModalLabel">
-                    关注蛋壳公寓官方微信
+                    关注1024公寓官方微信
                 </h4>
             </div>
             <div class="modal-body">
                 <img src="./img/wechat_mp_qr_200.jpg">
             </div>
             <div class="modal-body text-center gui9">
-                扫描二维码，关注“蛋壳公寓官方微信”<br>更多优惠信息，第一时间掌握。
+                扫描二维码，关注“1024公寓官方微信”<br>更多优惠信息，第一时间掌握。
             </div>
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->

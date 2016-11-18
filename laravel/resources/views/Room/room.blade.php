@@ -184,9 +184,9 @@
                     @foreach($room as $item)
                         <div class="r_lbx">
 
-                            <a href="roomcon?r_id={{$item['r_id']}}" class="rimg"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
+                            <a href="javascript:void(0)" id={{$item['r_id']}} class="rimg hit"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
-                                <a href="roomcon?r_id={{$item['r_id']}}">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
+                                <a href="javascript:void(0)" id={{$item['r_id']}} class="hit">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
 
                                 <div class="r_lbx_cena">
                                     {{$item['survey']}}
@@ -216,7 +216,8 @@
                                     <span class="ty_b">{{$item['r_price']}}</span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="roomcon?r_id={{$item['r_id']}}">
+                                
+                                <a href="javascript:void(0)" id={{$item['r_id']}} class="lk_more hit">
                                     查看房间详情
                                 </a>
                             </div>
@@ -289,24 +290,7 @@
 
 
 <div class="footer">
-    <div class="footcontainer">
-        <div class="fl contai">
-            <a href="tel:4008185656" class="m_keep"><i></i><span>客服热线：400-818-5656</span></a>
-            <a href="http://www.dankegongyu.com/about/aboutus">关于蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a><span>·</span>
-            <span>关注我们</span>
-            <a target="_blank" href="http://weibo.com/u/5712515570?refer_flag=1001030101" class="mart10">
-                <img src="img/weibo_icon.png">
-            </a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myWeixin" class="mart10">
-                <img src="img/weixin_weixin.png">
-            </a>
-        </div>
-        <div class="fr copyt">
-            © 2016 蛋壳公寓 京ICP备15009197号
-        </div>
-    </div>
+
 </div>
 
 <!-- 关注微信-->

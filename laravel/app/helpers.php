@@ -44,7 +44,7 @@ function sendTemplateSMS($to,$datas,$tempId)
      $result = $rest->sendTemplateSMS($to,$datas,$tempId);
      if($result == NULL ) {
          echo "result error!";
-         break;
+         
      }
      if($result->statusCode!=0) {
          echo $result->statusMsg;
