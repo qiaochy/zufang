@@ -2,10 +2,10 @@
 <!-- saved from url=(0041)http://www.dankegongyu.com/room/3584.html -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script charset="utf-8" src="js/lxb.js"></script><script charset="utf-8" src="js/v.js"></script><script charset="UTF-8" src="js/QiMoIMSDK.js"></script><script charset="UTF-8" src="js/json2.js"></script>
     <meta charset="utf-8">
-    <title>龙泽 国仕汇 主卧 朝东南 C室_蛋壳公寓北京站</title>
+    <title></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="keywords" content="龙泽 国仕汇 主卧 朝东南 C室房屋出租,龙泽 国仕汇 主卧 朝东南 C室公寓出租">
-    <meta name="description" content="蛋壳公寓北京昌平区龙泽 国仕汇 主卧 朝东南 C室房屋出租，100%真实房源，免中介费，付一押一，给您提供一个安心舒适的居住环境。">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
     <link rel="icon" type="image/x-icon" href="http://s1.wutongwan.org/favicon.ico">
     <!-- Set render engine for multi engine browser -->
     <meta name="renderer" content="webkit">
@@ -45,27 +45,7 @@
             <a href="http://www.dankegongyu.com/" class="logo" title="蛋壳公寓"><img src="img/logo.png"></a>
         </div>
         <div class="fl grline"></div>
-        <div class="fl dkcity">
-            <span id="dropdownMenu1" data-toggle="dropdown"><i></i>北京</span>
-            <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-                                    <li>
-                        <a href="http://www.dankegongyu.com/bj">
-                            北京市
-                        </a>
-                    </li>
-                                    <li>
-                        <a href="http://www.dankegongyu.com/sz">
-                            深圳市
-                        </a>
-                    </li>
-                                    <li>
-                        <a href="http://www.dankegongyu.com/sh">
-                            上海市
-                        </a>
-                    </li>
-                
-            </ul>
-        </div>
+
         <div class="fl nav_channel">
             <ul>
                 <li><a href="index">首页</a></li>
@@ -77,7 +57,7 @@
                 </li>
                                 
                 <li>
-                    <a href="abouts">关于蛋壳</a>
+                    <a href="abouts">关于1024公寓</a>
                 </li>
             </ul>
         </div>
@@ -100,9 +80,9 @@
             <div class="fl container_n">
                 <a href="http://www.dankegongyu.com/">首页</a> &gt;
                 <a href="http://www.dankegongyu.com/room/bj">我要租房</a> &gt;
-                <a href="http://www.dankegongyu.com/room/bj?search=1&search_text=%E5%9B%BD%E4%BB%95%E6%B1%87">国仕汇</a>
+                <a href="http://www.dankegongyu.com/room/bj?search=1&search_text=%E5%9B%BD%E4%BB%95%E6%B1%87"></a>
                 &gt;
-                龙泽 国仕汇 主卧 朝东南 C室
+                
 
             </div>
         </div>
@@ -468,24 +448,7 @@
     <!--我要看房 end-->
 
 <div class="footer">
-    <div class="footcontainer">
-        <div class="fl contai">
-            <a href="tel:4008185656" class="m_keep"><i></i><span>客服热线：400-818-5656</span></a>
-            <a href="http://www.dankegongyu.com/about/aboutus">关于蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a><span>·</span>
-            <span>关注我们</span>
-            <a target="_blank" href="http://weibo.com/u/5712515570?refer_flag=1001030101" class="mart10">
-                <img src="img/weibo_icon.png">
-            </a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myWeixin" class="mart10">
-                <img src="img/weixin_weixin.png">
-            </a>
-        </div>
-        <div class="fr copyt">
-            © 2016 蛋壳公寓 京ICP备15009197号
-        </div>
-    </div>
+
 </div>
 
 <!-- 关注微信-->

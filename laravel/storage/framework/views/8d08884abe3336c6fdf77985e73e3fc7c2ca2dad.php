@@ -59,6 +59,40 @@
             </div>
             </form>
 
+              <script>
+        $(function(){
+            $('.btn').click(function(){
+                $("a").removeClass("onlist");//删除所有a链接的点击属性
+                $(this).addClass("onlist");//当前a链接获取点击属性
+                var search_text=$(this).attr('value');
+                var data={search_text:search_text};
+                $("#search_text").val(search_text);
+                fun(data);
+                ajax(data);                                                                                     
+            })
+        })
+        //查找房源
+        var ajax = function(data){
+               $("#soso").html("<img src='img/load.gif'>");
+               $.get('where',data,function(msg){
+               if(msg.length>85){
+               $("#soso").html(msg);
+               }else{
+                     $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
+              
+            })
+        }
+          //增加点击量
+        var fun = function(data){
+               
+               $.get('add',data,function(){     
+
+            })
+        }
+        </script>
+
+
             <div class="filter_options">
                 <dl class="dl_lst">
                     <dt>区域：</dt>
@@ -148,9 +182,11 @@
                     
                     <?php foreach($room as $item): ?>
                         <div class="r_lbx">
-                            <a href="javascript:void(0)" class="rimg hit" id="<?php echo e($item['r_id']); ?>"><img src="www.qiaochy.com/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
+
+                            <a href="javascript:void(0)" id=<?php echo e($item['r_id']); ?> class="rimg hit"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/<?php echo e($item['r_img']); ?>"></a>
                             <div class="r_lbx_cen">
-                                <a href="javascript:void(0)"  class="hit" id="<?php echo e($item['r_id']); ?>"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
+                                <a href="javascript:void(0)" id=<?php echo e($item['r_id']); ?> class="hit"><?php echo e($item['region_name']); ?> <?php echo e($item['h_name']); ?> <?php echo e($item['r_title']); ?> <?php echo e($item['direct']); ?> <?php echo e($item['r_name']); ?></a>
+
                                 <div class="r_lbx_cena">
                                     <?php echo e($item['survey']); ?>
 
@@ -181,7 +217,8 @@
                                     <span class="ty_b"><?php echo e($item['r_price']); ?></span>
                                     <span class="ty_c">/ 月</span>
                                 </div>
-                                <a class="lk_more" href="roomcon?r_id=<?php echo e($item['r_id']); ?>">
+                                
+                                <a href="javascript:void(0)" id=<?php echo e($item['r_id']); ?> class="lk_more hit">
                                     查看房间详情
                                 </a>
                             </div>
@@ -254,24 +291,7 @@
 
 
 <div class="footer">
-    <div class="footcontainer">
-        <div class="fl contai">
-            <a href="tel:4008185656" class="m_keep"><i></i><span>客服热线：400-818-5656</span></a>
-            <a href="http://www.dankegongyu.com/about/aboutus">关于蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a><span>·</span>
-            <span>关注我们</span>
-            <a target="_blank" href="http://weibo.com/u/5712515570?refer_flag=1001030101" class="mart10">
-                <img src="img/weibo_icon.png">
-            </a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myWeixin" class="mart10">
-                <img src="img/weixin_weixin.png">
-            </a>
-        </div>
-        <div class="fr copyt">
-            © 2016 蛋壳公寓 京ICP备15009197号
-        </div>
-    </div>
+
 </div>
 
 <!-- 关注微信-->
@@ -601,6 +621,7 @@
         });
         //获取验证码
         $('.sta_tx_b2 b').click(function () {
+
             var timer = 60;
             var mobile = $('#mobile').val();
 
@@ -608,27 +629,8 @@
                 tipText.text('请输入正确的手机号码！');
                 return false;
             }
-            //widget include
-            $.ajaxSetup({
-    headers: {
-        'X-CSRF-TOKEN': 'bCB5NV7M4iIUiqksC2Tw1HbVyMOJGwOX8VZq8jti'
-    },
-    cache: false,
-    async: false,
-});            $.ajax({
-                type: "POST",
-                url: '/collect/ajax-verify-code/' + mobile,
-                async: false,
-                error: function (msg) {
-                    alert("提交失败，请退出重试。");
-                },
-                success: function (data) {
-                    $('.pclogintip').text(data['msg']);
-                    if (!data['success']) {
-                        return false;
-                    }
-                }
-            });
+         
+
             $('.sta_tx_b2 b').hide();
             $('.sta_tx_b2 strong').css('display', 'block').text(timer + 's重新获取');
             //获取接口
@@ -864,8 +866,11 @@
       {
             $("#soso").html("<img src='img/load.gif'>");
             $.get("where",data,function(msg){
-
-                     $("#soso").html(msg);
+                    if(msg.length>85){
+                            $("#soso").html(msg);
+                     }else{
+                          $("#soso").html("<h2><font color='red'>您查找的房源已经售罄！</font></h2>");
+               }
             })
       }
     });

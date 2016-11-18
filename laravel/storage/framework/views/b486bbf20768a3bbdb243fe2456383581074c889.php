@@ -18,7 +18,7 @@
             <?php foreach($ad_img as $k=>$v){?>
                     <div class="item">
                         <a href="#" target="_blank">
-                            <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['ad_img']?>" alt=""/>
+                            <img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/<?php echo $v['ad_img']?>" alt=""/>
                         </a>
                     </div>
             <?php }?>
@@ -499,24 +499,7 @@
 
     
 <div class="footer">
-    <div class="footcontainer">
-        <div class="fl contai">
-            <a href="tel:4008185656" class="m_keep"><i></i><span>客服热线：400-818-5656</span></a>
-            <a href="http://www.dankegongyu.com/about/aboutus">关于蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/contact">联系蛋壳</a><span>·</span>
-            <a href="http://www.dankegongyu.com/about/join">加入蛋壳</a><span>·</span>
-            <span>关注我们</span>
-            <a target="_blank" href="http://weibo.com/u/5712515570?refer_flag=1001030101" class="mart10">
-                <img src="img/weibo_icon.png"/>
-            </a>
-            <a href="javascript:void(0)" data-toggle="modal" data-target="#myWeixin" class="mart10">
-                <img src="img/weixin_weixin.png"/>
-            </a>
-        </div>
-        <div class="fr copyt">
-            © 2016 蛋壳公寓 京ICP备15009197号
-        </div>
-    </div>
+
 </div>
 
             <!-- Picture Modal  弹窗-->
@@ -1238,7 +1221,15 @@
         })();
     </script>
 
-
+<script>
+    //搜索
+    $(function(){
+        $("#but").click(function(){
+            var search_text = $("input[name='search_text']").val();
+            location.href="http://www.feng.com:8080/house/zufang/zufang/laravel/public/iwhere?search_text=".search_text;
+        })
+    })
+</script>
 <script>
     $(document).ready(function () {
         jkmethod($('a[href^="tel"]'),'click_tel_button',this.href);
@@ -1251,8 +1242,10 @@
         });
     }
 </script>
+
 <script src="js/hit.js">
 
 </script>
+
 <?php $__env->stopSection(); ?>
 <?php echo $__env->make('Layout/layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
