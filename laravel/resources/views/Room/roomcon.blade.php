@@ -262,7 +262,7 @@
                                                 已出租
                                             @endif
                                         </span>
-                                        <a href="http://www.qiaochy.com/laravel/public/roomcon?r_id=<?php echo $v['r_id']?>" target="_blank">查看详情</a>
+                                        <a href="roomcon?r_id=<?php echo $v['r_id']?>" target="_blank">查看详情</a>
                                     </td>
 
                                     <td>
