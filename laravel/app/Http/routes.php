@@ -34,6 +34,7 @@ Route::get('hit','RoomController@hit');
 Route::get('notice','NoticeController@notice');
 Route::get('abouts','AboutsController@abouts');//关于我们
 Route::get('touch','AboutsController@touch');//联系我们
+Route::get('test','AboutsController@test');//关于我们
 Route::get('index','IndexController@index');
 Route::get('sousuo','RoomController@sousuo');
 Route::get('roomcon','RoomController@roomcon');//房间详情
