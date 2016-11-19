@@ -6,7 +6,7 @@ use yii\widgets\ActiveForm;
 <?php
 $form = ActiveForm::begin(['action'=>['cust/add'],'method'=>'post','options' => ['enctype' => 'multipart/form-data']]); 
 ?>
-
+<script src="My97DatePicker/WdatePicker.js"></script>
 	<table class="table">
 		<tr>
 			<td>客户姓名：</td>
@@ -40,11 +40,11 @@ $form = ActiveForm::begin(['action'=>['cust/add'],'method'=>'post','options' => 
 		</tr>
 		<tr>
 			<td>起租时间：</td>
-			<td><input type="text"  name="start_time" value=""></td>
+			<td><input type="text"  name="start_time" value="" class="Wdate" onFocus="WdatePicker({lang:'zh-cn'})"></td>
 		</tr>
 		<tr>
 			<td>到期时间：</td>
-			<td><input type="text" name="end_time" value=""></td>
+			<td><input type="text" name="end_time" value="" class="Wdate" onFocus="WdatePicker({lang:'zh-cn'})"></td>
 		</tr>
 		<tr>
 			<td>客户备注：</td>

@@ -37442,3 +37442,2427 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1479441183.647
     'REQUEST_TIME' => 1479441183
 ]
+2016-11-19 13:38:19 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:38:18 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479433885'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479433885; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479533898.814
+    'REQUEST_TIME' => 1479533898
+]
+2016-11-19 13:38:24 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:38:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'login/judge'
+]
+
+$_POST = [
+    'username' => 'admin'
+    'pwd' => '123'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479433885'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479433885; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'CONTENT_LENGTH' => '22'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=login/judge'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/?r=login/judge'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479533904.482
+    'REQUEST_TIME' => 1479533904
+]
+2016-11-19 13:38:25 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:38:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'index/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=index%2Findex'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=index%2Findex'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479533904.867
+    'REQUEST_TIME' => 1479533904
+]
+2016-11-19 13:38:30 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:38:29 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/upmore'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=index%2Findex'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61224'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/upmore'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house/upmore'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479533909.601
+    'REQUEST_TIME' => 1479533909
+]
+2016-11-19 13:38:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:38:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house/upmore'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61252'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/add'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust/add'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479533916.318
+    'REQUEST_TIME' => 1479533916
+]
+2016-11-19 13:40:18 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:40:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61278'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/add'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust/add'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534018.335
+    'REQUEST_TIME' => 1479534018
+]
+2016-11-19 13:41:48 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:41:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_POST = [
+    'cust_name' => '天蝎座'
+    'cust_sex' => '1'
+    'cust_phone' => '15462569845'
+    'cust_card' => '142726566942258456'
+    'UploadForm' => [
+        'file' => ''
+    ]
+    'h_id' => '1'
+    'start_time' => '2016-11-19'
+    'end_time' => '2017-05-19'
+    'cust_desc' => '时间插件测试'
+]
+
+$_FILES = [
+    'UploadForm' => [
+        'name' => [
+            'file' => 'psb8.jpg'
+        ]
+        'type' => [
+            'file' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'file' => 'F:\\XMAPP\\tmp\\phpB659.tmp'
+        ]
+        'error' => [
+            'file' => 0
+        ]
+        'size' => [
+            'file' => 69512
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => [
+        'success' => 1
+    ]
+    'aid' => '2'
+    'username' => 'admin'
+    'success' => '添加成功'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=cust/add'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------15910649417950'
+    'CONTENT_LENGTH' => '70683'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61305'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=cust%2Fadd'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust%2Fadd'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534107.661
+    'REQUEST_TIME' => 1479534107
+]
+2016-11-19 13:41:56 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:41:55 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=cust%2Fadd'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61319'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/index'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust/index'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534115.854
+    'REQUEST_TIME' => 1479534115
+]
+2016-11-19 13:42:07 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:42:07 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=cust/index'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61328'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/add'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust/add'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534127.182
+    'REQUEST_TIME' => 1479534127
+]
+2016-11-19 13:42:53 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:42:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'cust/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=cust/add'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61341'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=cust/index'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=cust/index'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534173.579
+    'REQUEST_TIME' => 1479534173
+]
+2016-11-19 13:43:36 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:43:36 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/upmore'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=cust/index'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61368'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house/upmore'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house/upmore'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534216.028
+    'REQUEST_TIME' => 1479534216
+]
+2016-11-19 13:45:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:45:46 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/upmore'
+]
+
+$_POST = [
+    'h_name' => '欢乐藤'
+    'cat_id' => '2'
+    'region_id' => '24'
+    'status' => '0'
+    'con_id' => [
+        0 => '1'
+        1 => '2'
+        2 => '3'
+        3 => '4'
+        4 => '5'
+        5 => '6'
+        6 => '7'
+        7 => '8'
+        8 => '9'
+        9 => '11'
+        10 => '12'
+    ]
+    'survey' => '买不了吃亏！'
+    'area' => '153'
+    'direction' => '1'
+    'pay' => '3'
+    'detail' => '北京市, 北京市, 海淀区, 软件园六号路, '
+    'coord' => '116.304233'
+    'roord' => '40.050164'
+    'UploadModel' => [
+        'file' => [
+            0 => ''
+        ]
+    ]
+    'submit-button' => ''
+]
+
+$_FILES = [
+    'UploadModel' => [
+        'name' => [
+            'file' => [
+                0 => '4c49fafagw1elhvelgkvjj22ns4g0b2m.jpg'
+                1 => '4c460a52aa1e48299b9de222fc56680d.jpg'
+            ]
+        ]
+        'type' => [
+            'file' => [
+                0 => 'image/jpeg'
+                1 => 'image/jpeg'
+            ]
+        ]
+        'tmp_name' => [
+            'file' => [
+                0 => 'F:\\XMAPP\\tmp\\php5C31.tmp'
+                1 => 'F:\\XMAPP\\tmp\\php5C61.tmp'
+            ]
+        ]
+        'error' => [
+            'file' => [
+                0 => 0
+                1 => 0
+            ]
+        ]
+        'size' => [
+            'file' => [
+                0 => 247470
+                1 => 268828
+            ]
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house/upmore'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------133991566821807'
+    'CONTENT_LENGTH' => '519206'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61447'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=house/upmore'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house/upmore'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534346.717
+    'REQUEST_TIME' => 1479534346
+]
+2016-11-19 13:45:47 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:45:47 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/complete'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house/upmore'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61449'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fcomplete'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534347.273
+    'REQUEST_TIME' => 1479534347
+]
+2016-11-19 13:46:18 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/continue'
+]
+
+$_POST = [
+    'r_name' => 'A室'
+    'r_title' => '腾空'
+    'r_status' => '0'
+    'p_id' => [
+        0 => '1'
+        1 => '2'
+        2 => '3'
+    ]
+    'r_area' => '43'
+    'r_price' => '3500'
+]
+
+$_FILES = [
+    'r_img' => [
+        'name' => '5(5).jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'F:\\XMAPP\\tmp\\phpD7CB.tmp'
+        'error' => 0
+        'size' => 94230
+    ]
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------117642258014267'
+    'CONTENT_LENGTH' => '95221'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=house%2Fcontinue'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcontinue'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534378.369
+    'REQUEST_TIME' => 1479534378
+]
+2016-11-19 13:46:18 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:18 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/complete'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61458'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fcomplete'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534378.62
+    'REQUEST_TIME' => 1479534378
+]
+2016-11-19 13:46:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/continue'
+]
+
+$_POST = [
+    'r_name' => 'B室'
+    'r_title' => '旧衣服'
+    'r_status' => '0'
+    'p_id' => [
+        0 => '3'
+    ]
+    'r_area' => '32'
+    'r_price' => '2800'
+]
+
+$_FILES = [
+    'r_img' => [
+        'name' => '007.jpg'
+        'type' => 'image/jpeg'
+        'tmp_name' => 'F:\\XMAPP\\tmp\\php3CA1.tmp'
+        'error' => 0
+        'size' => 56581
+    ]
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------19077229021125'
+    'CONTENT_LENGTH' => '57370'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => 'r=house%2Fcontinue'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcontinue'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534404.172
+    'REQUEST_TIME' => 1479534404
+]
+2016-11-19 13:46:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/complete'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fcomplete'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534404.383
+    'REQUEST_TIME' => 1479534404
+]
+2016-11-19 13:46:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/show-house'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fcomplete'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fshow-house'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534404.524
+    'REQUEST_TIME' => 1479534404
+]
+2016-11-19 13:46:49 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:49 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/show-house'
+    'page' => '2'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fshow-house'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-house&page=2&per-page=3'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534409.067
+    'REQUEST_TIME' => 1479534409
+]
+2016-11-19 13:46:51 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'house/show-room'
+    'id' => '9'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fshow-house&page=2&per-page=3'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61470'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=house%2Fshow-room&id=9'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fshow-room&id=9'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534411.114
+    'REQUEST_TIME' => 1479534411
+]
+2016-11-19 13:46:59 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:46:59 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ad/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=house%2Fshow-room&id=9'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61493'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ad/add'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=ad/add'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534419.827
+    'REQUEST_TIME' => 1479534419
+]
+2016-11-19 13:47:26 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:26 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'ycust/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=ad/add'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61502'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=ycust/index'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=ycust/index'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534446.384
+    'REQUEST_TIME' => 1479534446
+]
+2016-11-19 13:47:32 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'hot/add'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=ycust/index'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61509'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=hot/add'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=hot/add'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534452.579
+    'REQUEST_TIME' => 1479534452
+]
+2016-11-19 13:47:40 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'hot/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=hot/add'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=hot/index'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=hot/index'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534459.747
+    'REQUEST_TIME' => 1479534459
+]
+2016-11-19 13:47:43 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'hot/index'
+    'page' => '2'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=hot/index'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=hot%2Findex&page=2&per-page=3'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=hot%2Findex&page=2&per-page=3'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534463.132
+    'REQUEST_TIME' => 1479534463
+]
+2016-11-19 13:47:44 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'hot/index'
+    'page' => '3'
+    'per-page' => '3'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=hot%2Findex&page=2&per-page=3'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=hot%2Findex&page=3&per-page=3'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=hot%2Findex&page=3&per-page=3'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534464.354
+    'REQUEST_TIME' => 1479534464
+]
+2016-11-19 13:47:49 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'my/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=hot%2Findex&page=3&per-page=3'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=my/index'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=my/index'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534468.934
+    'REQUEST_TIME' => 1479534468
+]
+2016-11-19 13:47:53 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:47:53 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'my/upload'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=my/index'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61516'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=my/upload'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=my/upload'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534473.485
+    'REQUEST_TIME' => 1479534473
+]
+2016-11-19 13:48:02 [127.0.0.1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 35527 bytes' 
+
+in F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php:88
+
+Stack trace:
+#0 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(63): yii\debug\LogTarget->updateIndexFile()
+#1 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect()
+#3 F:\XMAPP\htdocs\PDO\house\zufang\zufang\yii2\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch()
+#4 {main}
+2016-11-19 13:48:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'r' => 'my/index'
+]
+
+$_COOKIE = [
+    'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479342628,1479428401,1479433216,1479516374'
+    '_ga' => 'GA1.2.848435909.1479123779'
+    'accessId' => '71debe60-0e04-11e6-bc3c-bdd89c47cbec'
+    'CNZZDATA155540' => 'cnzz_eid=591403657-1479207065-http%3A%2F%2Fwww.feng.com%3A8080%2F&ntime=1479531099'
+    'iweb_safecode' => '6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI/ZTpiMQ'
+    'iweb_shoppingcart' => 'f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV+Lmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199'
+    'iweb_captcha' => '1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk+YjFmZ3lhZw'
+    'Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d' => '1479526485'
+    'PHPSESSID' => '89lrc49rvct8kqs9o13uqeuj50'
+]
+
+$_SESSION = [
+    '__flash' => []
+    'aid' => '2'
+    'username' => 'admin'
+    'h_id' => '9'
+    'id' => '9'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'F:/XMAPP/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'F:/XMAPP/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'www.feng.com:8080'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:50.0) Gecko/20100101 Firefox/50.0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en-US;q=0.5,en;q=0.3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_REFERER' => 'http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/index.php?r=my/upload'
+    'HTTP_COOKIE' => 'Hm_lvt_814ef98ed9fc41dfe57d70d8a496561d=1479342628,1479428401,1479433216,1479516374; _ga=GA1.2.848435909.1479123779; accessId=71debe60-0e04-11e6-bc3c-bdd89c47cbec; CNZZDATA155540=cnzz_eid%3D591403657-1479207065-http%253A%252F%252Fwww.feng.com%253A8080%252F%26ntime%3D1479531099; iweb_safecode=6656df7bdeNzkxODIwNDE3MDVmNWI5M2cwODduMjE8ZWI5MzQzZGY5NmUwMWZhMTVlMTgxMzIzMjUyMjJlZTQ9NTI%2FZTpiMQ; iweb_shoppingcart=f0ead00e94MzAwMDQxMDA1NWoxZDIxNmUzPWJkYTo3MzBjNjUyMWV%2BLmdvb2J6ITpaXSQmc3ZvZHNgdCc6W199; iweb_captcha=1ca1b8b5c1MjAwMDAwMjAwNmYxMTBlbTQ3YGdhNjQxOTQzNTk%2BYjFmZ3lhZw; Hm_lpvt_814ef98ed9fc41dfe57d70d8a496561d=1479526485; PHPSESSID=89lrc49rvct8kqs9o13uqeuj50'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\TortoiseSVN\\bin;F:\\XMAPP\\php;C:\\ProgramData\\ComposerSetup\\bin;F:\\XMAPP\\Git\\cmd;F:\\XMAPP\\Git\\bin;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Users\\houxiaofeng\\AppData\\Local\\Microsoft\\WindowsApps;F:\\XMAPP\\mysql\\bin;'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19 Server at www.feng.com Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.10 (Win32) OpenSSL/1.0.1i PHP/5.5.19'
+    'SERVER_NAME' => 'www.feng.com'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'F:/XMAPP/htdocs/PDO'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'F:/XMAPP/htdocs/PDO/house/zufang/zufang/yii2/backend/web/index.php'
+    'REMOTE_PORT' => '61543'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=my/index'
+    'REQUEST_URI' => '/house/zufang/zufang/yii2/backend/web/index.php?r=my/index'
+    'SCRIPT_NAME' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'PHP_SELF' => '/house/zufang/zufang/yii2/backend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1479534482.752
+    'REQUEST_TIME' => 1479534482
+]

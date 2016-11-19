@@ -385,3 +385,19 @@ request body = <TemplateSMS>
                   </TemplateSMS>
 request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8aaf070856fa00960156fa72ee4a009e/SMS/TemplateSMS?sig=9CC465C5A1DCF21AF79A4866DBBB5CD6
 response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Response><statusCode>172001</statusCode><statusMsg>网络错误</statusMsg></Response>
+request body = <TemplateSMS>
+                    <to>18511694089</to> 
+                    <appId>8aaf070856fa00960156fa72ef8a00a5</appId>
+                    <templateId>1</templateId>
+                    <datas><data>5157</data><data>5</data></datas>
+                  </TemplateSMS>
+request url = https://app.cloopen.com:8883/2013-12-26/Accounts/8aaf070856fa00960156fa72ee4a009e/SMS/TemplateSMS?sig=D66E4CF25582F176B4EBD91DCF839BD6
+response body = <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Response>
+    <statusCode>000000</statusCode>
+    <TemplateSMS>
+        <smsMessageSid>5c763e3510cb4f27bebfa2de00a3d963</smsMessageSid>
+        <dateCreated>20161119110146</dateCreated>
+    </TemplateSMS>
+</Response>
+
