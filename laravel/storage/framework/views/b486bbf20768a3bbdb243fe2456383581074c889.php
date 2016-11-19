@@ -17,8 +17,8 @@
             <div class="carousel-inner">
             <?php foreach($ad_img as $k=>$v){?>
                     <div class="item">
-                        <a href="#" target="_blank">
-                            <img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/<?php echo $v['ad_img']?>" alt=""/>
+                        <a href="<?php echo $v['ad_url']?>" target="_blank">
+                            <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['ad_img']?>" alt=""/>
                         </a>
                     </div>
             <?php }?>

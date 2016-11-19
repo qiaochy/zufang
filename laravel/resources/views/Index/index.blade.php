@@ -18,8 +18,8 @@
             <div class="carousel-inner">
             <?php foreach($ad_img as $k=>$v){?>
                     <div class="item">
-                        <a href="#" target="_blank">
-                            <img src="http://img.zufang.com:8080/<?php echo $v['ad_img']?>" alt=""/>
+                        <a href="<?php echo $v['ad_url']?>" target="_blank">
+                            <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['ad_img']?>" alt=""/>
                         </a>
                     </div>
             <?php }?>
@@ -122,7 +122,7 @@
                         <div class="room_pro fade" id="rooms_租户推荐">
                             @foreach($u_room as $item)
                             <div class="room_pro_box">
-                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://img.zufang.com:8080/{{$item['r_img']}}" width="380px" height="285px" /></a>
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}" width="380px" height="285px" /></a>
                                 <div class="room_ti">
                                     <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                                 </div>
@@ -157,7 +157,7 @@
                         <div class="room_pro fade" id="rooms_新房上线">
                             @foreach($n_room as $item)
                             <div class="room_pro_box">
-                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://img.zufang.com:8080/{{$item['r_img']}}" width="380px" height="285px" /></a>
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}" width="380px" height="285px" /></a>
                                 <div class="room_ti">
                                     <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                                 </div>
@@ -193,7 +193,7 @@
 
                             @foreach($g_room as $item)
                             <div class="room_pro_box">
-                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://img.zufang.com:8080/{{$item['r_img']}}" width="380px" height="285px" /></a>
+                                <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}"><img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}" width="380px" height="285px" /></a>
                                 <div class="room_ti">
                                     <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">{{$item['region_name']}}{{$item['h_name']}}{{$item['r_title']}}{{$item['direct']}}{{$item['r_name']}}</a>
                                 </div>

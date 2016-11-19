@@ -19,6 +19,10 @@ use yii\bootstrap\Alert;
 			</td>
 		</tr>
 		<tr>
+			<td>URL链接:</td>
+			<td><input type="text" name="ad_url" value=""></td>
+		</tr>
+		<tr>
 			<td></td>
 			<td><input type="submit" value="提交"></td>
 		</tr>

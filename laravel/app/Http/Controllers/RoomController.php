@@ -67,9 +67,8 @@ class RoomController extends Controller{
         foreach($like as $k=>$v){
             $like[$k]['privape'] = DB::table('rp')->where('r_id','=',$v['r_id'])->get();
                 
-        } 
-        $data = DB::table('hot')->where("is_show","=","1")->orderBy('click_num','desc')->limit(6)->get();//热词搜索       
-        return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate,'cou'=>$cou,"like"=>$like,'data'=>$data]);
+        }        
+        return view('room.room',['room'=>$room,'region'=>$region,'cate'=>$cate,'cou'=>$cou,"like"=>$like]);
     }
 //多条件查询
     public function where(Request $request)
@@ -372,19 +371,12 @@ class RoomController extends Controller{
 
 }
     //点击量
-    public function hit(Request $request)
-    {
+    public function hit(Request $request){
         $id = $request->input("id");
         $res = DB::update('update room set hits = hits+1 where r_id = '.$id);
-        if($res)
-        {
+        if($res){
             return 1;
         }    
-    }
-        //修改点击量
-    public function add(Request $request)
-    {
-        $search_text=$request->input('search_text');
-        $res= DB::update("update hot set  click_num=click_num+1 where name='$search_text'");
+
     }
 }

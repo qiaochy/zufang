@@ -2,13 +2,6 @@
 @section('header')
     <meta name="renderer" content="webkit">
     <!-- Disable Baidu Siteapp -->
-<script charset="UTF-8" src="js/QiMoIMSDK.js"></script><script charset="utf-8" src="js/lxb.js"></script><script charset="utf-8" src="js/v.js"></script><script charset="UTF-8" src="js/json2.js"></script><script src="js/hm.js"></script><script async="" src="js/analytics.js"></script><script src="js/jquery-8fa48925b6.min.js"></script>
-
-<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
-
-<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
-
-<script src="js/public-fea84bbb90.js"></script>
     <meta http-equiv="Cache-Control" content="no-siteapp">
 
     <link media="all" type="text/css" rel="stylesheet" href="css/bootstrap-2f624089c6.min.css">
@@ -55,11 +48,15 @@
                     <button type="button" id="but" class="search_btn">搜索</button>
                 </div>
                 <div class="sear_more">
-                         热门搜索：
-            @foreach($data as $v)
-            <a href="javascript:void(0)" class="btn" value="{{$v['name']}}">{{$v['name']}}</a>
-            @endforeach
-        </div>
+                    热门搜索：
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_status=%E7%8E%B0%E6%88%BF">现房</a>
+                    <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&suite_bedroom_num=1">一居室</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=10%E5%8F%B7%E7%BA%BF">10号线</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%A4%A9%E9%80%9A%E8%8B%91">天通苑</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E5%9B%9E%E9%BE%99%E8%A7%82">回龙观</a>
+                                            <a href="http://www.dankegongyu.com/room/bj?search=1&from=hot_keywords&search_text=%E9%9D%92%E5%B9%B4%E8%B7%AF">青年路</a>
+                                        <a href="./北京租房信息_蛋壳公寓北京站_files/北京租房信息_蛋壳公寓北京站.html">所有房源</a>
+                </div>
             </div>
             </form>
 
@@ -187,7 +184,7 @@
                     @foreach($room as $item)
                         <div class="r_lbx">
 
-                            <a href="javascript:void(0)" id={{$item['r_id']}} class="rimg hit"><img src="http://img.zufang.com:8080/{{$item['r_img']}}"></a>
+                            <a href="javascript:void(0)" id={{$item['r_id']}} class="rimg hit"><img src="http://www.feng.com:8080/house/zufang/zufang/yii2/backend/web/{{$item['r_img']}}"></a>
                             <div class="r_lbx_cen">
                                 <a href="javascript:void(0)" id={{$item['r_id']}} class="hit">{{$item['region_name']}} {{$item['h_name']}} {{$item['r_title']}} {{$item['direct']}} {{$item['r_name']}}</a>
 
@@ -255,7 +252,7 @@
                     <dl>
                         <dt>
                             <a href="javascript:void(0)"  class="hit" id="{{$item['r_id']}}">
-                                <img src="http://img.zufang.com:8080/{{$item['r_img']}}">
+                                <img src="http://www.qiaochy.com/yii2/backend/web/{{$item['r_img']}}">
                                 <div class="month_y" style="color: red;">
                                     {{$item["r_price"]}}<span>元/月</span>
                                 </div>
@@ -317,7 +314,13 @@
         </div><!-- /.modal-content -->
     </div><!-- /.modal -->
 </div>
+<script charset="UTF-8" src="js/QiMoIMSDK.js"></script><script charset="utf-8" src="js/lxb.js"></script><script charset="utf-8" src="js/v.js"></script><script charset="UTF-8" src="js/json2.js"></script><script src="js/hm.js"></script><script async="" src="js/analytics.js"></script><script src="js/jquery-8fa48925b6.min.js"></script>
 
+<script src="js/bootstrap-c5b5b2fa19.min.js"></script>
+
+<script src="js/swiper-3-cd2bffb7f2.3.1.min.js"></script>
+
+<script src="js/public-fea84bbb90.js"></script>
 
     <!-- 有新房源通知我 -->
     <div class="modal fade" id="myroom" tabindex="-1" role="dialog" aria-labelledby="myWeixinLabel" aria-hidden="true">

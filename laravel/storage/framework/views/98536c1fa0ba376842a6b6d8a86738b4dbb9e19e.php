@@ -42,7 +42,7 @@
 <div class="danke_header" id="topbar">
     <div class="nav_warp">
         <div class="fl">
-            <a href="http://www.dankegongyu.com/" class="logo" title="蛋壳公寓"><img src="img/logo.png"></a>
+            <a href="javascript:void(0)" class="logo" title="1024公寓"><img src="img/logo.png"></a>
         </div>
         <div class="fl grline"></div>
 
@@ -132,7 +132,7 @@
                         <div class="iconboxf" style="width: 1080px;">
                             <?php foreach($img as $k=>$v){?>
                                 <div class="swiper-slide">
-                                    <img alt="image" style="margin: auto;" class="img-responsive" src="http://www.qiaochy.com/yii2/backend/web/<?php echo $v['file']?>">
+                                    <img alt="image" style="margin: auto;" class="img-responsive" src="http://www.img.zufang.com/<?php echo $v['file']?>">
                                 </div>
                             <?php }?>                                
                         </div>
@@ -388,7 +388,7 @@
                                 <dt>
                                     
                                     <a href="javascript:void(0)"  class="hit" id="<?php echo e($v['r_id']); ?>">
-                                        <img src="http://www.qiaochy.com/yii2/backend/web/<?php echo e($v['r_img']); ?>">
+                                        <img src="http://www.img.zufang.com/<?php echo e($v['r_img']); ?>">
                                         <div class="month_y" style="color: red;">
                                             <?php echo e($v["r_price"]); ?><span>元/月</span>
                                         </div>
@@ -422,7 +422,7 @@
             </div>
             <div class="near_box_right">
                 <!--地图-->
-                <div class="near_map_box">
+<!--                 <div class="near_map_box">
                     <div class="near_m_t">
                         国仕汇地理位置
                     </div>
@@ -432,7 +432,7 @@
                             <span class="imgfloat"></span>
                         </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
         <!--配套内容 end-->

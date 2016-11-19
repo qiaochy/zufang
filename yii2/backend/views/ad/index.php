@@ -3,6 +3,7 @@
 	<th>编号</th>
 	<th>广告标题</th>
 	<th>广告图片</th>
+	<th>广告链接</th>
 	<th>是否显示</th>
 	<th>操作</th>
 	<?php foreach($ad as $k=>$v){?>
@@ -10,6 +11,7 @@
 			<td><?php echo $v["ad_id"]?></td>
 			<td><?php echo $v["ad_title"]?></td>
 			<td><img src="<?php echo $v['ad_img']?>" width="166" height="88" alt=""></td>
+			<td><?php echo $v["ad_url"]?></td>
 			<td>
 				<?php if($v["is_show"]=="1"){?>
 				是
